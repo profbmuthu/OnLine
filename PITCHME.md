@@ -25,30 +25,44 @@
 
 ## Agenda
 - Network
-  + Network, protocol, topology in cyber space IP Addresses
+  + Network, protocol, topology, IP Addresses.
 - Cyber Crime
   + IP Spoofing, email spoofing, piggybacking, masquerading
   + 419 Nigerian frauds, Advance Fee Frauds
   + data theft, Man-in-the-Middle Attacks, Session Hijacking,
   + Social engineering, Scavenging
-- Malware
   + Virus / worms - Dos Attacks - DDoS Attacks
 
 ---
 
-<span style="color: #e49436">STEP 1. PITCHME.md</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000">What is network<span style="color: #666666">.</span>
 
-![MARKDOWN](https://d1z75bzl1vljy2.cloudfront.net/hello-world/markdown.png)
-
-Create GitPitch slideshow content using GitHub flavored Markdown in your favorite editor.
+- NW - Group or system of interconnected people or things.
+- Is a set of computers connected together for sharing resources.
+- Is a telecommunications network allowing computers to exchange data.
+- Computing devices exchange data with each other through data link.
+- Computers are connected with cable media and / or wireless media
 
 ---
 
-<span style="color: #e49436">STEP 2. GIT-COMMIT</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000">Protocol<span style="color: #e49436"></span>
 
-![TERMINAL](https://d1z75bzl1vljy2.cloudfront.net/hello-world/terminal.png)
+- The official procedure or system of rules
+- Rules for governing affairs of state or diplomatic occasion
+- Protocol - set of rules and guidelines for communicating data.
+- Rules defined for each step of computer communication
+- Networks follow these rules to successfully transmit data.
 
-Git-commit on any branch and push your PITCHME.md to GitHub, GitLab or Bitbucket.
+---
+
+<span style="color: #e49436">TOPOLOGY</span>
+
+- Shape of a local-area network (LAN) or other communications system
+- Four principal topologies used in LANs.
+   + *Bus topology*: Devices are connected to a central cable, called bus.
+   + *Ring topology*: Devices are connected to one another (closed Ring).
+   + *Star topology*: Devices are connected to a central hub (star).
+   + *Tree topology*: Combines bus and star topologies.
 
 ---
 
