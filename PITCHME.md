@@ -37,26 +37,35 @@
 
 ### What is network
 <br>
-<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666">NW - Group or system of interconnected people or things.</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666" align="left">NW - Group or system of interconnected people or things.</span>
 <br>
-<span class="fragment" data-fragment-index="2" data-autoslide="2000" style="color: #666666">Is a set of computers connected together for sharing resources.</span>
+<span class="fragment" data-fragment-index="2" data-autoslide="2000" style="color: #666666" align="left">Is a set of computers connected together for sharing resources.</span>
 <br>
-<span class="fragment" data-fragment-index="3" data-autoslide="2000" style="color: #666666">Is a telecommunications network allowing computers to exchange data.</span>
+<span class="fragment" data-fragment-index="3" data-autoslide="2000" style="color: #666666" align="left">Is a telecommunications network allowing computers to exchange data.</span>
 <br>
-<span class="fragment" data-fragment-index="4" data-autoslide="2000" style="color: #666666">Computing devices exchange data with each other through data link.</span>
+<span class="fragment" data-fragment-index="4" data-autoslide="2000" style="color: #666666" align="left">Computing devices exchange data with each other through data link.</span>
 <br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666">Computers are connected with cable media and / or wireless media</span>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">Computers are connected with cable media and / or wireless media</span>
 <br>
 
 ---
 
 <span class="fragment" data-fragment-index="1" data-autoslide="2000"><span style="color: #e49436">Protocol</span>
-
-- The official procedure or system of rules
-- Rules for governing affairs of state or diplomatic occasion
-- Protocol - set of rules and guidelines for communicating data.
-- Rules defined for each step of computer communication
-- Networks follow these rules to successfully transmit data.
+<br>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
+The official procedure or system of rules </span>
+<br>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
+Rules for governing affairs of state or diplomatic occasion</span>
+<br>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
+Protocol - set of rules and guidelines for communicating data.</span>
+<br>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
+Rules defined for each step of computer communication </span>
+<br>
+<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
+Networks follow these rules to successfully transmit data.</span>
 
 ---
 
