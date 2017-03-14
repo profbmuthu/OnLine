@@ -3,13 +3,13 @@
 
 ![LOGO](https://d1z75bzl1vljy2.cloudfront.net/img/gp-logo.png)
 
-#### Get the word out
+### Let US Discuss
 <br>
 <span style="color:gray">Network Cyber Security</span>
 <br>
-<span style="color:gray">on</span>
+<span style="color:gray">-</span>
 <br>
-<span style="color:gray">GitHub, GitLab and Bitbucket</span>
+<span style="color:gray">Dr.B.Muthukumaran</span>
 
 ---
 
@@ -20,10 +20,10 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-### No more <span style="color: #666666">Keynote.</span>
-### <span class="fragment" data-fragment-index="1" data-autoslide="2000">No more <span style="color: #666666">Powerpoint.</span>
+### Agenda <span style="color: #666666">Sessions</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Network Cyber Security<span style="color: #666666">.</span>
 <br>
-### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Just <span style="color: #e49436">Markdown</span>. Then <span style="color: #e49436">Git-Commit</span>.</li>
+### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Social Media <span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
 
 ---
 
