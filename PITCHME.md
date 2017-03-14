@@ -47,6 +47,7 @@
 <br>
 <span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666">Computers are connected with cable media and / or wireless media</span>
 <br>
+
 ---
 
 <span class="fragment" data-fragment-index="1" data-autoslide="2000"><span style="color: #e49436">Protocol</span>
