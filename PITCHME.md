@@ -58,7 +58,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-<span style="color: #e49436">TOPOLOGY</span>
+### <span style="color: #e49436">TOPOLOGY</span>
 
 - Shape of a local-area network (LAN) or other communications system
 - Four principal topologies used in LANs.
