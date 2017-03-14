@@ -35,13 +35,14 @@
 
 ---
 
-<span class="fragment" data-fragment-index="1" data-autoslide="2000">What is network<span style="color: #666666">.</span>
-
-- NW - Group or system of interconnected people or things.
-- Is a set of computers connected together for sharing resources.
-- Is a telecommunications network allowing computers to exchange data.
-- Computing devices exchange data with each other through data link.
-- Computers are connected with cable media and / or wireless media
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666">What is network</span>
+<br>
+<span class="fragment" data-fragment-index="2" data-autoslide="2000" style="color: #666666">NW - Group or system of interconnected people or things.</span>
+<br>
+<span class="fragment" data-fragment-index="3" data-autoslide="2000" style="color: #666666">Is a set of computers connected together for sharing resources.</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666">Is a telecommunications network allowing computers to exchange data.</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666">Computing devices exchange data with each other through data link.</span>
+<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666">Computers are connected with cable media and / or wireless media</span>
 
 ---
 
