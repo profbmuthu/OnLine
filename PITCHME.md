@@ -91,7 +91,18 @@
 ### <span style="color: #e49436">Spoofing</span>-Types
 
 - <span style="color: #e49436">*ARP Spoofing Attack*</span>: Occurs when a attacker links the hacker’s MAC address with internal IP address. This attack leads to data theft and deletion, compromised accounts, DOS and other malicious consequences.
-- <span style="color: #e49436">*DNS Spoofing Attack*</span>: A malicious attacker reroutes the DNS translation so that it points to a different server which is typically infected with malware and can be used to help spread viruses and worms. Also called DNS cache poisoning,
+
+---
+<!-- .slide: data-autoslide="12000" -->
+
+### <span style="color: #e49436">Spoofing</span>-Types
+- <span style="color: #e49436">*DNS Spoofing Attack*</span>: A malicious attacker reroutes the DNS translation so that it points to a different server which is typically infected with malware and can be used to help spread viruses and worms. Also called DNS cache poisoning
+
+---
+<!-- .slide: data-autoslide="12000" -->
+
+### <span style="color: #e49436">Spoofing</span>-Types
+
 - <span style="color: #e49436">*DoS*</span>: Use multiple compromised computers and send spoofed IP packets of data to a specific server. Server will be unable to handle all of the requests, causing the server to overload.
 
 ---
