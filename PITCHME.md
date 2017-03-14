@@ -3,9 +3,9 @@
 
 ![LOGO](https://d1z75bzl1vljy2.cloudfront.net/img/gp-logo.png)
 
-### Let US Discuss
+### Network Cyber Security
 <br>
-<span style="color:gray">Network Cyber Security</span>
+<span style="color:gray">Let Us Cyber</span>
 <br>
 <span style="color:gray">-</span>
 <br>
@@ -13,17 +13,26 @@
 
 ---
 
-### Network Cyber Security <span style="color: #e49436; text-transform: none">PITCHME.md</span> into interactive, online slideshows.
-<br>
-<span style="color:gray; font-size:0.6em;">[ JUST LIKE THIS ONE ]</span>
-
----
 <!-- .slide: data-autoslide="2000" -->
 
 ### Agenda <span style="color: #666666">Sessions</span>
 ### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Network Cyber Security<span style="color: #666666">.</span>
 <br>
 ### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Social Media <span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+## Agenda
+- Network
+  + Network, protocol, topology in cyber space IP Addresses
+- Cyber Crime
+  + IP Spoofing, email spoofing, piggybacking, masquerading
+  + 419 Nigerian frauds, Advance Fee Frauds
+  + data theft, Man-in-the-Middle Attacks, Session Hijacking,
+  + Social engineering, Scavenging
+- Malware
+  + Virus / worms - Dos Attacks - DDoS Attacks
 
 ---
 
