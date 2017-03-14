@@ -88,61 +88,69 @@
 ---
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Spoofing</span>-Types
+### <span style="color: #e49436">Spoofing</span>-Types (1/6)
 
-- <span style="color: #e49436">*ARP Spoofing Attack*</span>: Occurs when a attacker links the hacker’s MAC address with internal IP address. This attack leads to data theft and deletion, compromised accounts, DOS and other malicious consequences.
-
----
-<!-- .slide: data-autoslide="12000" -->
-
-### <span style="color: #e49436">Spoofing</span>-Types
-- <span style="color: #e49436">*DNS Spoofing Attack*</span>: A malicious attacker reroutes the DNS translation so that it points to a different server which is typically infected with malware and can be used to help spread viruses and worms. Also called DNS cache poisoning
+- <span style="color: #e49436">*ARP Spoofing Attack*</span>: 
+- Occurs when a attacker links the hacker’s MAC address with internal IP address. 
+- This attack leads to data theft and deletion of data 
+- Leads to compromised accounts, DOS and other malicious consequences.
 
 ---
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Spoofing</span>-Types
+### <span style="color: #e49436">Spoofing</span>-Types (2/6)
 
-- <span style="color: #e49436">*DoS*</span>: Use multiple compromised computers and send spoofed IP packets of data to a specific server. Server will be unable to handle all of the requests, causing the server to overload.
+- <span style="color: #e49436">*DNS Spoofing Attack*</span>: 
+- A malicious attacker reroutes the DNS translation 
+- It points to a different server which is typically infected with malware 
+- Can be used to help spread viruses and worms. 
+- Also called DNS cache poisoning
+
+---
+<!-- .slide: data-autoslide="12000" -->
+
+### <span style="color: #e49436">Spoofing</span>-Types (3/6)
+
+- <span style="color: #e49436">*DoS*</span>: 
+- Use multiple compromised computers 
+- Send spoofed IP packets of data to a specific server. 
+- Server will not be unable to handle all of the requests, causing the server to overload.
+
+---
+<!-- .slide: data-autoslide="12000" -->
+
+### <span style="color: #e49436">Spoofing</span>-Types (4/6)
+
+- <span style="color: #e49436"> URL Spoofing</span>  
+- URL spoofing occurs when one website appears as if it is another. 
+- URL displayed is not the real URL of the site, 
+- The information is  sent to a hidden web address
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### Session <span style="color: #e49436">Hijacking</span>
+### <span style="color: #e49436"> Email spoofing </span> (5/6)
 
-- Hijacking is a type of network security attack
-- Also known as cookie hijacking
-- Exploitation of a valid computer session
-- Gain unauthorized access to information/services
-- TCP hijacking - used to gain access to servers
-- Network hijack - Attacker takes control of a communication
+- Email spoofing is the forgery of an email header
+- Message appears to have originated from someone other than the actual source.
+- Is a tactic used in phishing and spam campaigns
+- People are more likely to open an email when they think it has been sent by a legitimate source
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### Session <span style="color: #e49436">Masquerading</span>
-
-- Attack that uses a fake identity, such as a network identity
-- Gain unauthorized access to personal computer information
-- Carried out through legitimate access identification
-- Perpetrated using stolen passwords and logons,
-- By finding a way around the authentication process
-
-
----
-<!-- .slide: data-autoslide="8000" -->
-
-### <span style="color: #e49436">IP</span>-Spoofing
+### <span style="color: #e49436">IP</span>-Spoofing (6/6)
 
 - IP Spoofing is a technique used to gain unauthorized access to machines,
 - Attacker illicitly impersonate another machine by manipulating IP packets.
+- Act of manipulating the headers in a transmitted message to mask a hackers true identity 
 - Involves modifying the packet header
 - Header with a forged (spoofed) source IP address, a checksum, and the order value.
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### <span style="color: #e49436">IP</span> Spoofing Types
+### <span style="color: #e49436">IP</span> Spoofing Types 
 
 - Types of IP spoofing.
     + Blind Spoofing
@@ -193,28 +201,51 @@
 - Difficult to identify the senders and block them.
 
 ---
+
+
 <!-- .slide: data-autoslide="8000" -->
 
-### <span style="color: #e49436"> Email spoofing </span>
+### <span style="color: #e49436"> DDOS attack </span>
 
-- Email spoofing is the forgery of an email header
-- Message appears to have originated from someone other than the actual source.
-- Is a tactic used in phishing and spam campaigns
-- People are more likely to open an email when they think it has been sent by a legitimate source
+- DDOS is <span style="color: #e49436">Distributed Denial of Service.</span>
+
+
+---
+
+<!-- .slide: data-autoslide="8000" -->
+
+### Session <span style="color: #e49436">Hijacking</span>
+
+- Hijacking is a type of network security attack
+- Also known as cookie hijacking
+- Exploitation of a valid computer session
+- Gain unauthorized access to information/services
+- TCP hijacking - used to gain access to servers
+- Network hijack - Attacker takes control of a communication
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
+### Session <span style="color: #e49436">Masquerading</span>
+
+- Attack that uses a fake identity, such as a network identity
+- Gain unauthorized access to personal computer information
+- Carried out through legitimate access identification
+- Perpetrated using stolen passwords and logons,
+- By finding a way around the authentication process
+
+---
+
+<!-- .slide: data-autoslide="8000" -->
+
 ### <span style="color: #e49436">Malware </span>
 
-- Malware, short for malicious software,
-- Is an umbrella term used to refer forms of hostile software,
-- Is any software used to disrupt computer or mobile operations,
-- Used to gather sensitive information,
-- Used to gain access to private computer systems,
+- Malware, short for malicious software
+- Is an umbrella term used to refer forms of hostile software
+- Is any software used to disrupt computer or mobile operations
+- Used to gather sensitive information and gain access to private computer systems
 - Used to display unwanted advertising
 - Includes computer viruses, worms, trojan horses, ransomware, spyware, adware, scareware, and other malicious programs
-
 
 ---
 <!-- .slide: data-autoslide="8000" -->
@@ -269,7 +300,7 @@
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### <span style="color: #e49436">Spyware-Types </span>
+### <span style="color: #e49436">Spyware-Types </span>(1/2)
 
 - Browser Hijack: Control web browser and display unsolicited advertisements.
 - Adware: Monitors online activities for targeted Pop-Up advertising.
@@ -281,7 +312,7 @@
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### <span style="color: #e49436">Spyware-Types.. </span>
+### <span style="color: #e49436">Spyware-Types.. </span> (2/2)
 
 - Dialers Auto-dial toll calls without your permission.
 - Droneware Control your PC, to send spam or to host offense web images.
