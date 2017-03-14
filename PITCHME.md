@@ -34,40 +34,29 @@
   + Virus / worms - Dos Attacks - DDoS Attacks
 
 ---
+<!-- .slide: data-autoslide="11000" -->
 
-### What is network
-<br>
-<span class="fragment" data-fragment-index="1" data-autoslide="2000" style="color: #666666" align="left">NW - Group or system of interconnected people or things.</span>
-<br>
-<span class="fragment" data-fragment-index="2" data-autoslide="2000" style="color: #666666" align="left">Is a set of computers connected together for sharing resources.</span>
-<br>
-<span class="fragment" data-fragment-index="3" data-autoslide="2000" style="color: #666666" align="left">Is a telecommunications network allowing computers to exchange data.</span>
-<br>
-<span class="fragment" data-fragment-index="4" data-autoslide="2000" style="color: #666666" align="left">Computing devices exchange data with each other through data link.</span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">Computers are connected with cable media and / or wireless media</span>
-<br>
+### <span style="color: #e49436">What is network </span>
+
+- NW - Group or system of interconnected people or things.
+- Is a set of computers connected together for sharing resources.
+- Is a telecommunications network allowing computers to exchange data.
+- Computing devices exchange data with each other through data link.
+- Computers are connected with cable media and / or wireless media
 
 ---
+<!-- .slide: data-autoslide="11000" -->
 
-<span class="fragment" data-fragment-index="1" data-autoslide="2000"><span style="color: #e49436">Protocol</span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
-The official procedure or system of rules </span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
-Rules for governing affairs of state or diplomatic occasion</span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
-Protocol - set of rules and guidelines for communicating data.</span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
-Rules defined for each step of computer communication </span>
-<br>
-<span class="fragment" data-fragment-index="5" data-autoslide="2000" style="color: #666666" align="left">
-Networks follow these rules to successfully transmit data.</span>
+### <span style="color: #e49436">Protocol</span>
+
+- The official procedure or system of rules
+- Rules for governing affairs of state or diplomatic occasion
+- Protocol - set of rules and guidelines for communicating data
+- Rules defined for each step of computer communication 
+- Networks follow these rules to successfully transmit data.
 
 ---
+<!-- .slide: data-autoslide="11000" -->
 
 <span style="color: #e49436">TOPOLOGY</span>
 
@@ -79,49 +68,42 @@ Networks follow these rules to successfully transmit data.</span>
    + *Tree topology*: Combines bus and star topologies.
 
 ---
+<!-- .slide: data-autoslide="11000" -->
 
-<span style="color: #e49436">STEP 3. GET THE WORD OUT!</span>
+### <span style="color: #e49436">SPOOFING!</span>
 
-<br>
+- Is a <span style="font-size: 1.3em;"><span style="color:#e49436">fraudulent</span> or malicious practice.
+- Communication is sent from an unknown source disguised as a source known to the receiver.
 
-<span style="font-size: 1.3em;"><span style="color:white">htt</span><span style="color:white">ps://git</span><span style="color: #e49436">pitch</span><span style="color: white">.com/<span style="color: #e49436">user</span>/<span style="color: #e49436">repo</span>/<span style="color: #e49436">branch</span></span>
-
-<br>
-
-Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-<span style="color: #e49436">GIT</span>PITCH DESIGNED FOR SHARING
+### <span style="color: #e49436">Spoofing</span> Attack
 
-![SOCIAL](https://d1z75bzl1vljy2.cloudfront.net/hello-world/gp-social.jpg)
+- Spoofing attack is a malicious activity in order to launch attacks.
+- Attack launched against network hosts, to steal data, spread malware or bypass access controls.
 
-- View any slideshow at its public URL
-- Promote any slideshow using a GitHub badge
-- Embed any slideshow within a blog or website
-- Share any slideshow on Twitter, LinkedIn, etc
-- Print any slideshow as a PDF document
-- Download and present any slideshow offline
 
 ---
 <!-- .slide: data-autoslide="12000" -->
 
-<span style="color: #e49436">GIT</span>PITCH FEATURE RICH SLIDESHOWS
+### <span style="color: #e49436">Spoofing</span>-Types
 
-- GitHub Flavored Markdown +
-- Code Block and GIST Slides
-- Image and Video Slides
-- Custom Logos and Backgrounds
-- Multiple Themes And More
-- <span style="color: #e49436">Plus...</span>
-- Your Slideshow Is Part Of Your Project
-- Under Git Version Control Within Your Git Repo
-
+- <span style="color: #e49436">*ARP Spoofing Attack*: Occurs when a attacker links the hacker’s MAC address with internal IP address. This attack leads to data theft and deletion, compromised accounts, DOS and other malicious consequences.
+- <span style="color: #e49436">*DNS Spoofing Attack*</span>: A malicious attacker reroutes the DNS translation so that it points to a different server which is typically infected with malware and can be used to help spread viruses and worms. Also called DNS cache poisoning,
+- <span style="color: #e49436">*DoS*</span>: Use multiple compromised computers and send spoofed IP packets of data to a specific server. Server will be unable to handle all of the requests, causing the server to overload.
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
-### Go for it.
-### Just add <span style="color: #e49436; text-transform: none">PITCHME.md</span> ;)
+### Session <span style="color: #e49436">Hijacking</span>
+
+- Hijacking is a type of network security attack
+- Also known as cookie hijacking
+- Exploitation of a valid computer session
+- Gain unauthorized access to information/services
+- TCP hijacking - used to gain access to servers
+- Network hijack - Attacker takes control of a communication
+
 
