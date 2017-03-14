@@ -1,5 +1,5 @@
 theme : night
 autoslide : 5500
 slide-number: true
-transition: convex
+transition : fade
 footnote : "© 2017 Dr.BM."
