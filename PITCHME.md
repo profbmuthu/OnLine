@@ -16,23 +16,48 @@
 <!-- .slide: data-autoslide="2000" -->
 
 ## Agenda <span style="color: #666666">Sessions</span>
-### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Vulnerability <span style="color: #666666">.</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Vulnerability Management <span style="color: #666666">.</span>
 <br>
-### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Vulnerability Management<span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
+### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Network Forensics<span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
 
 ---
 <!-- .slide: data-autoslide="2000" -->
 
 ## Agenda
 - Network
-  + Network, protocol, topology, IP Addresses.
-- Cyber Crime
-  + IP Spoofing, email spoofing, piggybacking, masquerading
-  + 419 Nigerian frauds, Advance Fee Frauds
-  + data theft, Man-in-the-Middle Attacks, Session Hijacking,
-  + Social engineering, Scavenging
-  + Virus / worms - Dos Attacks - DDoS Attacks
+  + Vulnerability analysis
+- Email Forensics 
+  + Email Forensics - email spoofing – 
+  + Phishing – mail header analysiw
 
+---
+<!-- .slide: data-autoslide="2000" -->
+## Agenda
+- Malware Concetps 
+  + Virus - Components - Function of replicator, 
+  + concealer and dispatcher- Trigger Mechanisms- Virus families  
+  + worms - Types - Families - sandboxing
+  + Trojans and Backdoors, Types of Trojans - 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+## Agenda
+- Botnets
+  + Botnets - types of botnet- Structure of bots – 
+  + Crime bots - Spamming bots - 
+  + DoS – DDoS Attacks – types - Honey Pots
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+## Agenda
+- Network forensics  
+  + Key Loggers - Port Scans – SYN flood - 
+  + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
+  + Wireshark – Capture and Display Filters - pcap analysis – Problems -  
+  + Forensic evidences - log analysis & evidence collection. 
+  
 ---
 <!-- .slide: data-autoslide="11000" -->
 
@@ -68,7 +93,6 @@
    + *Tree topology*: Combines bus and star topologies.
 
 
-
 ---
 ## What is a <span style="color: #e49436">vulnerability</span>? 
 
@@ -79,13 +103,21 @@
 
 ---
 
-## <span style="color: #e49436"> Vulnerabilities detection system.</span>
+## <span style="color: #e49436"> Vulnerabilities detection.</span>
 
-- Vulnerability  detection  system is  
+- Vulnerability  detection  is  
    + a continuously  monitoring, always-on system  
    + that can detect and alert administrators  
    + to the presence of vulnerabilities as they appear.  
-   
+
+
+---
+## What is <span style="color: #e49436"> V.Scan.</span>
+
+- Scanning refers to the use of a scanning computer program 
+  + to evaluate a connected network and gather vulnerability information.
+- Scanning is the process of understand the vulnerability Risk and threat
+
 ---
 
 ## <span style="color: #e49436"> Vulnerability scanner.</span>
@@ -98,10 +130,25 @@
   + where  the  target  is vulnerable to “attack”. 
 - Used either with good intention or maliciously.
 
+---
+## <span style="color: #e49436"> Vulnerability scanner.</span>
 
+- Examples - Vulnerability scanner 
+  + Nessus 
+  + OpenVAS 
+  + NexPose  
 
 ---
-## <span style="color: #e49436"> Random Scanning</span>
+## Types of<span style="color: #e49436"> V.Scanning.</span>
+- Random Scanning
+- Hitlist scanning
+- Signpost scanning
+- Vertical, Horizontal scanning
+- Permutation scanning
+- Local subnet scanning
+
+---
+## <span style="color: #e49436"> Random Scan</span>
 
 - Each compromised host probes random addresses in the IP address space.  
 - Code Red (CRv2) performed random scanning. 
@@ -111,7 +158,7 @@
   + High amount of traffic leads to attack detection
 
 ---
-## <span style="color: #e49436"> Hitlist Scanning </span>
+## <span style="color: #e49436"> Hitlist Scan</span>
 
 - Machine probes all addresses from an externally supplied list.  
 - Detects a vulnerable machine, sends a portion of the initial hitlist to the recipient and keeps the rest. 
@@ -122,7 +169,7 @@
   + Large, lists leads to attack detection.
 
 ---
-## <span style="color: #e49436"> Signpost Scanning </span>
+## <span style="color: #e49436"> Signpost Scan</span>
  - Also called topological scanning 
  - takes advantage of habitual communication patterns of the compromised host to select new targets. 
  - Does not generate a high traffic load and thus reduces chances of attack detection.
@@ -131,7 +178,7 @@
    + Recruitment is slower.
    
 ---
-## <span style="color: #e49436"> Permutation Scanning </span>(1/2)
+## <span style="color: #e49436"> Permutation Scan </span>(1/2)
 - All compromised machines share a common pseudo-random permutation of the IP address space
 - Each IP address is mapped to an index in this permutation.  
 - Is preceded by small hitlist scanning 
@@ -140,26 +187,19 @@
 - Always starts from a random point in the permutation. 
 
 ---
-## <span style="color: #e49436"> Permutation Scanning </span> (2/2)
+## <span style="color: #e49436"> Permutation Scan </span> (2/2)
 - Seeing an already-infected machine, chooses a new random starting point. 
 - At threshold  a worm copy becomes dormant to minimize collisions. 
 - Disadvantage
 - As infection progresses, a large percentage of infected machines become dormant. 
 - This results in a very low number of duplicated scans and hinders detection.
 
-
 ---
-## <span style="color: #e49436">Local Subnet Scanning </span>
+## <span style="color: #e49436">Local Subnet Scan</span>
 
 - Local subnet scanning scans for targets that reside on the same subnet as the compromised host. 
 - A single copy of the scanning program can compromise many vulnerable machines behind a firewall. 
 - The Code Red II and the Nimda Worm used local subnet scanning.
-
-
----
-
-![Thanks](images/thanks.png)
-
 
 ---
 ## <span style="color: #e49436"> Horizontal Scanning </span>
@@ -174,3 +214,247 @@
 
 - This is the common type of the scan for intrusions and multiple vector worms. 
 - Scanning machines probe multiple ports at a single destination, looking for any way to break in.
+
+
+---
+## What is <span style="color: #e49436">Risk</span>
+
+
+---
+## What is <span style="color: #e49436">Risk classification</span>
+
+
+
+---
+## What is <span style="color: #e49436">Risk evaluation</span>
+
+
+
+---
+## What is <span style="color: #e49436">Risk Matrix</span>
+
+
+
+---
+## What is <span style="color: #e49436">Risk Mitigation</span>
+
+
+
+---
+## What is <span style="color: #e49436">W.Risk</span>
+
+
+
+---
+## What is <span style="color: #e49436">Threat</span>
+
+
+
+
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+## Agenda
+- Malware Concetps 
+  + Virus - Components - Function of replicator, 
+  + concealer and dispatcher- Trigger Mechanisms- Virus families  
+  + worms - Types - Families - sandboxing
+  + Trojans and Backdoors, Types of Trojans - 
+
+<!-- .slide: data-autoslide="15000" -->
+
+### What is <span style="color: #e49436">Malware </span>
+
+- Malware, short for malicious software
+- Is an umbrella term used to refer forms of hostile software
+- Is any software used to disrupt computer or mobile operations
+- Used to gather sensitive information and gain access to private computer systems
+- Used to display unwanted advertising
+- Includes computer viruses, worms, trojan horses, ransomware, spyware, adware, scareware, and other malicious programs
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Virus </span>
+
+- A computer virus is a malicious software program
+- When executed, replicates by reproducing itself
+- Infects other computer programs by modifying them.
+- Infecting computer programs includes, data files, or “boot” sector of the hard drive.
+- Viruses use different stealth strategies to avoid detection
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> Components </span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Function of <span style="color: #e49436"> replicator </span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Function of <span style="color: #e49436"> Concealer </span>
+
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Function of <span style="color: #e49436"> Dispatcher</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Function of <span style="color: #e49436"> Trigger</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> Types </span>
+
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Worm</span>
+
+- Computer worm is a standalone malware computer program
+- Replicates itself in order to spread to other computers
+- Worms spread by exploiting vulnerabilities in operating systems.
+- Worm searches a vulnerable host to replicate itself 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Worm</span> Types
+
+-  *Email-Worms*: Spreads via email messages.
+-  *Instant-Messaging* Worms: Spread useing instant messaging applications
+-  *File-sharing* worms copies itself into a shared folder
+-  *Internet-worms* target low level TCP/IP ports directly
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### Difference <span style="color: #e49436">Worm - virus?</span>
+
+- Both are malware and can perform the same malicious actions.  
+- Viruses typically don’t self-propagate, and rely on users  to activate and transport the virus to a new destination.  
+- Worms are generally self-propagating, 
+ 
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436"> Trojan </span>
+
+- Trojan Horse is a destructive program that has been disguised
+- Looks like an innocuous software.
+- Worms / virus programs concealed in a Trojan Horse.
+- Trojan Horses are not viruses
+- They do not reproduce themselves and spread as viruses do
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### Types of <span style="color: #e49436"> Trojan</span>
+
+Joke Trojans
+NVP Trojan
+IconDance Trojan
+Destructive Trojans
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436"> Joke Trojans </span>
+- Joke Trojan causes no damage 
+- Play an annoying sound from your computer's speaker, 
+- Warp the appearance or display a taunting message on the screen, 
+- Msg is "Now formatting hard drive!" 
+- are harmless and easily deleted.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> NVP Trojan</span>
+
+- Is a Macintosh Trojan horse 
+- Modifies the system file  
+- User types any text, the vowels (a, e, i, o, and u) fail to appear. 
+- Trojan masquerades as a utility program 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> IconDance Trojan</span>
+
+- IconDance Trojan minimizes all application windows 
+- Starts rapidly scrambling all the desktop icons. 
+- It does nothing more than make you take the time to reorganize your Windows desktop.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Destructive Trojan </span>
+
+- Can either wipe out your hard drive or selectively delete or modify certain files. 
+- Although these are the most dangerous Trojans, their very nature tends to limit their spread: In the process of attacking your computer, they reveal their presence, often by displaying a taunting message on the screen. And, if they reformat your hard drive, they also wipe themselves out.
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436"> Spyware</span>
+
+- Spyware is a type of malware
+- Aims to gather information about a person or organization
+- Info gathered without their knowledge,
+- Information sent to another entity without the consumer’s consent,
+- Variety of Spyware in circulation
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Spyware-Types </span>(1/2)
+
+- Browser Hijack: Control web browser and display unsolicited advertisements.
+- Adware: Monitors online activities for targeted Pop-Up advertising.
+- Trojans: Make your computer vulnerable ti remote controll by hackers.
+- Profiling Cookies: Track your web surfing habits.
+- Keyboard Loggers and Trackware Programs: Capture and record your every keystroke, inlcuding personal information and passwords.
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Spyware-Types.. </span> (2/2)
+
+- Dialers Auto-dial toll calls without your permission.
+- Droneware Control your PC, to send spam or to host offense web images.
+- Web Bugs: A graphics designed to monitor the reader. Often invisible because they are typically only 1-by-1 pixel in size. They are represented as HTML IMG tags.
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436"> Grayware </span>
+
+- Browser hijacker - software that modifies the default browser behavior.
+- Homepage hijacker - modifies the default home page
+- Search hijacker modifies the default search engine of the browser.
+- Error page hijacker causes the browser to display a particular web site whenever a misspelled URL is entered into the address bar.
+
+
+
+
+---
+
+
+![Thanks](images/thanks.png)
+
+
+
+
