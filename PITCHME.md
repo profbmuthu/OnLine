@@ -264,17 +264,17 @@
 <!-- .slide: data-autoslide="8000" -->
 ### <span style="color: #e49436"> DDOS attack</span> News
 
-![Jan 2017 Guardian](https://www.theguardian.com/business/2017/jan/23/lloyds-bank-accounts-targeted-cybercrime-attack)
+Visit <a href="https://www.theguardian.com/business/2017/jan/23/lloyds-bank-accounts-targeted-cybercrime-attack" target="_blank"> Jan 2017 Guardian for DDOS</a>
 
-![Oct 2016 Guardian](https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet)
+Visit <a href="https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet" target="_blank"> Oct 2016 Guardian for DDOS</a>
 
-![Jan 2016 CSO Online](http://www.csoonline.com/article/3020292/cyber-attacks-espionage/ddos-attack-on-bbc-may-have-been-biggest-in-history.html)
+Visit <a href="http://www.csoonline.com/article/3020292/cyber-attacks-espionage/ddos-attack-on-bbc-may-have-been-biggest-in-history.html" target="_blank"> JJan 2016 CSO Online for DDOS</a>
 
-![Indian Express](http://indianexpress.com/article/india/india-news-india/internet-providers-claim-ddos-attack-to-meet-top-cop-3086124/)
+Visit <a href="http://indianexpress.com/article/india/india-news-india/internet-providers-claim-ddos-attack-to-meet-top-cop-3086124/" target="_blank"> Indian Express for DDOS</a>
 
 ---
 
-<!-- .slide: data-autoslide="15000" -->
+<!-- .slide: data-autoslide="1500->
 
 ### Session <span style="color: #e49436">Hijacking</span>
 
