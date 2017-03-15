@@ -294,16 +294,27 @@
 <!-- .slide: data-autoslide="15000" -->
 ### Function of <span style="color: #e49436"> replicator </span>
 
+- helps in multiplication of the virus
+- Job to ensure survival of the virus 
+- Achieved by appending  themselves  to  legitimate  programs  in  the  machine. 
+- Program is run then the virus will 'wake up' and start to reproduce.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### Function of <span style="color: #e49436"> Concealer </span>
 
-
+- Job  of  hiding  the  virus.  
+- Uses  a  number  of  methods  to  do  this    
+- Today's  viruses  use  advance  techniques to stop being caught from Antivirus software
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Function of <span style="color: #e49436"> Dispatcher</span>
+### Function of <span style="color: #e49436">Payload</span>
+
+- Payload  of  a  virus  can  be  practically  anything, 
+in fact if it can be programmed then it can be the payload.  
+If  an  obvious  payload  gets  delivered  soon  after infection then the user is soon going to notice and will go 
+virus  hunting.  This  does  not  help  the  long  life  or  wide spread of a virus
 
 
 ---
@@ -317,6 +328,15 @@
 
 
 
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Mutation engine</span>
+- Heart of a metamorphic virus is a mutation engine,
+- Responsible for transforming its program. 
+- takes an input program and morphs it to a structurally different but semantically equivalent program
+- Three modules of any mutation engine: 
+  + disassembly module, reverse engineering module, transformation module
+  
 ---
 <!-- .slide: data-autoslide="15000" -->
 
@@ -449,7 +469,60 @@ Destructive Trojans
 
 
 
+---
+<!-- .slide: data-autoslide="15000" -->
 
+### <span style="color: #e49436">Zeus Trojan </span>
+
+- First spotted in 2007, 
+- specifically designed to create a botnet of compromised computers 
+- To be recruited for information stealing and financial fraud activities. 
+- Spreads through phishing and drive-by attacks 
+- collects information using various techniques like form grabbing and key-stroke monitoring.  
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Zeus Trojan </span>
+
+- Estimate Zeus botnet had infected more than 3.6  million computers
+- toolkit comes with an easy installation procedure and customization mechanisms 
+- Zeus  uses  complicated  multilevel  obfuscation  mechanisms  
+- this is to avoid  detection and hinder any analysis procedure. 
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Stuxnet worm</span>
+- Designed to specifically target SCADA systems   
+- Employ  PLC  rootkit technology that  allowed  PLC code  modifications. 
+- initially  found  to  target  Iranian  facilities.
+- quickly  spread  to various other countries. 
+- position as  one  of  the  most dangerous cyber weapons.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Stuxnet worm</span>
+- Designed to propagate through various zero day vulnerabilities,   
+- Unknown  exploits on  print spooler service, Microsoft Windows Server services used  
+- features include 
+  + stolen component certificates, 
+  + complicated injection and hooking mechanisms, 
+  + dynamic updates  and specific antivirus evasion utilities. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Dugu worm</span>
+
+- 2011 a  new  sophisticated  worm  attack  was  identified.  
+- Dugu was specifically designed  to  
+  + steal  passwords,  
+  + collect computer screenshots located on the infected machine. 
+- Dugu spreads through a previously unknown vulnerability in MS word documents
+- main purpose is to conduct industrial espionage.
 ---
 
 
