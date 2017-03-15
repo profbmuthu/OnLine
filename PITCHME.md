@@ -201,18 +201,14 @@
 - Difficult to identify the senders and block them.
 
 ---
-
-
 <!-- .slide: data-autoslide="8000" -->
-
 ### <span style="color: #e49436"> DDOS attack </span>
 
 - DDOS is <span style="color: #e49436">Distributed Denial of Service.</span>
 
-
 ---
 
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### Session <span style="color: #e49436">Hijacking</span>
 
@@ -224,7 +220,7 @@
 - Network hijack - Attacker takes control of a communication
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### Session <span style="color: #e49436">Masquerading</span>
 
@@ -236,7 +232,7 @@
 
 ---
 
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Malware </span>
 
@@ -248,7 +244,7 @@
 - Includes computer viruses, worms, trojan horses, ransomware, spyware, adware, scareware, and other malicious programs
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Virus </span>
 
@@ -260,21 +256,36 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Worm</span>
 
 - Computer worm is a standalone malware computer program
 - Replicates itself in order to spread to other computers
 - Worms spread by exploiting vulnerabilities in operating systems.
-  + *Email-Worms*: Spreads via email messages.
-  + *Instant-Messaging* Worms: Spread useing instant messaging applications
-  + *File-sharing* worms copies itself into a shared folder
-  + *Internet-worms* target low level TCP/IP ports directly
-
+- Worm searches a vulnerable host to replicate itself 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Worm</span> Types
+
+-  *Email-Worms*: Spreads via email messages.
+-  *Instant-Messaging* Worms: Spread useing instant messaging applications
+-  *File-sharing* worms copies itself into a shared folder
+-  *Internet-worms* target low level TCP/IP ports directly
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### Difference <span style="color: #e49436">worm and a virus?</span>
+
+- Both are malware and can perform the same malicious actions.  
+- Viruses typically don’t self-propagate, and rely on users  to activate and transport the virus to a new destination.  
+- Worms are generally self-propagating, 
+ 
+---
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Trojan </span>
 
@@ -286,7 +297,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Spyware</span>
 
@@ -298,7 +309,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Spyware-Types </span>(1/2)
 
@@ -310,7 +321,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Spyware-Types.. </span> (2/2)
 
@@ -320,7 +331,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Grayware </span>
 
@@ -331,7 +342,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> 419 Fraud </span>
 
@@ -344,7 +355,7 @@
 
 
 ---
-<!-- .slide: data-autoslide="8000" -->
+<!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Ad. Fee Fraud </span>
 
@@ -354,12 +365,110 @@
 - Conversion of black money:
 
 ---
+<!-- .slide: data-autoslide="15000" -->
 
+### <span style="color: #e49436"> Career opportunity scams </span> (1/7)
+
+- Occur when people respond to job adverts posted by bogus companies.
+- Examples bogus publishers, invention promotion and patent companies or model and casting agencies, promising a person’s career.
+- Begin with some form of initial consultation but then require an upfront fee. 
+- Fraudsters often say fee will be used to undertake further work or research, 
+- Promised career and benefits are never delivered.
+- Fraud has been committed if money has been lost.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Psychic and clairvoyant scams</span> (2/7)
+
+- Happen when fraudster tells you they have seen something either wonderful or terrible in your future. 
+- Approach by email, post, telephone call or even face-to-face.
+- Claim that you are in trouble, but can offer a solution in return for payment. 
+- Ask for money in order to provide a full report about it.
+- Fraud has been committed if money has been lost.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Inheritance fraud </span> (3/7)
+
+- You are told that someone very rich has died and you’re in line to receive a huge inheritance.
+- Fraduster Lawyer administers the inheritance 
+- Unable to identify any of the dead person’s relatives. 
+- Llawyer suggests that, he could pay the inheritance to you. 
+- Will ask for Ad. fees
+- Fraud has been committed if money has been lost.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Loan scams </span> (4/7)
+
+- Happen when a victim is asked to pay an upfront fee for a loan.
+- Reply to an loan advert for a fast loan 
+- Get application approved regardless of credit history. 
+- Informed about an upfront fee to cover insurance for the loan.
+- Loan scams are a type of advance fee fraud.
+- Fraud has been committed when money has been lost
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Lottery Fraud</span> (5/7)
+
+- Letter / email saying that you’ve won a jackpot in a UK or overseas lottery.
+- Asks you to contact lottery company and process the payment of your winnings.
+- Asked to supply personal information and copies of documents such as your passport as proof of identity. 
+- Asked to pay a fee to process your claim. 
+- Fraud has been committed when money has been lost
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Rental fraud </span>  (6/7)
+
+- Happens when would-be tenants are tricked into paying an upfront fee to rent a property.
+- Property does not exist, has already been rented out
+- Rental fraudsters often target students looking for university accommodation.
+- Rental fraud is a type of advance fee fraud.
+- Fraud has been committed when money has been lost
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Vehicle matching scams </span> (7/7)
+
+- Happen when a fraudster cold calls someone who has just placed an advert to sell their car.
+- Claims to have an immediate buyer for the car. 
+- Ask for an upfront fee which is refundable if the car isn’t sold. 
+- Vehicle matching fraud is a type of advance fee fraud.
+- Fraud has been committed when money has been lost
+
+---
 
 ![Thanks](images/thanks.png)
 
+---
+## What is a <span style="color: #e49436">vulnerability</span>? 
 
+- Vulnerability represents a weak point though in the system
+- Security of a computer can be breached through vulnerability.  
+- Vulnerability  is  a  programming  error  in  an  application  
+- Is exploited to gain access to the computer.
 
+---
 
+## <span style="color: #e49436"> Vulnerabilities detection system.</span>
 
+- Vulnerability  detection  system is  
+   + a continuously  monitoring, always-on system  
+   + that can detect and alert administrators  
+   + to the presence of vulnerabilities as they appear.  
+   
+---
+
+## <span style="color: #e49436"> Vulnerability scanner.</span>
+
+- Vulnerability scanner 
+  + is a computer program  
+  + specifically designed to search a given target 
+  + for weaknesses.  
+- Scanner systematically engages the target in an attempt to assess 
+  + where  the  target  is vulnerable to “attack”. 
+- Used either with good intention or maliciously.
 
