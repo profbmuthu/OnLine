@@ -15,7 +15,7 @@
 
 <!-- .slide: data-autoslide="2000" -->
 
-### Agenda <span style="color: #666666">Sessions</span>
+## Agenda <span style="color: #666666">Sessions</span>
 ### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Network Cyber Security<span style="color: #666666">.</span>
 <br>
 ### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Social Media <span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
@@ -36,7 +36,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">What is network </span>
+### <span style="color: #e49436">What is network?</span>
 
 - NW - Group or system of interconnected people or things.
 - Is a set of computers connected together for sharing resources.
@@ -47,7 +47,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">Protocol</span>
+### <span style="color: #e49436">What is Protocol?</span>
 
 - The official procedure or system of rules
 - Rules for governing affairs of state or diplomatic occasion
@@ -58,7 +58,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">TOPOLOGY</span>
+### <span style="color: #e49436">What is TOPOLOGY?</span>
 
 - Shape of a local-area network (LAN) or other communications system
 - Four principal topologies used in LANs.
@@ -70,7 +70,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">SPOOFING!</span>
+### <span style="color: #e49436">What is SPOOFING?</span>
 
 - Is a <span style="font-size: 1.3em;"><span style="color:#e49436">fraudulent</span> or malicious practice.
 - Communication is sent from an unknown source disguised as a source known to the receiver.
@@ -79,7 +79,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">SPOOFING</span> Attack
+### What is <span style="color: #e49436">SPOOFING</span> Attack
 
 - Spoofing attack is a malicious activity in order to launch attacks.
 - Attack launched against network hosts, to steal data, spread malware or bypass access controls.
@@ -205,6 +205,61 @@
 ### <span style="color: #e49436"> DDOS attack </span>
 
 - DDOS is <span style="color: #e49436">Distributed Denial of Service.</span>
+- DDoS attack is an attempt to make an online service unavailable
+- Goal is to  
+  + inflict damage on the  victim,  
+  + either for personal reasons  
+  + for material gain 
+  + for popularity 
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436"> DDOS attack </span>
+
+- Service bombarded with traffic from multiple sources. 
+- Target wide variety of important resources, from banks to news websites
+- Grouped into three categories: 
+   + Volumetric Attacks, 
+   + Protocol Attacks and 
+   + Application Attacks.
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436">Volumetric DDoS Attack </span>
+
+- By far the most common / simplest type type of DDoS attacks. 
+- Are characterized by an enormous amount of traffic 
+- Inserting a reflection medium, a small amount of traffic generates gigabits of traffic. 
+- Target a service by sending legitimate requests to a DNS or NTP server using a spoofed source IP address. 
+- DNS or NTP servers respond to request - end up responding to the source address of the request, 
+- Spoofed IP address is the target of the attack which then gets bombarded with the amplified data stream.
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436"> Protocol-based DDoS Attack</span>
+
+- Focus on exploiting a weakness in Layer 3 or Layer 4 of the OSI layer. 
+- Common example of a protocol-based DDoS attack is the TCP Syn Flood 
+- Succession of TCP SYN requests directed towards a target can overwhelm the target and make it unresponsive. 
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436"> Application-based DDoS Attack</span>
+
+- Trickiest Most sophisticated and stealthy attacks and harder to identify 
+- Hackers leveraging application-type attacks are highly skilled 
+- Hackers have deep knowledge of workings of the application. 
+- Attack traffic is usually legitimate, targeting the application layer 
+- Triggers back-end process and hogs the resources 
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436"> DDOS attack</span> News
+
+![Jan 2017 Guardian](https://www.theguardian.com/business/2017/jan/23/lloyds-bank-accounts-targeted-cybercrime-attack)
+![Oct 2016 Guardian](https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet)
+![Jan 2016 CSO Online](http://www.csoonline.com/article/3020292/cyber-attacks-espionage/ddos-attack-on-bbc-may-have-been-biggest-in-history.html)
+![Indian Express](http://indianexpress.com/article/india/india-news-india/internet-providers-claim-ddos-attack-to-meet-top-cop-3086124/)
 
 ---
 
