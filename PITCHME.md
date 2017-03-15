@@ -225,13 +225,21 @@
 
 ---
 <!-- .slide: data-autoslide="8000" -->
-### <span style="color: #e49436">Volumetric DDoS Attack </span>
+### <span style="color: #e49436">Volumetric DDoS Attack </span> (1/2)
 
-- By far the most common / simplest type type of DDoS attacks. 
-- Are characterized by an enormous amount of traffic 
-- Inserting a reflection medium, a small amount of traffic generates gigabits of traffic. 
-- Target a service by sending legitimate requests to a DNS or NTP server using a spoofed source IP address. 
-- DNS or NTP servers respond to request - end up responding to the source address of the request, 
+- Most common / simplest type type of DDoS attacks. 
+- Characterized by an enormous amount of traffic 
+- Inserting a reflection medium
+- Small amount of traffic generates gigabits of traffic. 
+
+---
+<!-- .slide: data-autoslide="8000" -->
+### <span style="color: #e49436">Volumetric DDoS Attack </span>(2/2)
+
+- Target a service by sending legitimate requests 
+- Request sent to DNS or NTP server using a spoofed source IP address. 
+- DNS or NTP servers respond to request 
+- End up responding to the source address of the request 
 - Spoofed IP address is the target of the attack which then gets bombarded with the amplified data stream.
 
 ---
