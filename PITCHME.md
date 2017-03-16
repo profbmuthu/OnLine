@@ -1,8 +1,6 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
 
-![LOGO](https://d1z75bzl1vljy2.cloudfront.net/img/gp-logo.png)
-
 ### Vulnerabilty Management
 <br>
 <span style="color:#e49436">Play VM</span>
