@@ -252,7 +252,11 @@
 <!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk</span>
 
-
+- Risk is a potential future harm   
+- May arise from some present action such as, a schedule slip or a cost overrun. 
+- Loss is often considered in terms of direct financial loss  
+- Also  be a loss in terms of credibility, future business, 
+- Also  be loss of property or life. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -262,10 +266,12 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk evaluation</span>
+### What is <span style="color: #e49436">Risk assessment</span>
 
-
-
+- Risk assessment involves 
+  + risk identification
+  + risk analysis
+  + risk prioritization. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
