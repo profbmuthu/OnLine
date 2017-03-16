@@ -710,7 +710,33 @@ Destructive Trojans
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Wireshark</span>
+- open source  tool with GUI
+- has more filtering  and sorting options,
+- first window shows packet capture, second packet detail and last raw data 
+- command line version called  Tshark.  
+- Supports more  than  1100 protocols. 
 
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Wireshark</span>
+
+- Supports  geolocalisation  of  MaxMind 
+- Cities and localities could be seen by given IPs giving the information of origin of packets. 
+- not  for  layman as it involves a lot of network layer filtering options.
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">TCPDump</span>
+
+- Used for packet capturing, network  monitoring  and  protocol  debugging.
+- Oldest and most commonly used command line tool, 
+- Free  and  open  source software.  
+- used  to  read  live  capture  or already captured log file
+- least overhead since no graphical  interface 
+- Captures data  in  libpcap  formats, 
 
 
 ---
