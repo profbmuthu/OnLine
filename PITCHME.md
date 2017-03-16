@@ -523,7 +523,163 @@ Destructive Trojans
   + collect computer screenshots located on the infected machine. 
 - Dugu spreads through a previously unknown vulnerability in MS word documents
 - main purpose is to conduct industrial espionage.
+
 ---
+<!-- .slide: data-autoslide="2000" -->
+
+### <span style="color: #e49436">Recap</span>
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+## Agenda
+- Botnets
+  + Botnets - types of botnet- Structure of bots – 
+  + Crime bots - Spamming bots - 
+  + DoS – DDoS Attacks – types - Honey Pots
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+
+- Term “botnet” coined from “robot networks.” 
+- Robot” has a Czech derivation from the word “robotovat,” which means “to work.” 
+- Botnet, therefore, is an apt definition: 
+- bots are highly adaptable worker bees that do their master’s bidding
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+- The overall architecture and implementation of botnets is complex
+- Evolving toward the use of common software engineering techniques such as modularity
+- The predominant remote control mechanism for botnets remains Internet Relay Chat (IRC) 
+- IRC includes a rich set of commands enabling a wide range of use
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+
+- Wide diversity of exploits for infecting target systems written into botnet codebases.
+- All botnets include denial of service (DoS) attack capability.
+- Shell encoding and packing mechanisms that can enable attacks to circumvent defensive systems are common
+- All botnets include a variety of sophisticated mechanisms for avoiding detection
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+
+- New botnets use different organizational techniques, including:
+- Decentralized Naming Resolution. 
+  + Using techniques pioneered by spammers botnets now act as their own DNS cloud, 
+  + avoid centralized name resolution. 
+  + Victims are instructed to use existing botnets for DNS resolution, avoiding the centralized use of naming services.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+
+- Tor botnets. 
+  + IRC operators have reported botnets on the Undernet network connecting from TOR exit nodes. 
+  + Tor is a proxy network 
+  + Uses a type of MIX-net routing to anonymize traffic. 
+  + Botnets using Tor therefore pose difficult detection and response problems
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">BotNet</span>
+
+- Tunneling bots. 
+  + Increase in the number of bots that tunnel through existing protocols.
+  + Bots potentially use net news, web blogs, and other resources. 
+  + Fundamentally, these sorts of bots pose more of a problem for detection.
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+### <span style="color: #e49436">Recap</span>
+---
+
+<!-- .slide: data-autoslide="2000" -->
+
+## Agenda
+- Network forensics  
+  + Key Loggers - Port Scans – SYN flood - 
+  + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
+  + Wireshark – Capture and Display Filters - pcap analysis – Problems -  
+  + Forensic evidences - log analysis & evidence collection. 
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Key Loggers</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Key Loggers</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Port Scan</span>
+
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">SYN flood</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Sniffing</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Active Sniffing</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Passive Sniffing</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Sniffing Tools</span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Wireshark</span>
+
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">PCAP Analysis</span>
+
+
+---
+
+
 
 
 ![Thanks](images/thanks.png)
