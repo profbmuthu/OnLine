@@ -13,7 +13,7 @@
 
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda <span style="color: #666666">Sessions</span>
+## Agenda <span style="color: #e49436">Sessions</span>
 ### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Vulnerability Management <span style="color: #666666">.</span>
 <br>
 ### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Network Forensics<span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
@@ -21,7 +21,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda
+### Agenda
 - Network
   + Vulnerability analysis
 - Email Forensics 
@@ -30,7 +30,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-## Agenda
+### Agenda
 - Malware Concetps 
   + Virus - Components - Function of replicator, 
   + concealer and dispatcher- Trigger Mechanisms- Virus families  
@@ -40,7 +40,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda
+### Agenda
 - Botnets
   + Botnets - types of botnet- Structure of bots – 
   + Crime bots - Spamming bots - 
@@ -49,7 +49,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda
+### Agenda
 - Network forensics  
   + Key Loggers - Port Scans – SYN flood - 
   + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
@@ -92,15 +92,25 @@
 
 
 ---
-### What is a <span style="color: #e49436">vulnerability</span>? 
+### What is a <span style="color: #e49436">Vulnerability</span>? 
 
 - Vulnerability represents a weak point though in the system
 - Security of a computer can be breached through vulnerability.  
 - Vulnerability  is  a  programming  error  in  an  application  
 - Is exploited to gain access to the computer.
 
----
 
+---
+<!-- .slide: data-autoslide="2000" -->
+### What is a <span style="color: #e49436">Vulnerability</span>? 
+
+- Networks are typically plagued by one or all of three primary vulnerabilities or weaknesses:
+  + Technology weaknesses 
+  + Configuration weaknesses 
+  + Security policy weaknesses 
+
+---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Vulnerability detection.</span>
 
 - Vulnerability detection is  
@@ -109,15 +119,18 @@
    + to the presence of vulnerabilities as they appear.  
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436"> V.Scan.</span>
 
 - Scanning refers to the use of a scanning computer program 
   + to evaluate a connected network and gather vulnerability information.
 - Scanning is the process of understand the vulnerability Risk and threat
 
----
 
+---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Vulnerability scanner.</span>
 
 - Vulnerability scanner 
@@ -128,7 +141,9 @@
   + where  the  target  is vulnerable to “attack”. 
 - Used either with good intention or maliciously.
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Vulnerability scanner.</span>
 
 - Examples - Vulnerability scanner 
@@ -136,7 +151,9 @@
   + OpenVAS 
   + NexPose  
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### Types of<span style="color: #e49436"> V.Scanning.</span>
 - Random Scanning
 - Hitlist scanning
@@ -145,7 +162,9 @@
 - Permutation scanning
 - Local subnet scanning
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Random Scan</span>
 
 - Each compromised host probes random addresses in the IP address space.  
@@ -155,7 +174,9 @@
 - Disadvantage
   + High amount of traffic leads to attack detection
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Hitlist Scan</span>
 
 - Machine probes all addresses from an externally supplied list.  
@@ -166,7 +187,9 @@
   + Portion of the hitlist needs to be transmitted to machines that are being infected. 
   + Large, lists leads to attack detection.
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Signpost Scan</span>
  - Also called topological scanning 
  - takes advantage of habitual communication patterns of the compromised host to select new targets. 
@@ -175,7 +198,9 @@
    + spreading speed depends on agent machines and their user behavior,
    + Recruitment is slower.
    
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Permutation Scan </span>(1/2)
 - All compromised machines share a common pseudo-random permutation of the IP address space
 - Each IP address is mapped to an index in this permutation.  
@@ -184,7 +209,9 @@
 - Uses the index computed from its IP address as a starting point. 
 - Always starts from a random point in the permutation. 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Permutation Scan </span> (2/2)
 - Seeing an already-infected machine, chooses a new random starting point. 
 - At threshold  a worm copy becomes dormant to minimize collisions. 
@@ -192,14 +219,18 @@
 - As infection progresses, a large percentage of infected machines become dormant. 
 - This results in a very low number of duplicated scans and hinders detection.
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Local Subnet Scan</span>
 
 - Local subnet scanning scans for targets that reside on the same subnet as the compromised host. 
 - A single copy of the scanning program can compromise many vulnerable machines behind a firewall. 
 - The Code Red II and the Nimda Worm used local subnet scanning.
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Horizontal Scanning </span>
 
 - This is the common type of the scan for worms. 
@@ -207,49 +238,94 @@
 - Scans the same destination port on all machines from the list, 
 - List assembled through host scanning techniques
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Vertical Scanning </span>
 
 - This is the common type of the scan for intrusions and multiple vector worms. 
 - Scanning machines probe multiple ports at a single destination, looking for any way to break in.
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk</span>
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk classification</span>
 
 
 
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk evaluation</span>
 
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk Matrix</span>
 
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Risk Mitigation</span>
 
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">W.Risk</span>
 
 
 
+
 ---
+<!-- .slide: data-autoslide="2000" -->
 ### What is <span style="color: #e49436">Threat</span>
 
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Threat</span>
+
+- Inexperienced individuals use easily available hacking tools 
+- Test shell scripts and password crackers. 
+- executed with the intent of testing and challenging a hacker’s skills 
+- Can do serious damage to a company. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Structured <span style="color: #e49436">Threat</span>
+
+- Come from hackers who are highly motivated and technically competent. 
+- Know system vulnerabilities and understand and develop exploit code and scripts. 
+- Understand, develop, and use sophisticated hacking techniques 
+- Penetrate unsuspecting businesses. 
+- Often involved with the major fraud and theft cases reported to law enforcement agencies. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### External <span style="color: #e49436">Threat</span>
+
+— External threats can arise from individuals or organizations working outside of a company. 
+- Do not have authorized access to the computer systems or network.
+- Work their way into a network mainly from the Internet or dialup access servers. 
 
 
-
-
+---
+<!-- .slide: data-autoslide="2000" -->
+### Internal <span style="color: #e49436">Threat</span>
+- Internal threats occur when someone has authorized access to the network 
+- Work with either an account on a server or physical access to the network. 
+- Internal access and misuse account for 60 percent to 80 percent of reported incidents
 
 ---
 <!-- .slide: data-autoslide="2000" -->
