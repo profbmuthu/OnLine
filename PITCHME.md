@@ -101,16 +101,16 @@
 
 ---
 
-## <span style="color: #e49436"> Vulnerabilities detection.</span>
+## <span style="color: #e49436"> Vulnerability detection.</span>
 
-- Vulnerability  detection  is  
-   + a continuously  monitoring, always-on system  
+- Vulnerability detection is  
+   + a continuously monitoring, always-on system  
    + that can detect and alert administrators  
    + to the presence of vulnerabilities as they appear.  
 
 
 ---
-## What is <span style="color: #e49436"> V.Scan.</span>
+### What is <span style="color: #e49436"> V.Scan.</span>
 
 - Scanning refers to the use of a scanning computer program 
   + to evaluate a connected network and gather vulnerability information.
@@ -118,7 +118,7 @@
 
 ---
 
-## <span style="color: #e49436"> Vulnerability scanner.</span>
+### <span style="color: #e49436"> Vulnerability scanner.</span>
 
 - Vulnerability scanner 
   + is a computer program  
@@ -129,7 +129,7 @@
 - Used either with good intention or maliciously.
 
 ---
-## <span style="color: #e49436"> Vulnerability scanner.</span>
+### <span style="color: #e49436"> Vulnerability scanner.</span>
 
 - Examples - Vulnerability scanner 
   + Nessus 
@@ -137,7 +137,7 @@
   + NexPose  
 
 ---
-## Types of<span style="color: #e49436"> V.Scanning.</span>
+### Types of<span style="color: #e49436"> V.Scanning.</span>
 - Random Scanning
 - Hitlist scanning
 - Signpost scanning
@@ -146,7 +146,7 @@
 - Local subnet scanning
 
 ---
-## <span style="color: #e49436"> Random Scan</span>
+### <span style="color: #e49436"> Random Scan</span>
 
 - Each compromised host probes random addresses in the IP address space.  
 - Code Red (CRv2) performed random scanning. 
@@ -260,6 +260,7 @@
   + worms - Types - Families - sandboxing
   + Trojans and Backdoors, Types of Trojans - 
 
+---
 <!-- .slide: data-autoslide="15000" -->
 
 ### What is <span style="color: #e49436">Malware </span>
