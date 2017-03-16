@@ -92,7 +92,7 @@
 
 
 ---
-## What is a <span style="color: #e49436">vulnerability</span>? 
+### What is a <span style="color: #e49436">vulnerability</span>? 
 
 - Vulnerability represents a weak point though in the system
 - Security of a computer can be breached through vulnerability.  
@@ -101,7 +101,7 @@
 
 ---
 
-## <span style="color: #e49436"> Vulnerability detection.</span>
+### <span style="color: #e49436"> Vulnerability detection.</span>
 
 - Vulnerability detection is  
    + a continuously monitoring, always-on system  
@@ -156,7 +156,7 @@
   + High amount of traffic leads to attack detection
 
 ---
-## <span style="color: #e49436"> Hitlist Scan</span>
+### <span style="color: #e49436"> Hitlist Scan</span>
 
 - Machine probes all addresses from an externally supplied list.  
 - Detects a vulnerable machine, sends a portion of the initial hitlist to the recipient and keeps the rest. 
@@ -167,7 +167,7 @@
   + Large, lists leads to attack detection.
 
 ---
-## <span style="color: #e49436"> Signpost Scan</span>
+### <span style="color: #e49436"> Signpost Scan</span>
  - Also called topological scanning 
  - takes advantage of habitual communication patterns of the compromised host to select new targets. 
  - Does not generate a high traffic load and thus reduces chances of attack detection.
@@ -176,7 +176,7 @@
    + Recruitment is slower.
    
 ---
-## <span style="color: #e49436"> Permutation Scan </span>(1/2)
+### <span style="color: #e49436"> Permutation Scan </span>(1/2)
 - All compromised machines share a common pseudo-random permutation of the IP address space
 - Each IP address is mapped to an index in this permutation.  
 - Is preceded by small hitlist scanning 
@@ -185,7 +185,7 @@
 - Always starts from a random point in the permutation. 
 
 ---
-## <span style="color: #e49436"> Permutation Scan </span> (2/2)
+### <span style="color: #e49436"> Permutation Scan </span> (2/2)
 - Seeing an already-infected machine, chooses a new random starting point. 
 - At threshold  a worm copy becomes dormant to minimize collisions. 
 - Disadvantage
@@ -193,14 +193,14 @@
 - This results in a very low number of duplicated scans and hinders detection.
 
 ---
-## <span style="color: #e49436">Local Subnet Scan</span>
+### <span style="color: #e49436">Local Subnet Scan</span>
 
 - Local subnet scanning scans for targets that reside on the same subnet as the compromised host. 
 - A single copy of the scanning program can compromise many vulnerable machines behind a firewall. 
 - The Code Red II and the Nimda Worm used local subnet scanning.
 
 ---
-## <span style="color: #e49436"> Horizontal Scanning </span>
+### <span style="color: #e49436"> Horizontal Scanning </span>
 
 - This is the common type of the scan for worms. 
 - Scanning machines are looking for a specific vulnerability, 
@@ -208,43 +208,43 @@
 - List assembled through host scanning techniques
 
 ---
-## <span style="color: #e49436">Vertical Scanning </span>
+### <span style="color: #e49436">Vertical Scanning </span>
 
 - This is the common type of the scan for intrusions and multiple vector worms. 
 - Scanning machines probe multiple ports at a single destination, looking for any way to break in.
 
 
 ---
-## What is <span style="color: #e49436">Risk</span>
+### What is <span style="color: #e49436">Risk</span>
 
 
 ---
-## What is <span style="color: #e49436">Risk classification</span>
-
-
-
----
-## What is <span style="color: #e49436">Risk evaluation</span>
+### What is <span style="color: #e49436">Risk classification</span>
 
 
 
 ---
-## What is <span style="color: #e49436">Risk Matrix</span>
+### What is <span style="color: #e49436">Risk evaluation</span>
 
 
 
 ---
-## What is <span style="color: #e49436">Risk Mitigation</span>
+### What is <span style="color: #e49436">Risk Matrix</span>
 
 
 
 ---
-## What is <span style="color: #e49436">W.Risk</span>
+### What is <span style="color: #e49436">Risk Mitigation</span>
 
 
 
 ---
-## What is <span style="color: #e49436">Threat</span>
+### What is <span style="color: #e49436">W.Risk</span>
+
+
+
+---
+### What is <span style="color: #e49436">Threat</span>
 
 
 
@@ -643,25 +643,68 @@ Destructive Trojans
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Sniffing</span>
+- Sniffing is the electronic form of eavesdropping 
+- Carried out on communications, computers transmit across networks
+- Sniffing involves 
+  + capturing, decoding, inspecting and interpreting 
+  + information inside a network packet on a TCP/IP network. 
+- Acts as network probes for examining network traffic.
 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Packer Sniffer</span>
+
+- Packet sniffer is a utility 
+- used since the original release of Ethernet. 
+- Allows individuals to capture data as it is transmitted over a network 
+- Used by network professionals to diagnose network issues, 
+- Malicious capture unencrypted data, like passwords and usernames.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Active Sniffing</span>
 
+- Sniffing is performed on a switched network, known as active sniffing.
+- Relies on injecting packets into the network that causes traffic. 
+- Is required to bypass the segmentation that switches provided. 
+- Sniffers operate at the Data Link layer of the OSI model.  
+- Grab whatever they see on the wire and record it for later review. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Passive Sniffing</span>
 
+- Hubs see all traffic in the collision domain. 
+- Sniffing performed on a hub is known as passive sniffing.
+- Collision domain is a logical area of the network in which one or more data packets can collide with each other.
+- Passive sniffing worked well during the days that hubs were used. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Protocols - Sniffing</span>
+- Telnet and Re-login: 
+- HTTP: Passwords and data sent 
+- SNMP: SNMPv1 no good security. SNMP passwords sent in clear text.
+- NNTP: Passwords and data sent.
+- POP, IMAP: Passwords and data sent.
+- FTP: Passwords and data sent.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436">Sniffing Tools</span>
 
+- Wireshark.
+- Tcpdump.
+- Dsniff.
+- NetStumbler.
+- Ettercap.
+- Ntop.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
