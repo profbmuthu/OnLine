@@ -1,15 +1,13 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
 
-![LOGO](https://d1z75bzl1vljy2.cloudfront.net/img/gp-logo.png)
-
 ### Network Cyber Security
 <br>
-<span style="color:gray">Let Us Cyber</span>
+<span style="color:#e49436">Let Us Cyber</span>
 <br>
 <span style="color:gray">-</span>
 <br>
-<span style="color:gray">Dr.B.Muthukumaran</span>
+<span style="color:#e49436">Dr.B.Muthukumaran</span>
 
 ---
 
@@ -23,7 +21,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda
+### Agenda
 - Network
   + Network, protocol, topology, IP Addresses.
 - Cyber Crime
@@ -58,7 +56,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">What is TOPOLOGY?</span>
+### <span style="color: #e49436">What is Topology?</span>
 
 - Shape of a local-area network (LAN) or other communications system
 - Four principal topologies used in LANs.
@@ -70,7 +68,7 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">What is SPOOFING?</span>
+### <span style="color: #e49436">What is Spoofing?</span>
 
 - Is a <span style="font-size: 1.3em;"><span style="color:#e49436">fraudulent</span> or malicious practice.
 - Communication is sent from an unknown source disguised as a source known to the receiver.
@@ -504,6 +502,61 @@ Visit <a href="http://indianexpress.com/article/india/india-news-india/internet-
 - Ask for an upfront fee which is refundable if the car isn’t sold. 
 - Vehicle matching fraud is a type of advance fee fraud.
 - Fraud has been committed when money has been lost
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Engineering </span>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Media sites </span> 
+
+- Facebook
+- Twitter
+- Google +
+- Blogs
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Media sites </span> 
+
+- Privacy concerns with social networking services 
+- Subset of data privacy
+- The right of mandating personal privacy 
+- Context storing, re-purposing, provision to third parties
+- Displaying of information pertaining to oneself via the Internet.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Media sites </span> 
+
+- Harvard-based research project
+  + Facebook transformed from a public space to a behavioral laboratory," 
+- Operators of social media outlets aware 
+- Their profits increase as we expand our willingness to share personal information about ourselves, 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Media sites </span> 
+
+- Business model development for social media sites is designed to 
+  + coerce, cajole, trick, taunt, or tease us into revealing more information 
+  + Who are your friends? 
+  + What discounts interest you? 
+  + You “liked” the last Vin Diesel movie, will you like the next one? 
+  + What is your relationship status? 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Social Media sites </span> 
+
+- Privacy dangers social media s users are confronted with today:
+	+ Facebook Likejacking: using posts referencing current events to trick users to click a phishing link.
+  + Rogue apps: which could lead to spam, phishing or malware via Facebook
+  + Facebook Chat attacks: which can spread malware via unsolicited links and promote phishing apps
+  + Spammy Tweets and malicious Twitter links: representing a major threat to micro bloggers
 
 ---
 
