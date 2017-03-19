@@ -40,7 +40,7 @@
 - Is a set of computers connected together for sharing resources.
 - Is a telecommunications network allowing computers to exchange data.
 - Computing devices exchange data with each other through data link.
-- Computers are connected with cable media and / or wireless media
+- Computers are connected with cable media / wireless media
 
 ---
 <!-- .slide: data-autoslide="11000" -->
@@ -48,10 +48,11 @@
 ### <span style="color: #e49436">What is Protocol?</span>
 
 - The official procedure or system of rules
-- Rules for governing affairs of state or diplomatic occasion
 - Protocol - set of rules and guidelines for communicating data
-- Rules defined for each step of computer communication 
-- Networks follow these rules to successfully transmit data.
+- Rules 
+     + for governing affairs of state or diplomatic occasion
+     + defined for each step of computer communication 
+     + which networks follow to transmit data.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
@@ -79,8 +80,10 @@
 
 ### What is <span style="color: #e49436">SPOOFING</span> Attack
 
-- Spoofing attack is a malicious activity in order to launch attacks.
-- Attack launched against network hosts, to steal data, spread malware or bypass access controls.
+- Spoofing attack is a malicious activity. 
+- Is used to launch attacks.
+- Attack launched against network hosts.
+- It is to steal data, spread malware or bypass access controls.
 
 
 ---
@@ -90,7 +93,7 @@
 
 - <span style="color: #e49436">*ARP Spoofing Attack*</span>: 
 - Occurs when a attacker links the hacker’s MAC address with internal IP address. 
-- This attack leads to data theft and deletion of data 
+- The attack leads to data theft and deletion of data. 
 - Leads to compromised accounts, DOS and other malicious consequences.
 
 ---
@@ -100,7 +103,7 @@
 
 - <span style="color: #e49436">*DNS Spoofing Attack*</span>: 
 - A malicious attacker reroutes the DNS translation 
-- It points to a different server which is typically infected with malware 
+- Points to a different server which is typically infected with malware 
 - Can be used to help spread viruses and worms. 
 - Also called DNS cache poisoning
 
@@ -121,17 +124,17 @@
 
 - <span style="color: #e49436"> URL Spoofing</span>  
 - URL spoofing occurs when one website appears as if it is another. 
-- URL displayed is not the real URL of the site, 
-- The information is  sent to a hidden web address
+- URL displayed is not the real URL of the site. 
+- The information is  sent to a hidden web address.
 
 ---
 <!-- .slide: data-autoslide="8000" -->
 
 ### <span style="color: #e49436"> Email spoofing </span> (5/6)
 
-- Email spoofing is the forgery of an email header
+- Email spoofing is the forgery of an email header.
 - Message appears to have originated from someone other than the actual source.
-- Is a tactic used in phishing and spam campaigns
+- Is a tactic used in phishing and spam campaigns.
 - People are more likely to open an email when they think it has been sent by a legitimate source
 
 ---
@@ -139,11 +142,12 @@
 
 ### <span style="color: #e49436">IP</span>-Spoofing (6/6)
 
-- IP Spoofing is a technique used to gain unauthorized access to machines,
-- Attacker illicitly impersonate another machine by manipulating IP packets.
-- Act of manipulating the headers in a transmitted message to mask a hackers true identity 
+- Is a technique used to gain unauthorized access to machines.
+- Act of manipulating the headers in a transmitted message 
+- Done to mask a hackers true identity 
+- Attacker impersonates another machine by manipulating IP packets.
 - Involves modifying the packet header
-- Header with a forged (spoofed) source IP address, a checksum, and the order value.
+- Header with a forged (spoofed) IP address.
 
 ---
 <!-- .slide: data-autoslide="8000" -->
@@ -164,7 +168,7 @@
 - Attacker transmits multiple packets to his intended target
 - Receive a series of numbers used to assemble packets in order
 - Hacker is not aware of how the transmissions takes place on this network
-- He coaxes the machine to respond to his requests & analyzes the sequence numbers.
+- He coaxes the machine to respond to his requests, analyzes the sequence numbers.
 - Attacker injects data into the stream of packets without authentication
 
 ---
@@ -174,7 +178,7 @@
 
 - Cracker resides on the same subnet as his intended target
 - He is aware of the sequence of the packets.
-- The attack is called the non-blind spoofing
+- The attack is called the *non-blind spoofing*
 
 ---
 <!-- .slide: data-autoslide="8000" -->
@@ -235,7 +239,7 @@
 ### <span style="color: #e49436">Volumetric DDoS Attack </span>(2/2)
 
 - Target a service by sending legitimate requests 
-- Request sent to DNS or NTP server using a spoofed source IP address. 
+- Request to DNS or NTP server using a spoofed source IP address. 
 - DNS or NTP servers respond to request 
 - End up responding to the source address of the request 
 - Spoofed IP address is the target of the attack which then gets bombarded with the amplified data stream.
@@ -260,6 +264,7 @@
 
 ---
 <!-- .slide: data-autoslide="8000" -->
+
 ### <span style="color: #e49436"> DDOS attack</span> News
 
 Visit <a href="https://www.theguardian.com/business/2017/jan/23/lloyds-bank-accounts-targeted-cybercrime-attack" target="_blank"> Jan 2017 Guardian for DDOS</a>
@@ -271,8 +276,7 @@ Visit <a href="http://www.csoonline.com/article/3020292/cyber-attacks-espionage/
 Visit <a href="http://indianexpress.com/article/india/india-news-india/internet-providers-claim-ddos-attack-to-meet-top-cop-3086124/" target="_blank"> Indian Express for DDOS</a>
 
 ---
-
-<!-- .slide: data-autoslide="1500->
+<!-- .slide: data-autoslide="15000-->
 
 ### Session <span style="color: #e49436">Hijacking</span>
 
@@ -291,7 +295,7 @@ Visit <a href="http://indianexpress.com/article/india/india-news-india/internet-
 - Attack that uses a fake identity, such as a network identity
 - Gain unauthorized access to personal computer information
 - Carried out through legitimate access identification
-- Perpetrated using stolen passwords and logons,
+- Perpetrated using stolen passwords and logins
 - By finding a way around the authentication process
 
 ---
