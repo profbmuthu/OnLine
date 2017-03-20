@@ -1,8 +1,8 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
 
-### Network Cyber Security
-<br>
+### Crimes in Cyber Space
+
 <span style="color:#e49436">Let Us Cyber</span>
 <br>
 <span style="color:gray">-</span>
@@ -14,9 +14,9 @@
 <!-- .slide: data-autoslide="2000" -->
 
 ## Agenda <span style="color: #666666">Sessions</span>
-### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Network Cyber Security<span style="color: #666666">.</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Crimes in Cyber Space<span style="color: #666666">.</span>
 <br>
-### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Social Media <span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
+### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Crimes in Social Media <span style="color:#e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
 
 ---
 <!-- .slide: data-autoslide="2000" -->
