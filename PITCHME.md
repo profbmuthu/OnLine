@@ -820,7 +820,7 @@
 ### <span style="color: #e49436"> Core-site.xml  </span>
 - Conf File
  
-!2[Core](images/Core-site.png)
+![Core](images/Core-site.png)
 
 
 ---
