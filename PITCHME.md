@@ -808,7 +808,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Core-site.xml  </span>
 - Conf File
  
-![Core](images/core-site.png)
+![Core](images/Core-site.png)
 
 
 ---
