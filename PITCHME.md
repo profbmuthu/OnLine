@@ -381,7 +381,7 @@
 ### <span style="color: #e49436">HDFS</span>
 
 
-![HDFS Architecture]https://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-hdfs/images/hdfsarchitecture.png
+![HDFS Architecture](https://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-hdfs/images/hdfsarchitecture.png)
 
 ---
 <!-- .slide: data-autoslide="2000" -->
