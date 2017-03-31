@@ -806,9 +806,8 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Core-site.xml  </span>
-
+- Conf File
  <!-- .element: class="fragment" -->
-
   configuration>
  
      <property>
@@ -828,13 +827,13 @@ IDs for new blocks without the need for coordination with the other namespaces.
  
  configuration>
  
-    property>
+    <property>
     
-        name>dfs.replication</name>
+        <name>dfs.replication</name>
         
-        value>1</value>
+        <value>1</value>
         
-    /property>
+    </property>
  
  /configuration>
 
@@ -843,22 +842,26 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> MaRed-site.xml  </span>
  
+- Conf file 
+<!-- .element: class="fragment" -->
+
  configuration>
  
-   property>
+   <property>
 
-     name>mapreduce.framework.name</name>
+     <name>mapreduce.framework.name</name>
 
-     value>yarn</value>
+     <value>yarn</value>
 
-    /property>
+    </property>
  
  /configuration>
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Yarn-site.xml  </span>
-
+- Conf file 
+<!-- .element: class="fragment" -->
  <configuration>
  
  name>yarn.resourcemanager.address</name>
@@ -873,10 +876,10 @@ IDs for new blocks without the need for coordination with the other namespaces.
 
   value>MasterComputerIP or localhost:8021</value>
 
-/property>
+</property>
  
  </configuration>
-
+<
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Hadoop Env</span>
