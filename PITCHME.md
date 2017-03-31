@@ -20,21 +20,21 @@
 <!-- .slide: data-autoslide="2000" -->
 
 ### Agenda
-- Network
-  + Vulnerability analysis
-- Email Forensics 
-  + Email Forensics - email spoofing – 
-  + Phishing – mail header analysiw
+- Introduction to Big data 
+- limitations of existing solutions 
+- Hadoop architecture 
+- Hadoop components and ecosystem, data loading & reading from HDFS 
+- Replication rules 
+- Hadoop cluster administrator: Roles and responsibilities
 
 ---
 
 <!-- .slide: data-autoslide="2000" -->
 ### Agenda
-- Malware Concetps 
-  + Virus - Components - Function of replicator, 
-  + concealer and dispatcher- Trigger Mechanisms- Virus families  
-  + worms - Types - Families - sandboxing
-  + Trojans and Backdoors, Types of Trojans - 
+- Hadoop server roles and their usage
+- Hadoop installation and initial configuration
+- Pseudo-distributed mode, multi-node Hadoop cluster
+- Understanding working of HDFS  
 
 ---
 
@@ -90,13 +90,23 @@
 - It is now categorized as belonging to two camps:
 + Internal data (enterprise application data) and
 + External data (e.g., web data)
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 
 ### <span style="color: #e49436">Types of Data</span>? 
+
 - There are two types of data in the real world:
-+ Static data. (Collected Data). The volume of static data, for example national census data and human genomic data, will not change over time.
-+ Dynamic data (Data being served continuously) Dynamic data, such as streaming log data and social network streaming data, the volume increases over time.
+    + Static data. (Collected Data). 
+    + The volume of static data, for example national census data and human genomic data, will not change over time.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+
+### <span style="color: #e49436">Types of Data</span>? 
+
+    + Dynamic data (Data being served continuously) 
+    + Dynamic data, such as streaming log data and social network streaming data, the volume increases over time.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -140,7 +150,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-### What is <span style="color: #e49436"> Characteristics of bigdata</span>
+### Characteristics of <span style="color: #e49436">  bigdata</span>
 - Big data has become viable 
 - Cost effective approaches have emerged to tame the volume, velocity, variety and variability of massive data. 
 - Three Vs of volume, velocity, and variety are commonly used 
@@ -149,20 +159,20 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Volume</span>
+### Data <span style="color: #e49436"> Volume</span>
 - Amount of data being generated is increasing day by day. 
 - Rate of increase of data is accelerating continuously. 
 - Volume of data being made publicly available increases every year. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Volume</span>
+### Data <span style="color: #e49436"> Volume</span>
 - Organizations no longer have to merely manage their own data. 
 - As data volume increases, the value of different data records will decrease in proportion to age, type, richness, and quantity among other factors. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Volume</span>
+### Data <span style="color: #e49436">  Volume</span>
 - Data generated from emails to Facebook posts, from purchase histories to web links, is contributing to the growth of data. 
 - Current challenge is in extracting value from this data.  
 - Sometimes this means particular data elements, and at other times, the focus is instead on identifying trends and relationships between pieces of data. 
@@ -170,7 +180,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Velocity.</span>
+### Data <span style="color: #e49436">  Velocity.</span>
 - Velocity of data is the measure of how fast the data is coming in.  
 - Data volume measures the amount of data available to an organization.
 - Data velocity measures the speed of data creation, streaming, and aggregation.
@@ -179,28 +189,29 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Velocity.</span>
+### Data <span style="color: #e49436"> Velocity.</span>
 - Earlier companies analyzed data using a batch process. 
 - A chunk of data, is submitted as a job to the server. The job gets executed and results are delivered. 
 - That scheme works when the incoming data rate is slower than the batch processing rate and when the result is useful despite the delay. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Velocity.</span>
+### Data <span style="color: #e49436"> Velocity.</span>
 
-- With the new sources of data such as social and mobile applications, the batch process breaks down. 
-- The data is now streaming into the server in real time, in a continuous fashion and the result is only useful if the delay is very short
+- New sources of data such as social and mobile applications, the batch process breaks down. 
+- Data is streaming into server in real time, in a continuous fashion 
+- Result is only useful if the delay is very short
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Variety.</span>
+### Data <span style="color: #e49436"> Variety.</span>
 - Data can help inform intelligent policy making 
 - It provides innovative kindling for investigative journalism, 
 - Even when data is freely available, it can be shared using data formats that are touch for consuption.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Data Variety.</span>
+### Data <span style="color: #e49436"> Variety.</span>
 
 - Data variety is a measure of the richness of the data representation – text, images video, audio, etc. 
 
@@ -210,7 +221,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Types of<span style="color: #e49436"> Data Versatility.</span>
+### <span style="color: #e49436"> Data Versatility.</span>
 - Versatility refers to the adaptability of a system to analytical queries of varying complexity. 
 - Versatility also refers to system flexibility in terms of query languages supported, and control in terms of data preparation, placement and management. 
 - Within this data lie valuable patterns and information, previously hidden because of the amount of work required to extract them
@@ -224,7 +235,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Benefits of bigdata</span>
+### <span style="color: #e49436"> Benefits of Bigdata</span>
 - Big data analytics reveals insights hidden previously by data too costly to process, 
 
 - It can be peer influence among customers, revealed by analyzing shoppers’ transactions and social and geographical data in real time. 
@@ -237,7 +248,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Benefits of bigdata</span>
+### <span style="color: #e49436"> Benefits of Bigdata</span>
 -  For  an online merchant, “the present” means the attention span of a potential customer. 
 
 -  Processing time of a transaction exceeds the customer’s attention span, the merchant doesn’t consider it real time.
@@ -319,20 +330,30 @@
 ### <span style="color: #e49436"> Hadoop</span>
 - Hadoop is a distributed data store. 
 
-- Reliability of this data store, coupled with its flexibility in running multiple processing frameworks makes it an ideal choice for your data hub. 
+- Reliability of data store, coupled with its flexibility in running multiple processing frameworks makes it an ideal choice. 
 
-- This characteristic of Hadoop means that you can store any type of data as is, without placing any constraints on how that data is processed.
+- Characteristic of Hadoop - Store any type of data as is, without placing any constraints on how that data is processed.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Hadoop</span>
 
-- Schema-on-Read. This simply refers to the fact that raw, unprocessed data can be loaded into Hadoop, with the structure imposed at processing time based on the requirements of the processing application.
-
-- Schema-on-Write, which is generally used with traditional data management systems. Such systems require the schema of the data store to be defined before the data can be loaded. This leads to lengthy cycles of analysis, data modeling, data transformation, loading, testing, and so on before data can be accessed.
+- Schema-on-Read. 
+  + Refers to the fact that raw, unprocessed data can be loaded into Hadoop, 
+  + Structure imposed at processing time 
+  + based on the requirements of the processing application.
 
 ---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Hadoop</span>
 
+- Schema-on-Write. 
+  + Used with traditional data management systems. 
+  + Such systems require the schema of the data store to be defined before the data can be loaded. 
+  + Leads to lengthy cycles of analysis, data modeling, data transformation, loading, testing, 
+  
+
+---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS</span>
 - HDFS is Hadoop distributed file system. 
@@ -355,6 +376,7 @@
 - Enables streaming access to file system data. 
 - Was originally built as infrastructure for the Apache Nutch web search engine project. 
 - It is now an Apache Hadoop subproject. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals </span>
@@ -368,24 +390,27 @@
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals</span>
 - Hardware Failure 
+
   + Hardware failure is the norm rather than the exception. 
   + HDFS instance may consist of hundreds or thousands of server machines.
   + Huge number of components interact 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals</span>
 - Hardware Failure 
+
   + Each component has a non-trivial probability of failure 
   + Some component of HDFS is always non-functional. 
-  + Therefore, detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS. 
+  + Detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals</span>
 - Streaming Data Access 
-    +  Applications on HDFS need streaming access to data sets. 
-    +  HDFS is designed more for batch processing rather than interactive use by users. 
-    +  Emphasis is on high throughput of data access rather than low latency of data access. 
+    + Applications on HDFS need streaming access to data sets. 
+    + HDFS is designed more for batch processing rather than interactive use by users. 
+    + Emphasis is on high throughput of data access rather than low latency of data access. 
     + POSIX imposes hard requirements that are targeted for HDFS. 
     + POSIX semantics in a few key areas has been traded to increase data throughput rates. 
 ---
@@ -415,6 +440,7 @@
    + HDFS uses larger block size of data. 
    + Block size in HDFS is 128 MB, 
    + Admin can raise it to 1 GB or higher. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">HDFS Differences</span>
@@ -447,14 +473,21 @@
 - Two files are used
   + the namespace image
   + the edit log
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Name Node</span>
 - File system metadata is stored on a metadata server. 
 - Metadata operations may be handled by a single metadata server
 - Cluster will configure multiple metadata servers as primary-backup failover pairs. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Name Node</span>
+
 - Includes the namespace, data location and access permissions. 
-- Clients contact the Name Node in order to perform common file system operations, such as open, close, rename, and delete. 
+- Clients contact the Name Node for file operations 
+- Common file system operations, such as open, close, rename, and delete. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -478,6 +511,7 @@
 - Stores HDFS blocks on behalf of local or remote clients. 
 - Block is saved as a separate file in the node’s local file system. 
 - Data Node abstracts away details of the local storage arrangement, 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">Node</span>
@@ -491,12 +525,14 @@
 - Scans through the local file system 
 - Creates a list of HDFS data blocks corresponding to each of these local files 
 - Sends this report to the Name node. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">Node</span>
 - Individual files are broken into blocks of a fixed size 
 - Distributed across multiple DataNodes in the cluster. 
 - The Name Node maintains metadata about the size and location of blocks and their replicas
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Client </span>
@@ -522,7 +558,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Blocks</span>
-- File system blocks are typically a few kilobytes in size, 
+- File system blocks are typically a few kilobytes in size 
 - Disk blocks are normally 512 bytes. 
 - Transparent to the file system user who is simply reading or writing a file of whatever length. 
 - There are tools to perform file system maintenance, such as df and fsck, that operate on the file system block level.
@@ -574,6 +610,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
+
 - Traditional local file systems support a persistent name space. 
 - Local file system views devices as being locally attached, 
 - The devices are not shared, and hence there is no need in the file system design to enforce device sharing semantics.
@@ -581,6 +618,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
+
 - HDFS supports a traditional hierarchical file organization. 
 - User or an application can create directories and store files inside these directories. 
 - File system namespace hierarchy is similar to most other existing file systems 
@@ -588,6 +626,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
+
 - Create and remove files, move a file from one directory to another, or rename a file. 
 - HDFS does not yet implement user quotas or access permissions. 
 - HDFS does not support hard links or soft links. 
@@ -596,6 +635,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
+
 - HDFS Federation, introduced in the 2.x release series, 
 - Allows a cluster to scale by adding name nodes, 
 - Manages a portion of the file system namespace.
@@ -603,6 +643,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
+
 - Each name node manages a namespace volume
 - Made up of the metadata for the namespace 
 - Made up of a block pool containing all the blocks for the files in the namespace. 
@@ -610,6 +651,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
+
 - Namespace volumes are independent of each other 
 - Name nodes do not communicate with one another 
 - Failure of one name node does not affect the availability of the namespaces managed by other name nodes. 
@@ -617,6 +659,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
+
 - Block pool storage is not partitioned 
 - Data nodes register with each name node in the cluster and store blocks from multiple block pools. 
 - To access a federated HDFS cluster, clients use client-side mount tables to map file paths to name nodes. 
@@ -625,6 +668,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### Function of <span style="color: #e49436"> Configuration Files </span>
+
 - Every machine in the Hadoop Cluster has its own set of configuration files. 
 - Earlier  Hadoop had a single configuration file: hadoop-site.xml. 
 - Subsequent versions of Hadoop split this file into multiple files based on functionality. 
@@ -648,6 +692,7 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436">Conf Files</span>
+
    + mapred-default.xml Default MapReduce properties. 
    + The file is located in the following JAR file: hadoop-mapreduce-client-core-2.2.0.jar (assuming version 2.2.0).
 
@@ -739,414 +784,205 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436"> Mutation engine</span>
-- Heart of a metamorphic virus is a mutation engine,
-- Responsible for transforming its program. 
-- takes an input program and morphs it to a structurally different but semantically equivalent program
-- Three modules of any mutation engine: 
-  + disassembly module, reverse engineering module, transformation module
+### <span style="color: #e49436"> Hadoop Env</span>
+
+- set the java path in JAVA_HOME
+- slaves:
+- localhost
+
+- Commands
+ - >hadoop namenode -format
+ - >start-all.sh
   
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">Worm</span>
+### <span style="color: #e49436">Failover</span>
 
-- Computer worm is a standalone malware computer program
-- Replicates itself in order to spread to other computers
-- Worms spread by exploiting vulnerabilities in operating systems.
-- Worm searches a vulnerable host to replicate itself 
+- Transition from the active namenode to the standby is managed by failover controller. 
+- There are various failover controllers, 
+- The default implementation uses ZooKeeper to ensure that only one namenode is active.
+
+---
+
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Graceful </span> Failover
+
+- Each namenode runs a lightweight failover controller process 
+- Job is to monitor its namenode for failures and trigger a failover should a namenode fail. 
+- Failover may also be initiated manually by an administrator, 
+- Example, in the case of routine maintenance. 
+- This is known as a graceful failover.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">Worm</span> Types
+### Ungraceful <span style="color: #e49436">Failover</span>
 
--  *Email-Worms*: Spreads via email messages.
--  *Instant-Messaging* Worms: Spread useing instant messaging applications
--  *File-sharing* worms copies itself into a shared folder
--  *Internet-worms* target low level TCP/IP ports directly
+- Case of an ungraceful failover,  
+- it is impossible to be sure that the failed namenode has stopped running. 
+- Example, a slow network or a network partition can trigger a failover transition, even though the previously active namenode is still running and thinks it is still the active name node. 
 
----
-<!-- .slide: data-autoslide="15000" -->
-
-### Difference <span style="color: #e49436">Worm - virus?</span>
-
-- Both are malware and can perform the same malicious actions.  
-- Viruses typically don’t self-propagate, and rely on users  to activate and transport the virus to a new destination.  
-- Worms are generally self-propagating, 
  
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436"> Trojan </span>
+### <span style="color: #e49436"> Fencing </span>
 
-- Trojan Horse is a destructive program that has been disguised
-- Looks like an innocuous software.
-- Worms / virus programs concealed in a Trojan Horse.
-- Trojan Horses are not viruses
-- They do not reproduce themselves and spread as viruses do
+- The HA implementation goes to great lengths to ensure that the previously active namenode is prevented from doing any damage and causing corruption of data
+- This is  known as fencing
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### Types of <span style="color: #e49436"> Trojan</span>
+### <span style="color: #e49436"> Stonith</span>
 
-Joke Trojans
-NVP Trojan
-IconDance Trojan
-Destructive Trojans
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436"> Joke Trojans </span>
-- Joke Trojan causes no damage 
-- Play an annoying sound from your computer's speaker, 
-- Warp the appearance or display a taunting message on the screen, 
-- Msg is "Now formatting hard drive!" 
-- are harmless and easily deleted.
-
----
-<!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436"> NVP Trojan</span>
-
-- Is a Macintosh Trojan horse 
-- Modifies the system file  
-- User types any text, the vowels (a, e, i, o, and u) fail to appear. 
-- Trojan masquerades as a utility program 
-
----
-<!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436"> IconDance Trojan</span>
-
-- IconDance Trojan minimizes all application windows 
-- Starts rapidly scrambling all the desktop icons. 
-- It does nothing more than make you take the time to reorganize your Windows desktop.
-
----
-<!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436"> Destructive Trojan </span>
-
-- Can either wipe out your hard drive or selectively delete or modify certain files. 
-- Although these are the most dangerous Trojans, their very nature tends to limit their spread: In the process of attacking your computer, they reveal their presence, often by displaying a taunting message on the screen. And, if they reformat your hard drive, they also wipe themselves out.
+- “shoot the other node in the head,”
+- Range of fencing mechanisms includes 
+- revoking the namenode’s access to the shared storage directory 
+- disabling its network port via a remote management command 
+- Last resort, the previously active namenode can be fenced with a technique rather graphically known as STONITH, 
+- Uses a specialized power distribution unit to forcibly power down the host machine.
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436"> Spyware</span>
+### <span style="color: #e49436"> Standard File formats </span>
 
-- Spyware is a type of malware
-- Aims to gather information about a person or organization
-- Info gathered without their knowledge,
-- Information sent to another entity without the consumer’s consent,
-- Variety of Spyware in circulation
+- Text data
+- Common use of Hadoop is the storage and analysis of logs such as web logs and server logs. 
+- Such text data, of course, comes in many other forms: CSV files, or unstructured data such as emails
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436"> Standard File formats </span>
+
+- Structured text data
+- Specialized form of text files is structured formats such as XML and JSON. 
+- Present special challenges with Hadoop since splitting XML and JSON files for processing is tricky, 
+- Hadoop does not provide a built-in InputFormat for either. 
+- JSON presents even greater challenges than XML, since there are no tokens to mark the beginning or end of a record.
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">Spyware-Types </span>(1/2)
-
-- Browser Hijack: Control web browser and display unsolicited advertisements.
-- Adware: Monitors online activities for targeted Pop-Up advertising.
-- Trojans: Make your computer vulnerable ti remote controll by hackers.
-- Profiling Cookies: Track your web surfing habits.
-- Keyboard Loggers and Trackware Programs: Capture and record your every keystroke, inlcuding personal information and passwords.
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Spyware-Types.. </span> (2/2)
-
-- Dialers Auto-dial toll calls without your permission.
-- Droneware Control your PC, to send spam or to host offense web images.
-- Web Bugs: A graphics designed to monitor the reader. Often invisible because they are typically only 1-by-1 pixel in size. They are represented as HTML IMG tags.
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436"> Grayware </span>
-
-- Browser hijacker - software that modifies the default browser behavior.
-- Homepage hijacker - modifies the default home page
-- Search hijacker modifies the default search engine of the browser.
-- Error page hijacker causes the browser to display a particular web site whenever a misspelled URL is entered into the address bar.
+### <span style="color: #e49436"> Standard File formats </span>
+- Binary data
+- Text is typically the most common source data format stored in Hadoop, 
+- Also use Hadoop to process binary files such as images. 
+- Storing and processing binary files in Hadoop, using a container format such as SequenceFile is preferred.
 
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">Zeus Trojan </span>
-
-- First spotted in 2007, 
-- specifically designed to create a botnet of compromised computers 
-- To be recruited for information stealing and financial fraud activities. 
-- Spreads through phishing and drive-by attacks 
-- collects information using various techniques like form grabbing and key-stroke monitoring.  
+### <span style="color: #e49436"> Hadoop File formats </span>
+- Splittable compression
+- Support common compression formats and are also splittable.  
+- The ability to split files can be a key consideration for storing data in Hadoop 
+- Allows large files to be split for input to MapReduce and other types of jobs. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">Zeus Trojan </span>
+### <span style="color: #e49436"> Hadoop File formats </span>
+- Agnostic compression
+- File can be compressed with any compression codec, 
+- Readers need not know the codec. 
+- Codec is stored in the header metadata of the file format
 
-- Estimate Zeus botnet had infected more than 3.6  million computers
-- toolkit comes with an easy installation procedure and customization mechanisms 
-- Zeus  uses  complicated  multilevel  obfuscation  mechanisms  
-- this is to avoid  detection and hinder any analysis procedure. 
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> File Based Storage</span>
+
+- SequenceFile format is one of the most commonly used file-based formats in Hadoop,
+- Every SequenceFile uses a common header format 
+- Contains basic metadata about the file, 
+  + compression codec used, key and value class names, user-defined metadata, and a randomly generated sync marker.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> File Based Storage</span>
+
+- Other file-based formats are available,  MapFiles, SetFiles, ArrayFiles, and BloomMapFiles.
+- Three formats available for records stored within SequenceFiles
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> File Based Storage</span>
+
+- Uncompressed
+- uncompressed SequenceFiles don’t provide any advantages over their compressed alternatives
+- They’re less efficient for input/output (I/O) and take up more space on disk than the same data in compressed form.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> File Based Storage</span>
+
+- Record-compressed
+- This format compresses each record as it’s added to the file. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> File Based Storage</span>
+
+- Block-compressed
+- Format waits until data reaches block size to compress, rather than as each record is added. 
+- Block compression provides better compression ratios compared to record-compressed SequenceFiles, 
+- The preferred compression option for SequenceFiles. 
+-  A block in block compression refers to a group of records that are compressed together within a single HDFS block.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Serialization</span>
+
+- Serialization refers to the process of turning data structures into byte streams 
+- Done for storage or transmission over a network. 
+- Deserialization is the process of converting a byte stream back into data structures. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Serialization</span>
+
+- Serialization is core to a distributed processing system such as Hadoop, 
+- It allows data to be converted into a format that can be efficiently stored as well as transferred across a network connection. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Serialization</span>
+
+- Serialization is commonly associated with two aspects of data processing in distributed systems:
+- interprocess communication (remote procedure calls, or RPC) and data storage. 
+- The main serialization format utilized by Hadoop is Writables. 
+- Writables are compact and fast, but not easy to extend or use from languages other than Java. 
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Thirft</span>
 
-### <span style="color: #e49436">Stuxnet worm</span>
-- Designed to specifically target SCADA systems   
-- Employ  PLC  rootkit technology that  allowed  PLC code  modifications. 
-- initially  found  to  target  Iranian  facilities.
-- quickly  spread  to various other countries. 
-- position as  one  of  the  most dangerous cyber weapons.
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Stuxnet worm</span>
-- Designed to propagate through various zero day vulnerabilities,   
-- Unknown  exploits on  print spooler service, Microsoft Windows Server services used  
-- features include 
-  + stolen component certificates, 
-  + complicated injection and hooking mechanisms, 
-  + dynamic updates  and specific antivirus evasion utilities. 
+- Thrift was developed at Facebook as a framework 
+- Developed for implementing cross-language interfaces to services. 
+- Uses an Interface Definition Language (IDL) to define interfaces, 
+- Uses an IDL file to generate stub code to be used in implementing RPC clients 
+- Allows us to implement a single interface that can be used with different languages to access different underlying systems. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Thirft</span>
 
-### <span style="color: #e49436">Dugu worm</span>
+- Thrift has several drawbacks: 
+- it does not support internal compression of records, 
+- it’s not splittable, and it lacks native MapReduce support. 
+- There are externally available libraries such as the Elephant Bird project to address these drawbacks,
+- Hadoop does not provide native support for Thrift as a data storage format. 
 
-- 2011 a  new  sophisticated  worm  attack  was  identified.  
-- Dugu was specifically designed  to  
-  + steal  passwords,  
-  + collect computer screenshots located on the infected machine. 
-- Dugu spreads through a previously unknown vulnerability in MS word documents
-- main purpose is to conduct industrial espionage.
-
----
-<!-- .slide: data-autoslide="2000" -->
-
-### <span style="color: #e49436">Recap</span>
-
----
-<!-- .slide: data-autoslide="2000" -->
-
-## Agenda
-- Botnets
-  + Botnets - types of botnet- Structure of bots – 
-  + Crime bots - Spamming bots - 
-  + DoS – DDoS Attacks – types - Honey Pots
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-
-- Term “botnet” coined from “robot networks.” 
-- Robot” has a Czech derivation from the word “robotovat,” which means “to work.” 
-- Botnet, therefore, is an apt definition: 
-- bots are highly adaptable worker bees that do their master’s bidding
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-- The overall architecture and implementation of botnets is complex
-- Evolving toward the use of common software engineering techniques such as modularity
-- The predominant remote control mechanism for botnets remains Internet Relay Chat (IRC) 
-- IRC includes a rich set of commands enabling a wide range of use
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-
-- Wide diversity of exploits for infecting target systems written into botnet codebases.
-- All botnets include denial of service (DoS) attack capability.
-- Shell encoding and packing mechanisms that can enable attacks to circumvent defensive systems are common
-- All botnets include a variety of sophisticated mechanisms for avoiding detection
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-
-- New botnets use different organizational techniques, including:
-- Decentralized Naming Resolution. 
-  + Using techniques pioneered by spammers botnets now act as their own DNS cloud, 
-  + avoid centralized name resolution. 
-  + Victims are instructed to use existing botnets for DNS resolution, avoiding the centralized use of naming services.
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-
-- Tor botnets. 
-  + IRC operators have reported botnets on the Undernet network connecting from TOR exit nodes. 
-  + Tor is a proxy network 
-  + Uses a type of MIX-net routing to anonymize traffic. 
-  + Botnets using Tor therefore pose difficult detection and response problems
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">BotNet</span>
-
-- Tunneling bots. 
-  + Increase in the number of bots that tunnel through existing protocols.
-  + Bots potentially use net news, web blogs, and other resources. 
-  + Fundamentally, these sorts of bots pose more of a problem for detection.
-
-
----
-<!-- .slide: data-autoslide="2000" -->
-
-### <span style="color: #e49436">Recap</span>
----
-
-<!-- .slide: data-autoslide="2000" -->
-
-## Agenda
-- Network forensics  
-  + Key Loggers - Port Scans – SYN flood - 
-  + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
-  + Wireshark – Capture and Display Filters - pcap analysis – Problems -  
-  + Forensic evidences - log analysis & evidence collection. 
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Key Loggers</span>
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Key Loggers</span>
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Port Scan</span>
-
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">SYN flood</span>
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Sniffing</span>
-- Sniffing is the electronic form of eavesdropping 
-- Carried out on communications, computers transmit across networks
-- Sniffing involves 
-  + capturing, decoding, inspecting and interpreting 
-  + information inside a network packet on a TCP/IP network. 
-- Acts as network probes for examining network traffic.
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Packer Sniffer</span>
-
-- Packet sniffer is a utility 
-- used since the original release of Ethernet. 
-- Allows individuals to capture data as it is transmitted over a network 
-- Used by network professionals to diagnose network issues, 
-- Malicious capture unencrypted data, like passwords and usernames.
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Active Sniffing</span>
-
-- Sniffing is performed on a switched network, known as active sniffing.
-- Relies on injecting packets into the network that causes traffic. 
-- Is required to bypass the segmentation that switches provided. 
-- Sniffers operate at the Data Link layer of the OSI model.  
-- Grab whatever they see on the wire and record it for later review. 
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Passive Sniffing</span>
-
-- Hubs see all traffic in the collision domain. 
-- Sniffing performed on a hub is known as passive sniffing.
-- Collision domain is a logical area of the network in which one or more data packets can collide with each other.
-- Passive sniffing worked well during the days that hubs were used. 
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Protocols - Sniffing</span>
-- Telnet and Re-login: 
-- HTTP: Passwords and data sent 
-- SNMP: SNMPv1 no good security. SNMP passwords sent in clear text.
-- NNTP: Passwords and data sent.
-- POP, IMAP: Passwords and data sent.
-- FTP: Passwords and data sent.
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Sniffing Tools</span>
-
-- Wireshark.
-- Tcpdump.
-- Dsniff.
-- NetStumbler.
-- Ettercap.
-- Ntop.
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Wireshark</span>
-- open source  tool with GUI
-- has more filtering  and sorting options,
-- first window shows packet capture, second packet detail and last raw data 
-- command line version called  Tshark.  
-- Supports more  than  1100 protocols. 
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Wireshark</span>
-
-- Supports  geolocalisation  of  MaxMind 
-- Cities and localities could be seen by given IPs giving the information of origin of packets. 
-- not  for  layman as it involves a lot of network layer filtering options.
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">TCPDump</span>
-
-- Used for packet capturing, network  monitoring  and  protocol  debugging.
-- Oldest and most commonly used command line tool, 
-- Free  and  open  source software.  
-- used  to  read  live  capture  or already captured log file
-- least overhead since no graphical  interface 
-- Captures data  in  libpcap  formats, 
 
 
 ---
