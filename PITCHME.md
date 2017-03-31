@@ -628,10 +628,10 @@
 ### Virus <span style="color: #e49436"> Core-site.xml  </span>
  
  <configuration>
-     <property>
-     <name>fs.defaultFS</name>
-     <value>hdfs://MastercomputerIP or localhost:9000</value>
-     </property>
+     property>
+     name>fs.defaultFS</name>
+     value>hdfs://MastercomputerIP or localhost:9000</value>
+     /property>
   </configuration>
 
 
