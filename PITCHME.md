@@ -712,7 +712,7 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> Core-site.xml  </span>
+### <span style="color: #e49436"> Core-site.xml  </span>
  
  <configuration>
  
@@ -729,7 +729,7 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> HDFS-site.xml  </span>
+### <span style="color: #e49436"> HDFS-site.xml  </span>
  
  <configuration>
  
@@ -746,7 +746,7 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> MaRed-site.xml  </span>
+### <span style="color: #e49436"> MaRed-site.xml  </span>
  
  <configuration>
  
@@ -762,7 +762,7 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> Yarn-site.xml  </span>
+### <span style="color: #e49436"> Yarn-site.xml  </span>
  
  <configuration>
  
