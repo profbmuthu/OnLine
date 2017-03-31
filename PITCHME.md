@@ -1,22 +1,20 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
-
-### Vulnerabilty Management
+### Hadoop Administration
 <br>
-<span style="color:#e49436">Play VM</span>
+<span style="color:#e49436">Play Hadoop</span>
 <br>
 <span style="color:gray">-</span>
 <br>
 <span style="color:#e49436">Dr.B.Muthukumaran</span>
-
 ---
 
 <!-- .slide: data-autoslide="2000" -->
 
 ## Agenda <span style="color: #e49436">Sessions</span>
-### <span class="fragment" data-fragment-index="1" data-autoslide="2000">Vulnerability Management <span style="color: #666666">.</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000"> Hadoop Management <span style="color: #666666">.</span>
 <br>
-### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Network Forensics<span style="color: #e49436">Security</span>. and <span style="color: #e49436">Guidelines</span>.</li>
+### <span class="fragment" data-fragment-index="2" data-autoslide="3500">Administration<span style="color: #e49436">Management</span>. and <span style="color: #e49436">Guidelines</span>.</li>
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -59,175 +57,235 @@
 ---
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">What is network?</span>
-
-- NW - Group or system of interconnected people or things.
-- Is a set of computers connected together for sharing resources.
-- Is a telecommunications network allowing computers to exchange data.
-- Computing devices exchange data with each other through data link.
-- Computers are connected with cable media and / or wireless media
-
+### <span style="color: #e49436">What is data?</span>
+- Data is information 
+- It is  translated into a form that is more convenient to move or process. 
+- From a business context, data is information converted into binary digital form.  
+- Data comes in different shapes, sizes, and granularity. 
+- It also comes with a lot of uncertainty attached.
 ---
 <!-- .slide: data-autoslide="11000" -->
-
-### <span style="color: #e49436">What is Protocol?</span>
-
-- The official procedure or system of rules
-- Rules for governing affairs of state or diplomatic occasion
-- Protocol - set of rules and guidelines for communicating data
-- Rules defined for each step of computer communication 
-- Networks follow these rules to successfully transmit data.
-
+### <span style="color: #e49436">What is dataset?</span>
+- Data is usually collected as data points. 
+- Means totals, averages, and medians are only a small part of what a data point is about.  
+- Connection between data and what it represents is key to visualization. 
+- Data is the key to data analysis and deeper understanding.
 ---
 <!-- .slide: data-autoslide="11000" -->
-
-### <span style="color: #e49436">What is TOPOLOGY?</span>
-
-- Shape of a local-area network (LAN) or other communications system
-- Four principal topologies used in LANs.
-   + *Bus topology*: Devices are connected to a central cable, called bus.
-   + *Ring topology*: Devices are connected to one another (closed Ring).
-   + *Star topology*: Devices are connected to a central hub (star).
-   + *Tree topology*: Combines bus and star topologies.
-
-
+### <span style="color: #e49436">What is dataset?</span>
+- Data set is a snapshot of data in time 
+- It captures something that moves and changes. 
+- It refers to data selected and arranged in rows and columns. 
+- Column represents a particular variable.  
+- Row corresponds to a given member of the data set in question. Each value is known as a datum. 
 ---
-### What is a <span style="color: #e49436">Vulnerability</span>? 
-
-- Vulnerability represents a weak point though in the system
-- Security of a computer can be breached through vulnerability.  
-- Vulnerability  is  a  programming  error  in  an  application  
-- Is exploited to gain access to the computer.
-
+<!-- .slide: data-autoslide="11000" -->
+### <span style="color: #e49436">What is dataset?</span>
+- Data set may comprise data for one or more members, corresponding to the number of rows 
+- Data set collection of data points forming aggregates and statistical summaries. 
+- Data set generates your  means, medians, and standard deviations.
+---
+<!-- .slide: data-autoslide="11000" -->
+### <span style="color: #e49436">Data Generation?</span>
+- Data is being generated faster and faster as more and more people take to the Web. 
+- Customers generate data of all kinds, 
+- Generated data is difficult to control.  
+- Information is now widely available on external events such as market trends, industry news, and competitors’ movements. 
+- Led to increasing interest in methods for extracting useful information and knowledge from data—the realm of data science.
+---
+### What is a <span style="color: #e49436">Types of Data</span>? 
+- Data regardless of type, location, and source increasingly has become a core business asset for an enterprise 
+- It is now categorized as belonging to two camps:
++ Internal data (enterprise application data) and
++ External data (e.g., web data)
+---
+<!-- .slide: data-autoslide="2000" -->
+### What is a <span style="color: #e49436">Types of Data</span>? 
+- There are two types of data in the real world:
++ Static data. (Collected Data). The volume of static data, for example national census data and human genomic data, will not change over time.
++ Dynamic data (Data being served continuously) Dynamic data, such as streaming log data and social network streaming data, the volume increases over time.
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> BigData.</span>
+- Hadoop software are revolutionizing the Internet services community 
+- Achieved by building scalable systems infrastructure for data intensive applications. 
+- Business best practices” - increasingly towards basing decisions off data  rather than instinct and theory
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> BigData.</span>
+- Corporate thirst for systems that can manage, process, and granularly analyze data is becoming insatiable. 
+- Venture capitalists are very much aware of this trend, 
+- Funded no fewer than a dozen new companies in recent years 
+- e.g., Netezza, Vertica, DATAllegro, Greenplum, Aster Data, Infobright, Kickfire, Dataupia, ParAccel, and Exasol), 
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> BigData.</span>
+- Big Data is data in large sizes 
+- It goes beyond the ability of commonly used software tools to collect, manage, and process within a tolerable elapsed time. 
+- Big data refers to datasets whose size is beyond the ability of typical database software tools
+- Used  to capture, store, manage, and analyze data. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> BigData.</span>
+- Big data essentially means datasets that are too large for traditional data processing systems.
+- It is data that exceeds the processing capacity of conventional database defined systems. 
+- It is too big, moves too fast, or doesn’t fit the strictures of conventional database architectures. 
+- Valuable patterns and information, previously hidden because of the amount of work required to extract them. 
+- It applies to information that can’t be processed or analyzed using traditional processes or tools. 
+- The value of big data to an organization falls into two categories: analytical use and enabling new products
+---
+<!-- .slide: data-autoslide="2000" -->
+### What is <span style="color: #e49436"> Characteristics of bigdata</span>
+- Big data has become viable 
+- Cost effective approaches have emerged to tame the volume, velocity, variety and variability of massive data. 
+- Three Vs of volume, velocity, and variety are commonly used 
+-  Helpful lens through which to view and understand the nature of the data 
+- Helpful to understand software platforms available to exploit them. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### What is <span style="color: #e49436"> Data Volume</span>
+- Amount of data being generated is increasing day by day. 
+- Rate of increase of data is accelerating continuously. 
+- Volume of data being made publicly available increases every year. 
+- Organizations no longer have to merely manage their own data. 
+- As data volume increases, the value of different data records will decrease in proportion to age, type, richness, and quantity among other factors. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is a <span style="color: #e49436">Vulnerability</span>? 
-
-- Networks are typically plagued by one or all of three primary vulnerabilities or weaknesses:
-  + Technology weaknesses 
-  + Configuration weaknesses 
-  + Security policy weaknesses 
-
----
-<!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Vulnerability detection.</span>
-
-- Vulnerability detection is  
-   + a continuously monitoring, always-on system  
-   + that can detect and alert administrators  
-   + to the presence of vulnerabilities as they appear.  
-
-
+### What is <span style="color: #e49436"> Data Volume</span>
+- Data generated from emails to Facebook posts, from purchase histories to web links, is contributing to the growth of data. 
+- Current challenge is in extracting value from this data.  
+- Sometimes this means particular data elements, and at other times, the focus is instead on identifying trends and relationships between pieces of data. 
+- Includes the current data volume
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436"> V.Scan.</span>
-
-- Scanning refers to the use of a scanning computer program 
-  + to evaluate a connected network and gather vulnerability information.
-- Scanning is the process of understand the vulnerability Risk and threat
-
-
----
-<!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Vulnerability scanner.</span>
-
-- Vulnerability scanner 
-  + is a computer program  
-  + specifically designed to search a given target 
-  + for weaknesses.  
-- Scanner systematically engages the target in an attempt to assess 
-  + where  the  target  is vulnerable to “attack”. 
-- Used either with good intention or maliciously.
-
+### <span style="color: #e49436"> Data Velocity.</span>
+- Velocity of data is the measure of how fast the data is coming in.  
+- Data volume measures the amount of data available to an organization.
+- Data velocity measures the speed of data creation, streaming, and aggregation.
+- eCommerce has rapidly increased the speed and richness of data used for different business transactions (for example, web-site clicks). 
+- Data velocity management is much more than a bandwidth issue; it is also an ingest issue.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Vulnerability scanner.</span>
-
-- Examples - Vulnerability scanner 
-  + Nessus 
-  + OpenVAS 
-  + NexPose  
-
+### <span style="color: #e49436"> Data Velocity.</span>
+- Earlier companies analyzed data using a batch process. 
+- A chunk of data, is submitted as a job to the server. The job gets executed and results are delivered. 
+- That scheme works when the incoming data rate is slower than the batch processing rate and when the result is useful despite the delay. 
+- With the new sources of data such as social and mobile applications, the batch process breaks down. 
+- The data is now streaming into the server in real time, in a continuous fashion and the result is only useful if the delay is very short
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Data Variety.</span>
+- Data can help inform intelligent policy making 
+- It provides innovative kindling for investigative journalism, 
+- Even when data is freely available, it can be shared using data formats that are touch for consuption.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Types of<span style="color: #e49436"> V.Scanning.</span>
-- Random Scanning
-- Hitlist scanning
-- Signpost scanning
-- Vertical, Horizontal scanning
-- Permutation scanning
-- Local subnet scanning
+### <span style="color: #e49436"> Data Variety.</span>
 
+- Data variety is a measure of the richness of the data representation – text, images video, audio, etc. 
 
----
-<!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Random Scan</span>
+- From an analytic perspective, it is probably the biggest obstacle to effectively using large volumes of data. 
 
-- Each compromised host probes random addresses in the IP address space.  
-- Code Red (CRv2) performed random scanning. 
-- Random scanning potentially creates a high traffic volume. 
-- Scanned addresses are in different networks, 
-- Disadvantage
-  + High amount of traffic leads to attack detection
-
+-Incompatible data formats, non-aligned data structures, and inconsistent data semantics represents significant challenges that can lead to analytic sprawl.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Hitlist Scan</span>
+### Types of<span style="color: #e49436"> Data Versatility.</span>
+- Versatility refers to the adaptability of a system to analytical queries of varying complexity. 
+- Versatility also refers to system flexibility in terms of query languages supported, and control in terms of data preparation, placement and management. 
+- Within this data lie valuable patterns and information, previously hidden because of the amount of work required to extract them
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Bigdata Challenges</span>
+- Increasingly, organizations today are facing more and more Big Data challenges. 
+- The emergence of big data into the enterprise brings with it a necessary counterpart: agility.
+- As data sizes grow, the concept of providing a single repository for all this data is not always the most practical solution.
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Benefits of bigdata</span>
+- Big data analytics reveals insights hidden previously by data too costly to process, 
 
-- Machine probes all addresses from an externally supplied list.  
-- Detects a vulnerable machine, sends a portion of the initial hitlist to the recipient and keeps the rest. 
-- Allows for great propagation speed and no collisions during the scanning phase. 
-- Disadvantage 
-  + Hitlist needs to be assembled in advance. 
-  + Portion of the hitlist needs to be transmitted to machines that are being infected. 
-  + Large, lists leads to attack detection.
+- It can be peer influence among customers, revealed by analyzing shoppers’ transactions and social and geographical data in real time. 
 
+- Meaning of “real time” varies depending on the context in which it is used. 
+
+- Real-time denotes the ability to process data as it arrives, 
+
+- It does not permit storing the data and retrieving it at some point in the future 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Signpost Scan</span>
- - Also called topological scanning 
- - takes advantage of habitual communication patterns of the compromised host to select new targets. 
- - Does not generate a high traffic load and thus reduces chances of attack detection.
- - Disadvantage 
-   + spreading speed depends on agent machines and their user behavior,
-   + Recruitment is slower.
-   
+### <span style="color: #e49436"> Benefits of bigdata</span>
+-  From the perspective of an online merchant, “the present” means the attention span of a potential customer. 
+
+-  If the processing time of a transaction exceeds the customer’s attention span, the merchant doesn’t consider it real time.
+
+-  From the perspective of an options trader, however, real time means milliseconds.
+
+-  From the perspective of a guided missile, real time means microseconds. 
+
+-  Real-time big data analytics is an iterative process involving multiple tools and systems.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Permutation Scan </span>(1/2)
-- All compromised machines share a common pseudo-random permutation of the IP address space
-- Each IP address is mapped to an index in this permutation.  
-- Is preceded by small hitlist scanning 
-- Machine infected during initial phase begins scanning through the permutation 
-- Uses the index computed from its IP address as a starting point. 
-- Always starts from a random point in the permutation. 
-
+### <span style="color: #e49436"> Hadoop</span>
+- Hadoop is based on the Google paper on MapReduce 
+- Paper published in 2004, with development from  2005. 
+- Hadoop was developed to support the open-source web search engine project called Nutch.
+- Hadoop separated from Nutch and became its own project under the Apache Foundation. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Permutation Scan </span> (2/2)
-- Seeing an already-infected machine, chooses a new random starting point. 
-- At threshold  a worm copy becomes dormant to minimize collisions. 
-- Disadvantage
-- As infection progresses, a large percentage of infected machines become dormant. 
-- This results in a very low number of duplicated scans and hinders detection.
-
+### <span style="color: #e49436"> Hadoop</span>
+- Hadoop is the best–known MapReduce framework in the market. 
+- Companies have grown around Hadoop to provide support, consulting, and training services for the Hadoop software. 
+- At its core, Hadoop is a Java–based MapReduce framework.  
+- Hadoop remained a system in which users submitted jobs that ran on the entire cluster.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436">Local Subnet Scan</span>
+### <span style="color: #e49436"> Hadoop</span>
+-  Jobs would be executed in a First In, First Out (FIFO) mode. 
+- However, this lead to situations in which a long-running, less important job would hog resources and not allow a smaller yet more important job to execute. 
+- To solve this problem, more complex job schedulers in Hadoop, such as the Fair Scheduler and Capacity Scheduler were created. 
+- But Hadoop still had scalability limitations that were a result of some deeply entrenched design decisions resulting in Hadoop 2.
 
-- Local subnet scanning scans for targets that reside on the same subnet as the compromised host. 
-- A single copy of the scanning program can compromise many vulnerable machines behind a firewall. 
-- The Code Red II and the Nimda Worm used local subnet scanning.
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Hadoop Hive </span>(1/2)
+- Hadoop Users realized that developing MapReduce programs is a very programming-intensive task, which makes it errorprone and hard to test. 
+- There was a need for more expressive languages such as SQL 
+- Required to enable users to focus on the problem instead of low-level implementations of typical SQL artifacts 
+- Apache Hive evolved to provide a data warehouse (DW) capability to large datasets. 
+- Users can express their queries in Hive Query Language, which is very similar to SQL. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Hadoop Hive </span>(1/2)
+- The Hive engine converts these queries to low-level MapReduce jobs transparently. 
+- More advanced users can develop user-defined functions (UDFs) in Java. 
+- Hive also supports standard drivers such as ODBC and JDBC. 
+- Hive is also an appropriate platform to use when developing Business Intelligence (BI) types of applications for data stored in Hadoop.
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Hadoop Pig </span> (2/2)
+- Motivation for Pig was similar to Hive 
+- Hive is a SQL-like language, which is declarative. 
+- Pig is a procedural language that works well in data pipeline scenarios. 
+- Pig appeals to programmers who develop data-processing pipelines  
+- It is also an appropriate platform to use for extract, load, and transform (ELT) types of applications.
 
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Hadoop Hbase</span>
+- All the preceding projects, including MapReduce, are batch processes. 
+- There is a strong need for real–time data lookup in Hadoop. 
+- Hadoop did not have a native key/value store. 
+- Consider a Social Media site such as Facebook. 
+- If you want to look up a friend’s profile, you expect to get an answer immediately (not after a long batch job runs).
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -833,7 +891,6 @@ Destructive Trojans
 
 
 ![Thanks](images/thanks.png)
-
 
 
 
