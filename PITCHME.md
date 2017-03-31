@@ -53,10 +53,8 @@
   + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
   + Wireshark – Capture and Display Filters - pcap analysis – Problems -  
   + Forensic evidences - log analysis & evidence collection. 
-  
----
+  ---
 <!-- .slide: data-autoslide="11000" -->
-
 ### <span style="color: #e49436">What is data?</span>
 - Data is information 
 - It is  translated into a form that is more convenient to move or process. 
@@ -220,13 +218,11 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Benefits of bigdata</span>
--  From the perspective of an online merchant, “the present” means the attention span of a potential customer. 
+-  For  an online merchant, “the present” means the attention span of a potential customer. 
 
--  If the processing time of a transaction exceeds the customer’s attention span, the merchant doesn’t consider it real time.
+-  Processing time of a transaction exceeds the customer’s attention span, the merchant doesn’t consider it real time.
 
--  From the perspective of an options trader, however, real time means milliseconds.
-
--  From the perspective of a guided missile, real time means microseconds. 
+-  For an options trader,  real time means milliseconds. For a guided missile, real time means microseconds. 
 
 -  Real-time big data analytics is an iterative process involving multiple tools and systems.
 
@@ -234,8 +230,11 @@
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Hadoop</span>
 - Hadoop is based on the Google paper on MapReduce 
+
 - Paper published in 2004, with development from  2005. 
+
 - Hadoop was developed to support the open-source web search engine project called Nutch.
+
 - Hadoop separated from Nutch and became its own project under the Apache Foundation. 
 
 ---
@@ -271,7 +270,7 @@
 - Hive is also an appropriate platform to use when developing Business Intelligence (BI) types of applications for data stored in Hadoop.
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Hadoop Pig </span> (2/2)
+### <span style="color: #e49436"> Hadoop Pig </span> 
 - Motivation for Pig was similar to Hive 
 - Hive is a SQL-like language, which is declarative. 
 - Pig is a procedural language that works well in data pipeline scenarios. 
@@ -289,181 +288,355 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Horizontal Scanning </span>
+### <span style="color: #e49436"> Hadoop</span>
+- Hadoop is a distributed data store. 
 
-- This is the common type of the scan for worms. 
-- Scanning machines are looking for a specific vulnerability, 
-- Scans the same destination port on all machines from the list, 
-- List assembled through host scanning techniques
+- Reliability of this data store, coupled with its flexibility in running multiple processing frameworks makes it an ideal choice for your data hub. 
 
-
----
-<!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436">Vertical Scanning </span>
-
-- This is the common type of the scan for intrusions and multiple vector worms. 
-- Scanning machines probe multiple ports at a single destination, looking for any way to break in.
-
-
+- This characteristic of Hadoop means that you can store any type of data as is, without placing any constraints on how that data is processed.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk</span>
+### <span style="color: #e49436"> Hadoop</span>
 
-- Risk is a potential future harm   
-- May arise from some present action such as, a schedule slip or a cost overrun. 
-- Loss is often considered in terms of direct financial loss  
-- Also  be a loss in terms of credibility, future business, 
-- Also  be loss of property or life. 
+- Schema-on-Read. This simply refers to the fact that raw, unprocessed data can be loaded into Hadoop, with the structure imposed at processing time based on the requirements of the processing application.
+
+- Schema-on-Write, which is generally used with traditional data management systems. Such systems require the schema of the data store to be defined before the data can be loaded. This leads to lengthy cycles of analysis, data modeling, data transformation, loading, testing, and so on before data can be accessed.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk classification</span>
-
-
-
----
-<!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk assessment</span>
-
-- Risk assessment involves 
-  + risk identification
-  + risk analysis
-  + risk prioritization. 
+### <span style="color: #e49436">HDFS</span>
+- HDFS is Hadoop distributed file system. 
+- Designed to run on commodity hardware. 
+- Built to support high throughput, streaming reads and writes of huge files. 
+- Highly fault-tolerant 
+- Designed to be deployed on low-cost hardware. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk Matrix</span>
-
-
-
+### <span style="color: #e49436">HDFS</span>
+- Offers centralized, low-latency access to large file systems. 
+- It has many similarities with existing distributed file systems. 
+- Relaxes a few POSIX requirements 
+- Enables streaming access to file system data. 
+- Was originally built as infrastructure for the Apache Nutch web search engine project. 
+- It is now an Apache Hadoop subproject. 
+---
+<!-- .slide: data-autoslide="2000" -->
+###  <span style="color: #e49436">Goals </span>
+- Large Data Sets 
++	Applications that run on HDFS have large data sets. 
++	A typical file in HDFS is gigabytes to terabytes in size. Thus, HDFS is tuned to support large files. 
++	It should provide high aggregate data bandwidth and scale to hundreds of nodes in a single cluster. 
++	It should support tens of millions of files in a single instance. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Risk Mitigation</span>
-
-
-
+###  <span style="color: #e49436">Goals</span>
+- Hardware Failure 
++ Hardware failure is the norm rather than the exception. 
++ HDFS instance may consist of hundreds or thousands of server machines.
++ Huge number of components interact 
+---
+<!-- .slide: data-autoslide="2000" -->
+###  <span style="color: #e49436">Goals</span>
+- Hardware Failure 
++ Each component has a non-trivial probability of failure 
++ Some component of HDFS is always non-functional. 
++ Therefore, detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">W.Risk</span>
-
-
-
+###  <span style="color: #e49436">Goals</span>
+- Streaming Data Access 
+    +  Applications on HDFS need streaming access to data sets. 
+    +  HDFS is designed more for batch processing rather than interactive use by users. 
+    +  Emphasis is on high throughput of data access rather than low latency of data access. 
+     + POSIX imposes hard requirements that are targeted for HDFS. 
+      + POSIX semantics in a few key areas has been traded to increase data throughput rates. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">HDFS Similarities</span>
+- HDFS has many similarities to a traditional file system. The following are some of them:
+   + Files are stored in blocks. 
+   + Metadata is available, which keeps track of filenames to block mapping.
+   + It also supports the directory tree structure, as a traditional file system.
+   + It works on the permission model. 
+   + You can give different access rights on the file to different users.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Threat</span>
+###  <span style="color: #e49436">HDFS Differences</span>
+-  Very low storage cost per byte: 
+   + HDFS uses commodity storage 
+   + Shares the cost of the network it runs on with other systems of the Hadoop stack. 
+   + Reduces the total cost of ownership. 
+   + Allows an organization to store the same amount of data at a very low cost compared to traditional NAS or SAN systems.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Threat</span>
+### <span style="color: #e49436">HDFS Differences</span>
+- Block size for the data: 
+   + Traditional file systems generally use around 8 KB block size for the data, 
+   + HDFS uses larger block size of data. 
+    + Block size in HDFS is 128 MB, 
+    + Admin can raise it to 1 GB or higher. 
+---
+<!-- .slide: data-autoslide="2000" -->
+###  <span style="color: #e49436">HDFS Differences</span>
+- Larger block size ensures that the data can be read and written in large sequential operations. 
+- It can improve performance 
+- it minimizes drive seek operations, especially when performing large I/O streaming operations.
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">HDFS Differences</span>
+-  Data protection mechanisms: 
 
-- Inexperienced individuals use easily available hacking tools 
-- Test shell scripts and password crackers. 
-- executed with the intent of testing and challenging a hacker’s skills 
-- Can do serious damage to a company. 
+   + Traditional file systems use specialized data storage for data protection. 
+   + HDFS replicates each block to multiple machines in the cluster. 
+   + By default, it replicates the data block to three nodes. 
+   + Ensures data reliability and high availability
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Structured <span style="color: #e49436">Threat</span>
-
-- Come from hackers who are highly motivated and technically competent. 
-- Know system vulnerabilities and understand and develop exploit code and scripts. 
-- Understand, develop, and use sophisticated hacking techniques 
-- Penetrate unsuspecting businesses. 
-- Often involved with the major fraud and theft cases reported to law enforcement agencies. 
-
----
-<!-- .slide: data-autoslide="2000" -->
-### External <span style="color: #e49436">Threat</span>
-
-— External threats can arise from individuals or organizations working outside of a company. 
-- Do not have authorized access to the computer systems or network.
-- Work their way into a network mainly from the Internet or dialup access servers. 
-
+### What is <span style="color: #e49436">Name Node</span>
+- Is a centralized service in the cluster operating on a single node. 
+- Manages the file system namespace 
+- This is file system tree and the metadata for all the files and directories are maintained. 
+- It is the arbitrator and repository for all HDFS metadata. 
+- Is designed in such a way that user data never flows through the Name Node. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Internal <span style="color: #e49436">Threat</span>
-- Internal threats occur when someone has authorized access to the network 
-- Work with either an account on a server or physical access to the network. 
-- Internal access and misuse account for 60 percent to 80 percent of reported incidents
+### What is <span style="color: #e49436">Name Node</span>
+- Maintains and stores the namespace tree and the mapping of file blocks to Data Nodes 
+- Two files are used
+  + the namespace image
+  + the edit log
+---
+<!-- .slide: data-autoslide="2000" -->
+### What is <span style="color: #e49436">Name Node</span>
+- File system metadata is stored on a metadata server. 
+- Metadata operations may be handled by a single metadata server
+- Cluster will configure multiple metadata servers as primary-backup failover pairs. 
+- Includes the namespace, data location and access permissions. 
+- Clients contact the Name Node in order to perform common file system operations, such as open, close, rename, and delete. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-## Agenda
-- Malware Concetps 
-  + Virus - Components - Function of replicator, 
-  + concealer and dispatcher- Trigger Mechanisms- Virus families  
-  + worms - Types - Families - sandboxing
-  + Trojans and Backdoors, Types of Trojans - 
+### What is <span style="color: #e49436">Heart Beat</span>
+- Name Node does not store HDFS data 
+- Maintains a mapping between HDFS file name, a list of blocks in the file, and the Data Node(s) on which those blocks are stored. 
+- Periodically receives a Heartbeat and a Block report from each of the Data Nodes in the cluster. 
+- Receipt of a Heartbeat implies that the Data Node is functioning properly. 
+- Block report contains a list of all blocks on a Data Node.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Data Node</span>
+- Daemon responsible for storing and retrieving block data is called the datanode (DN). 
+- Responsible for serving read and write requests from clients 
+- Perform block operations upon instructions from name node. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Data Node</span>
+- Stores HDFS blocks on behalf of local or remote clients. 
+- Block is saved as a separate file in the node’s local file system. 
+- Data Node abstracts away details of the local storage arrangement, 
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Data Node</span>
+- Nodes do not have to use the same local file system. 
+- Blocks are created or destroyed on Data Nodes at the request of the Name Node, which validates and processes requests from clients. 
+- Clients communicate directly with Data Nodes in order to read or write data at the HDFS block level. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Data Node</span>
+- Data node normally has no knowledge about HDFS files. 
+- Scans through the local file system 
+- Creates a list of HDFS data blocks corresponding to each of these local files 
+- Sends this report to the Name node. 
+---
+<!-- .slide: data-autoslide="2000" -->
+### Unstructured <span style="color: #e49436">Data Node</span>
+- Individual files are broken into blocks of a fixed size 
+- Distributed across multiple DataNodes in the cluster. 
+- The Name Node maintains metadata about the size and location of blocks and their replicas
+---
+<!-- .slide: data-autoslide="2000" -->
+### Structured <span style="color: #e49436">Client </span>
+- Client is an api of applications. 
+- Communicates with the Namenode for metadata 
+- Once received it directly runs operations on the Datanodes. 
+- If the operation is a MapReduce operation, the client creates a job and sends it to the queue. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Structured <span style="color: #e49436">Client </span>
+- JobTracker handles this queue. 
+- Client perform file metadata operations such as create file and open file, at the NameNode over an RPC protocol and read/write the data of a file directly to DataNodes using a streaming socket protocol called the data-transfer protocol.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### External <span style="color: #e49436">Blocks</span>
+- Disk has a block size, 
+- is the minimum amount of data that it can read or write. 
+- File systems for a single disk build by dealing with data in blocks, 
+- An integral multiple of the disk block size. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### External <span style="color: #e49436">Blocks</span>
+- File system blocks are typically a few kilobytes in size, 
+- Disk blocks are normally 512 bytes. 
+- Transparent to the file system user who is simply reading or writing a file of whatever length. 
+- There are tools to perform file system maintenance, such as df and fsck, that operate on the file system block level.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Internal <span style="color: #e49436">Large blocks</span>
+- HDFS, has the concept of a block
+- Much larger unit 128 MB. 
+- Files in HDFS are broken into block-sized chunks, 
+- Stored as independent units.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Internal <span style="color: #e49436">Large blocks</span>
+- Are large compared to disk blocks, the reason is to minimize the cost of seeks. 
+- By making a block large enough, the time to transfer the data from the disk can be significantly longer than the time to seek to the start of the block. 
+- The time to transfer a large file made of multiple blocks operates at the disk transfer rate. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### Internal <span style="color: #e49436">Large blocks</span>
+- Having a block abstraction for a distributed filesystem brings several benefits. 
+- File can be larger than any single disk in the network. 
+- Take advantage of any of the disks in the cluster. 
+- In fact, it would be possible, if unusual, to store a single file on an HDFS cluster whose blocks filled all the disks in the cluster
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-
-### What is <span style="color: #e49436">Malware </span>
-
-- Malware, short for malicious software
-- Is an umbrella term used to refer forms of hostile software
-- Is any software used to disrupt computer or mobile operations
-- Used to gather sensitive information and gain access to private computer systems
-- Used to display unwanted advertising
-- Includes computer viruses, worms, trojan horses, ransomware, spyware, adware, scareware, and other malicious programs
+### What is <span style="color: #e49436">Large Blocks </span>
+- Making the unit of abstraction a block rather than a file simplifies the storage subsystem. 
+- Storage subsystem deals with blocks, simplifying storage management and eliminating metadata concerns 
+- Blocks are just chunks of data to be stored, 
+- file metadata such as permissions information does not need to be stored with the blocks, so another system can handle metadata separately
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Large blocks </span>
+-  Blocks fit well with replication for providing fault tolerance and availability. 
+- Insure against corrupted blocks and disk and machine failure, 
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Large blocks </span>
+- Block is replicated to a small number of physically separate machines.
+- Block becomes unavailable, a copy can be read from another location in a way that is transparent to the client.
+- Block that is no longer available due to corruption or machine failure can be replicated from its alternative locations 
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> File system Namespace</span>
+- Traditional local file systems support a persistent name space. 
+- Local file system views devices as being locally attached, 
+- The devices are not shared, and hence there is no need in the file system design to enforce device sharing semantics.
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> File system Namespace</span>
+- HDFS supports a traditional hierarchical file organization. 
+- User or an application can create directories and store files inside these directories. 
+- File system namespace hierarchy is similar to most other existing file systems 
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> File system Namespace</span>
+- Create and remove files, move a file from one directory to another, or rename a file. 
+- HDFS does not yet implement user quotas or access permissions. 
+- HDFS does not support hard links or soft links. 
+- HDFS architecture does not preclude implementing these features
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Federation </span>
+- HDFS Federation, introduced in the 2.x release series, 
+- Allows a cluster to scale by adding name nodes, 
+- Manages a portion of the file system namespace.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-
-### <span style="color: #e49436">Virus </span>
-
-- A computer virus is a malicious software program
-- When executed, replicates by reproducing itself
-- Infects other computer programs by modifying them.
-- Infecting computer programs includes, data files, or “boot” sector of the hard drive.
-- Viruses use different stealth strategies to avoid detection
-
+###  <span style="color: #e49436"> Federation </span>
+- Each name node manages a namespace volume
+- Made up of the metadata for the namespace 
+- Made up of a block pool containing all the blocks for the files in the namespace. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> Components </span>
-
-
----
-<!-- .slide: data-autoslide="15000" -->
-### Function of <span style="color: #e49436"> replicator </span>
-
-- helps in multiplication of the virus
-- Job to ensure survival of the virus 
-- Achieved by appending  themselves  to  legitimate  programs  in  the  machine. 
-- Program is run then the virus will 'wake up' and start to reproduce.
+###  <span style="color: #e49436"> Federation </span>
+- Namespace volumes are independent of each other 
+- Name nodes do not communicate with one another 
+- Failure of one name node does not affect the availability of the namespaces managed by other name nodes. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Function of <span style="color: #e49436"> Concealer </span>
-
-- Job  of  hiding  the  virus.  
-- Uses  a  number  of  methods  to  do  this    
-- Today's  viruses  use  advance  techniques to stop being caught from Antivirus software
-
----
-<!-- .slide: data-autoslide="15000" -->
-### Function of <span style="color: #e49436">Payload</span>
-
-- Payload  of  a  virus  can  be  practically  anything, 
-in fact if it can be programmed then it can be the payload.  
-If  an  obvious  payload  gets  delivered  soon  after infection then the user is soon going to notice and will go 
-virus  hunting.  This  does  not  help  the  long  life  or  wide spread of a virus
-
+###  <span style="color: #e49436"> Federation </span>
+- Block pool storage is not partitioned 
+- Data nodes register with each name node in the cluster and store blocks from multiple block pools. 
+- To access a federated HDFS cluster, clients use client-side mount tables to map file paths to name nodes. 
+- This is managed in configuration using ViewFileSystem and the viewfs:// URIs.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Function of <span style="color: #e49436"> Trigger</span>
-
+### Function of <span style="color: #e49436"> Configuration Files </span>
+- Every machine in the Hadoop Cluster has its own set of configuration files. 
+- Earlier  Hadoop had a single configuration file: hadoop-site.xml. 
+- Subsequent versions of Hadoop split this file into multiple files based on functionality. 
+- Additionally, there are two types of configuration files: 
+   +  *-default.xml  
+   +  *-site.xml. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### Virus <span style="color: #e49436"> Types </span>
+### <span style="color: #e49436">conf Files</span>
+-  *-site.xml file configurations override the ones in the *-default.xml file. The *-default.xml files are read-only and are read directly from the JAR files in the classpath.
+   +  core-default.xml Default core Hadoop properties. 
+   + The file is located in the following JAR file: hadoop-common-2.2.0.jar (assuming version 2.2.0).
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436">conf Files</span>
+   +  hdfs-default.xml Default HDFS properties. 
+   + The file is located in the following JAR file: hadoop-hdfs-2.2.0.jar (assuming version 2.2.0).
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">conf Files</span>
+   + mapred-default.xml Default MapReduce properties. 
+   + The file is located in the following JAR file: hadoop-mapreduce-client-core-2.2.0.jar (assuming version 2.2.0).
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">conf Files</span>
+   +  yarn-default.xml Default YARN properties. 
+   + The file is located in the following JAR file: hadoop-yarn-common-2.2.0.jar (assuming version 2.2.0).
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436"> Installation Procedure</span>
+
+- Required software for Linux include:
++  Java™ must be installed.
++  ssh must be installed and sshd must be running to use the Hadoop scripts that manage remote Hadoop daemons.
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> Core-site.xml  </span>
+ configuration
+
+     property
+
+         name>fs.defaultFS</name
+
+         value>hdfs://MastercomputerIP or localhost:9000</value
+
+     /property
+
+  /configuration
 
 
 
