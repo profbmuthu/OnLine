@@ -616,7 +616,7 @@
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Large blocks</span>
 - HDFS, has the concept of a block
-- Much larger unit 128 MB. 
+- Much larger unit 64 MB. 
 - Files in HDFS are broken into block-sized chunks, 
 - Stored as independent units.
 
@@ -680,6 +680,43 @@
 - HDFS does not yet implement user quotas or access permissions. 
 - HDFS does not support hard links or soft links. 
 - HDFS architecture does not preclude implementing these features
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Block Storage Service</span>
+
+- Block Storage Service, which has two parts:
+  + Block Management (performed in the Namenode)
+      + Provides Datanode cluster membership by handling registrations, and periodic heart beats.
+      + Processes block reports and maintains location of blocks.
+      + Supports block related operations such as create, delete, modify and get block location.
+      + Manages replica placement, block replication for under replicated blocks, and deletes blocks that are over replicated.
+    
+   + Storage - is provided by Datanodes by storing blocks on the local file system and allowing read/write access.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Block Pool</span>
+- Block Pool is a set of blocks that belong to a single namespace. 
+- Datanodes store blocks for all the block pools in the cluster. 
+- Each Block Pool is managed independently. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Block Pool</span>
+
+- This allows a namespace to generate Block 
+IDs for new blocks without the need for coordination with the other namespaces. 
+- A Namenode failure does not prevent the Datanode from serving other Namenodes in the cluster.
+- A Namespace and its block pool together are called Namespace Volume. 
+- It is a self-contained unit of management. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Block Pool</span>
+
+- When a Namenode/namespace is deleted, the corresponding block pool at the Datanodes is deleted. 
+- Each namespace volume is upgraded as a unit, during cluster upgrade.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -1011,6 +1048,38 @@
   +  Cross-rack network I/O is reduced.
   +  Spread HDFS data uniformly across the DataNodes in the cluster.
   +  HDFS provides a tool for administrators that analyzes block placement and rebalanaces data across the DataNode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Staging</span>
+
+- client request to create a file does not reach the NameNode immediately. 
+- HDFS client caches the file data into a temporary local file. 
+- Application writes are transparently redirected to this temporary local file. 
+- When the local file accumulates data worth over one HDFS block size, the client contacts the NameNode. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Staging</span>
+
+- NameNode inserts the file name into the file system hierarchy and allocates a data block for it. 
+- NameNode responds to the client request with the identity of the DataNode and the destination data block. 
+- Then the client flushes the block of data from the local temporary file to the specified DataNode. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Staging</span>
+
+- When a file is closed, the remaining un-flushed data in the temporary local file is transferred to the DataNode. 
+- The client then tells the NameNode that the file is closed. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Staging</span>
+
+- NameNode commits the file creation operation into a persistent store. 
+- If the NameNode dies before the file is closed, the file is lost.
+- The approach has been adopted after careful consideration of target applications that run on HDFS. .
 
 ---
 <!-- .slide: data-autoslide="15000" -->
