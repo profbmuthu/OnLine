@@ -27,6 +27,7 @@
   + Phishing – mail header analysiw
 
 ---
+
 <!-- .slide: data-autoslide="2000" -->
 ### Agenda
 - Malware Concetps 
@@ -36,31 +37,16 @@
   + Trojans and Backdoors, Types of Trojans - 
 
 ---
-<!-- .slide: data-autoslide="2000" -->
 
-### Agenda
-- Botnets
-  + Botnets - types of botnet- Structure of bots – 
-  + Crime bots - Spamming bots - 
-  + DoS – DDoS Attacks – types - Honey Pots
-
----
-<!-- .slide: data-autoslide="2000" -->
-
-### Agenda
-- Network forensics  
-  + Key Loggers - Port Scans – SYN flood - 
-  + Protocols Susceptible to Sniffing - Active and Passive Sniffing- 
-  + Wireshark – Capture and Display Filters - pcap analysis – Problems -  
-  + Forensic evidences - log analysis & evidence collection. 
-  ---
 <!-- .slide: data-autoslide="11000" -->
+
 ### <span style="color: #e49436">What is data?</span>
 - Data is information 
 - It is  translated into a form that is more convenient to move or process. 
 - From a business context, data is information converted into binary digital form.  
 - Data comes in different shapes, sizes, and granularity. 
 - It also comes with a lot of uncertainty attached.
+
 ---
 <!-- .slide: data-autoslide="11000" -->
 ### <span style="color: #e49436">What is dataset?</span>
@@ -68,46 +54,58 @@
 - Means totals, averages, and medians are only a small part of what a data point is about.  
 - Connection between data and what it represents is key to visualization. 
 - Data is the key to data analysis and deeper understanding.
+
 ---
 <!-- .slide: data-autoslide="11000" -->
+
 ### <span style="color: #e49436">What is dataset?</span>
 - Data set is a snapshot of data in time 
 - It captures something that moves and changes. 
 - It refers to data selected and arranged in rows and columns. 
 - Column represents a particular variable.  
 - Row corresponds to a given member of the data set in question. Each value is known as a datum. 
+
 ---
 <!-- .slide: data-autoslide="11000" -->
+
 ### <span style="color: #e49436">What is dataset?</span>
 - Data set may comprise data for one or more members, corresponding to the number of rows 
 - Data set collection of data points forming aggregates and statistical summaries. 
 - Data set generates your  means, medians, and standard deviations.
+
 ---
 <!-- .slide: data-autoslide="11000" -->
+
 ### <span style="color: #e49436">Data Generation?</span>
 - Data is being generated faster and faster as more and more people take to the Web. 
 - Customers generate data of all kinds, 
 - Generated data is difficult to control.  
 - Information is now widely available on external events such as market trends, industry news, and competitors’ movements. 
 - Led to increasing interest in methods for extracting useful information and knowledge from data—the realm of data science.
+
 ---
-### What is a <span style="color: #e49436">Types of Data</span>? 
+
+### <span style="color: #e49436">Types of Data</span>? 
 - Data regardless of type, location, and source increasingly has become a core business asset for an enterprise 
 - It is now categorized as belonging to two camps:
 + Internal data (enterprise application data) and
 + External data (e.g., web data)
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is a <span style="color: #e49436">Types of Data</span>? 
+
+### <span style="color: #e49436">Types of Data</span>? 
 - There are two types of data in the real world:
 + Static data. (Collected Data). The volume of static data, for example national census data and human genomic data, will not change over time.
 + Dynamic data (Data being served continuously) Dynamic data, such as streaming log data and social network streaming data, the volume increases over time.
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
+
 - Hadoop software are revolutionizing the Internet services community 
 - Achieved by building scalable systems infrastructure for data intensive applications. 
 - Business best practices” - increasingly towards basing decisions off data  rather than instinct and theory
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
@@ -115,6 +113,7 @@
 - Venture capitalists are very much aware of this trend, 
 - Funded no fewer than a dozen new companies in recent years 
 - e.g., Netezza, Vertica, DATAllegro, Greenplum, Aster Data, Infobright, Kickfire, Dataupia, ParAccel, and Exasol), 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
@@ -122,35 +121,48 @@
 - It goes beyond the ability of commonly used software tools to collect, manage, and process within a tolerable elapsed time. 
 - Big data refers to datasets whose size is beyond the ability of typical database software tools
 - Used  to capture, store, manage, and analyze data. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
 - Big data essentially means datasets that are too large for traditional data processing systems.
 - It is data that exceeds the processing capacity of conventional database defined systems. 
 - It is too big, moves too fast, or doesn’t fit the strictures of conventional database architectures. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> BigData.</span>
+
 - Valuable patterns and information, previously hidden because of the amount of work required to extract them. 
 - It applies to information that can’t be processed or analyzed using traditional processes or tools. 
 - The value of big data to an organization falls into two categories: analytical use and enabling new products
+
 ---
 <!-- .slide: data-autoslide="2000" -->
+
 ### What is <span style="color: #e49436"> Characteristics of bigdata</span>
 - Big data has become viable 
 - Cost effective approaches have emerged to tame the volume, velocity, variety and variability of massive data. 
 - Three Vs of volume, velocity, and variety are commonly used 
--  Helpful lens through which to view and understand the nature of the data 
+- Helpful lens through which to view and understand the nature of the data 
 - Helpful to understand software platforms available to exploit them. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436"> Data Volume</span>
+### <span style="color: #e49436"> Data Volume</span>
 - Amount of data being generated is increasing day by day. 
 - Rate of increase of data is accelerating continuously. 
 - Volume of data being made publicly available increases every year. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Data Volume</span>
 - Organizations no longer have to merely manage their own data. 
 - As data volume increases, the value of different data records will decrease in proportion to age, type, richness, and quantity among other factors. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436"> Data Volume</span>
+### <span style="color: #e49436"> Data Volume</span>
 - Data generated from emails to Facebook posts, from purchase histories to web links, is contributing to the growth of data. 
 - Current challenge is in extracting value from this data.  
 - Sometimes this means particular data elements, and at other times, the focus is instead on identifying trends and relationships between pieces of data. 
@@ -171,8 +183,14 @@
 - Earlier companies analyzed data using a batch process. 
 - A chunk of data, is submitted as a job to the server. The job gets executed and results are delivered. 
 - That scheme works when the incoming data rate is slower than the batch processing rate and when the result is useful despite the delay. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Data Velocity.</span>
+
 - With the new sources of data such as social and mobile applications, the batch process breaks down. 
 - The data is now streaming into the server in real time, in a continuous fashion and the result is only useful if the delay is very short
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Data Variety.</span>
@@ -196,12 +214,14 @@
 - Versatility refers to the adaptability of a system to analytical queries of varying complexity. 
 - Versatility also refers to system flexibility in terms of query languages supported, and control in terms of data preparation, placement and management. 
 - Within this data lie valuable patterns and information, previously hidden because of the amount of work required to extract them
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Bigdata Challenges</span>
 - Increasingly, organizations today are facing more and more Big Data challenges. 
 - The emergence of big data into the enterprise brings with it a necessary counterpart: agility.
 - As data sizes grow, the concept of providing a single repository for all this data is not always the most practical solution.
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Benefits of bigdata</span>
@@ -258,16 +278,24 @@
 ### <span style="color: #e49436"> Hadoop Hive </span>(1/2)
 - Hadoop Users realized that developing MapReduce programs is a very programming-intensive task, which makes it errorprone and hard to test. 
 - There was a need for more expressive languages such as SQL 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436"> Hadoop Hive </span>(2/3)
+
 - Required to enable users to focus on the problem instead of low-level implementations of typical SQL artifacts 
 - Apache Hive evolved to provide a data warehouse (DW) capability to large datasets. 
 - Users can express their queries in Hive Query Language, which is very similar to SQL. 
+
 ---
+
 <!-- .slide: data-autoslide="2000" -->
-### <span style="color: #e49436"> Hadoop Hive </span>(1/2)
+### <span style="color: #e49436"> Hadoop Hive </span>(3/3)
 - The Hive engine converts these queries to low-level MapReduce jobs transparently. 
 - More advanced users can develop user-defined functions (UDFs) in Java. 
 - Hive also supports standard drivers such as ODBC and JDBC. 
 - Hive is also an appropriate platform to use when developing Business Intelligence (BI) types of applications for data stored in Hadoop.
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Hadoop Pig </span> 
@@ -304,6 +332,7 @@
 - Schema-on-Write, which is generally used with traditional data management systems. Such systems require the schema of the data store to be defined before the data can be loaded. This leads to lengthy cycles of analysis, data modeling, data transformation, loading, testing, and so on before data can be accessed.
 
 ---
+
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS</span>
 - HDFS is Hadoop distributed file system. 
@@ -318,6 +347,11 @@
 - Offers centralized, low-latency access to large file systems. 
 - It has many similarities with existing distributed file systems. 
 - Relaxes a few POSIX requirements 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">HDFS</span>
+
 - Enables streaming access to file system data. 
 - Was originally built as infrastructure for the Apache Nutch web search engine project. 
 - It is now an Apache Hadoop subproject. 
@@ -334,16 +368,16 @@
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals</span>
 - Hardware Failure 
-+ Hardware failure is the norm rather than the exception. 
-+ HDFS instance may consist of hundreds or thousands of server machines.
-+ Huge number of components interact 
+  + Hardware failure is the norm rather than the exception. 
+  + HDFS instance may consist of hundreds or thousands of server machines.
+  + Huge number of components interact 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">Goals</span>
 - Hardware Failure 
-+ Each component has a non-trivial probability of failure 
-+ Some component of HDFS is always non-functional. 
-+ Therefore, detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS. 
+  + Each component has a non-trivial probability of failure 
+  + Some component of HDFS is always non-functional. 
+  + Therefore, detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -352,8 +386,8 @@
     +  Applications on HDFS need streaming access to data sets. 
     +  HDFS is designed more for batch processing rather than interactive use by users. 
     +  Emphasis is on high throughput of data access rather than low latency of data access. 
-     + POSIX imposes hard requirements that are targeted for HDFS. 
-      + POSIX semantics in a few key areas has been traded to increase data throughput rates. 
+    + POSIX imposes hard requirements that are targeted for HDFS. 
+    + POSIX semantics in a few key areas has been traded to increase data throughput rates. 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS Similarities</span>
@@ -379,19 +413,19 @@
 - Block size for the data: 
    + Traditional file systems generally use around 8 KB block size for the data, 
    + HDFS uses larger block size of data. 
-    + Block size in HDFS is 128 MB, 
-    + Admin can raise it to 1 GB or higher. 
+   + Block size in HDFS is 128 MB, 
+   + Admin can raise it to 1 GB or higher. 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">HDFS Differences</span>
 - Larger block size ensures that the data can be read and written in large sequential operations. 
 - It can improve performance 
 - it minimizes drive seek operations, especially when performing large I/O streaming operations.
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS Differences</span>
 -  Data protection mechanisms: 
-
    + Traditional file systems use specialized data storage for data protection. 
    + HDFS replicates each block to multiple machines in the cluster. 
    + By default, it replicates the data block to three nodes. 
@@ -399,7 +433,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Name Node</span>
+### <span style="color: #e49436">Name Node</span>
 - Is a centralized service in the cluster operating on a single node. 
 - Manages the file system namespace 
 - This is file system tree and the metadata for all the files and directories are maintained. 
@@ -408,14 +442,14 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Name Node</span>
+### <span style="color: #e49436">Name Node</span>
 - Maintains and stores the namespace tree and the mapping of file blocks to Data Nodes 
 - Two files are used
   + the namespace image
   + the edit log
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Name Node</span>
+### <span style="color: #e49436">Name Node</span>
 - File system metadata is stored on a metadata server. 
 - Metadata operations may be handled by a single metadata server
 - Cluster will configure multiple metadata servers as primary-backup failover pairs. 
@@ -424,7 +458,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### What is <span style="color: #e49436">Heart Beat</span>
+### <span style="color: #e49436">Heart Beat</span>
 - Name Node does not store HDFS data 
 - Maintains a mapping between HDFS file name, a list of blocks in the file, and the Data Node(s) on which those blocks are stored. 
 - Periodically receives a Heartbeat and a Block report from each of the Data Nodes in the cluster. 
@@ -433,38 +467,39 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Data Node</span>
+### Data <span style="color: #e49436">Node</span>
 - Daemon responsible for storing and retrieving block data is called the datanode (DN). 
 - Responsible for serving read and write requests from clients 
 - Perform block operations upon instructions from name node. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Data Node</span>
+### Data <span style="color: #e49436">Node</span>
 - Stores HDFS blocks on behalf of local or remote clients. 
 - Block is saved as a separate file in the node’s local file system. 
 - Data Node abstracts away details of the local storage arrangement, 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Data Node</span>
+### Data <span style="color: #e49436">Node</span>
 - Nodes do not have to use the same local file system. 
 - Blocks are created or destroyed on Data Nodes at the request of the Name Node, which validates and processes requests from clients. 
 - Clients communicate directly with Data Nodes in order to read or write data at the HDFS block level. 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Data Node</span>
+### Data <span style="color: #e49436">Node</span>
 - Data node normally has no knowledge about HDFS files. 
 - Scans through the local file system 
 - Creates a list of HDFS data blocks corresponding to each of these local files 
 - Sends this report to the Name node. 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Unstructured <span style="color: #e49436">Data Node</span>
+### Data <span style="color: #e49436">Node</span>
 - Individual files are broken into blocks of a fixed size 
 - Distributed across multiple DataNodes in the cluster. 
 - The Name Node maintains metadata about the size and location of blocks and their replicas
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Structured <span style="color: #e49436">Client </span>
+### <span style="color: #e49436">Client </span>
 - Client is an api of applications. 
 - Communicates with the Namenode for metadata 
 - Once received it directly runs operations on the Datanodes. 
@@ -472,13 +507,13 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Structured <span style="color: #e49436">Client </span>
+### <span style="color: #e49436">Client </span>
 - JobTracker handles this queue. 
 - Client perform file metadata operations such as create file and open file, at the NameNode over an RPC protocol and read/write the data of a file directly to DataNodes using a streaming socket protocol called the data-transfer protocol.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### External <span style="color: #e49436">Blocks</span>
+###  <span style="color: #e49436">Blocks</span>
 - Disk has a block size, 
 - is the minimum amount of data that it can read or write. 
 - File systems for a single disk build by dealing with data in blocks, 
@@ -486,7 +521,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### External <span style="color: #e49436">Blocks</span>
+###  <span style="color: #e49436">Blocks</span>
 - File system blocks are typically a few kilobytes in size, 
 - Disk blocks are normally 512 bytes. 
 - Transparent to the file system user who is simply reading or writing a file of whatever length. 
@@ -494,7 +529,7 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Internal <span style="color: #e49436">Large blocks</span>
+### <span style="color: #e49436">Large blocks</span>
 - HDFS, has the concept of a block
 - Much larger unit 128 MB. 
 - Files in HDFS are broken into block-sized chunks, 
@@ -502,14 +537,14 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Internal <span style="color: #e49436">Large blocks</span>
+###  <span style="color: #e49436">Large blocks</span>
 - Are large compared to disk blocks, the reason is to minimize the cost of seeks. 
 - By making a block large enough, the time to transfer the data from the disk can be significantly longer than the time to seek to the start of the block. 
 - The time to transfer a large file made of multiple blocks operates at the disk transfer rate. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
-### Internal <span style="color: #e49436">Large blocks</span>
+### <span style="color: #e49436">Large blocks</span>
 - Having a block abstraction for a distributed filesystem brings several benefits. 
 - File can be larger than any single disk in the network. 
 - Take advantage of any of the disks in the cluster. 
@@ -517,34 +552,39 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### What is <span style="color: #e49436">Large Blocks </span>
+### Large <span style="color: #e49436">Blocks </span>
 - Making the unit of abstraction a block rather than a file simplifies the storage subsystem. 
 - Storage subsystem deals with blocks, simplifying storage management and eliminating metadata concerns 
 - Blocks are just chunks of data to be stored, 
 - file metadata such as permissions information does not need to be stored with the blocks, so another system can handle metadata separately
+
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">Large blocks </span>
+### Large <span style="color: #e49436">Blocks </span>
 -  Blocks fit well with replication for providing fault tolerance and availability. 
 - Insure against corrupted blocks and disk and machine failure, 
+
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">Large blocks </span>
+### Large <span style="color: #e49436">Blocks </span>
 - Block is replicated to a small number of physically separate machines.
 - Block becomes unavailable, a copy can be read from another location in a way that is transparent to the client.
 - Block that is no longer available due to corruption or machine failure can be replicated from its alternative locations 
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
 - Traditional local file systems support a persistent name space. 
 - Local file system views devices as being locally attached, 
 - The devices are not shared, and hence there is no need in the file system design to enforce device sharing semantics.
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
 - HDFS supports a traditional hierarchical file organization. 
 - User or an application can create directories and store files inside these directories. 
 - File system namespace hierarchy is similar to most other existing file systems 
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> File system Namespace</span>
@@ -552,6 +592,7 @@
 - HDFS does not yet implement user quotas or access permissions. 
 - HDFS does not support hard links or soft links. 
 - HDFS architecture does not preclude implementing these features
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
@@ -593,26 +634,26 @@
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">conf Files</span>
+### <span style="color: #e49436">Conf Files</span>
 -  *-site.xml file configurations override the ones in the *-default.xml file. The *-default.xml files are read-only and are read directly from the JAR files in the classpath.
    +  core-default.xml Default core Hadoop properties. 
    + The file is located in the following JAR file: hadoop-common-2.2.0.jar (assuming version 2.2.0).
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-###  <span style="color: #e49436">conf Files</span>
+###  <span style="color: #e49436">Conf Files</span>
    +  hdfs-default.xml Default HDFS properties. 
    + The file is located in the following JAR file: hadoop-hdfs-2.2.0.jar (assuming version 2.2.0).
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">conf Files</span>
+### <span style="color: #e49436">Conf Files</span>
    + mapred-default.xml Default MapReduce properties. 
    + The file is located in the following JAR file: hadoop-mapreduce-client-core-2.2.0.jar (assuming version 2.2.0).
 
 ---
 <!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">conf Files</span>
+### <span style="color: #e49436">Conf Files</span>
    +  yarn-default.xml Default YARN properties. 
    + The file is located in the following JAR file: hadoop-yarn-common-2.2.0.jar (assuming version 2.2.0).
 
@@ -623,6 +664,7 @@
 - Required software for Linux include:
 +  Java™ must be installed.
 +  ssh must be installed and sshd must be running to use the Hadoop scripts that manage remote Hadoop daemons.
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### Virus <span style="color: #e49436"> Core-site.xml  </span>
@@ -639,6 +681,61 @@
  
  </configuration>
 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> HDFS-site.xml  </span>
+ 
+ <configuration>
+ 
+    property>
+    
+        name>dfs.replication</name>
+        
+        value>1</value>
+        
+    /property>
+ 
+ </configuration>
+
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> MaRed-site.xml  </span>
+ 
+ <configuration>
+ 
+   property>
+
+     name>mapreduce.framework.name</name>
+
+     value>yarn</value>
+
+    /property>
+ 
+ </configuration>
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### Virus <span style="color: #e49436"> Yarn-site.xml  </span>
+ 
+ <configuration>
+ 
+ name>yarn.resourcemanager.address</name>
+
+    value>MastercomputerIP or localhost:8022</value>
+
+     /property>
+
+    property>
+
+  name>yarn.resourcemanager-scheduler.address</name>
+
+  value>MasterComputerIP or localhost:8021</value>
+
+/property>
+ 
+ </configuration>
 
 ---
 <!-- .slide: data-autoslide="15000" -->
