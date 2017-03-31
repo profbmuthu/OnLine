@@ -88,8 +88,8 @@
 ### <span style="color: #e49436">Types of Data</span>? 
 - Data regardless of type, location, and source increasingly has become a core business asset for an enterprise 
 - It is now categorized as belonging to two camps:
-+ Internal data (enterprise application data) and
-+ External data (e.g., web data)
+  + Internal data (enterprise application data) and
+  + External data (e.g., web data)
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -105,6 +105,7 @@
 
 ### <span style="color: #e49436">Types of Data</span>? 
 
+- Dynamic Data 
     + Dynamic data (Data being served continuously) 
     + Dynamic data, such as streaming log data and social network streaming data, the volume increases over time.
 
@@ -119,6 +120,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
+
 - Corporate thirst for systems that can manage, process, and granularly analyze data is becoming insatiable. 
 - Venture capitalists are very much aware of this trend, 
 - Funded no fewer than a dozen new companies in recent years 
@@ -127,6 +129,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
+
 - Big Data is data in large sizes 
 - It goes beyond the ability of commonly used software tools to collect, manage, and process within a tolerable elapsed time. 
 - Big data refers to datasets whose size is beyond the ability of typical database software tools
@@ -135,6 +138,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> BigData.</span>
+
 - Big data essentially means datasets that are too large for traditional data processing systems.
 - It is data that exceeds the processing capacity of conventional database defined systems. 
 - It is too big, moves too fast, or doesn’t fit the strictures of conventional database architectures. 
@@ -151,6 +155,7 @@
 <!-- .slide: data-autoslide="2000" -->
 
 ### Characteristics of <span style="color: #e49436">  bigdata</span>
+
 - Big data has become viable 
 - Cost effective approaches have emerged to tame the volume, velocity, variety and variability of massive data. 
 - Three Vs of volume, velocity, and variety are commonly used 
@@ -167,20 +172,22 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436"> Volume</span>
+
 - Organizations no longer have to merely manage their own data. 
 - As data volume increases, the value of different data records will decrease in proportion to age, type, richness, and quantity among other factors. 
 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">  Volume</span>
-- Data generated from emails to Facebook posts, from purchase histories to web links, is contributing to the growth of data. 
+
+- Data generated from emails to Facebook posts, purchase histories, web links, contribute to growth of data. 
 - Current challenge is in extracting value from this data.  
-- Sometimes this means particular data elements, and at other times, the focus is instead on identifying trends and relationships between pieces of data. 
 - Includes the current data volume
 
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">  Velocity.</span>
+
 - Velocity of data is the measure of how fast the data is coming in.  
 - Data volume measures the amount of data available to an organization.
 - Data velocity measures the speed of data creation, streaming, and aggregation.
@@ -329,6 +336,7 @@
 - All the preceding projects, including MapReduce, are batch processes. 
 - There is a strong need for real–time data lookup in Hadoop. 
 - Hadoop did not have a native key/value store. 
+
 - Consider a Social Media site such as Facebook. 
 - If you want to look up a friend’s profile, you expect to get an answer immediately (not after a long batch job runs).
 
@@ -466,6 +474,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ###  <span style="color: #e49436">HDFS Differences</span>
+
 - Larger block size ensures that the data can be read and written in large sequential operations. 
 - It can improve performance 
 - it minimizes drive seek operations, especially when performing large I/O streaming operations.
@@ -473,6 +482,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS Differences</span>
+
 -  Data protection mechanisms: 
    + Traditional file systems use specialized data storage for data protection. 
    + HDFS replicates each block to multiple machines in the cluster. 
@@ -557,6 +567,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">Node</span>
+
 - Stores HDFS blocks on behalf of local or remote clients. 
 - Block is saved as a separate file in the node’s local file system. 
 - Data Node abstracts away details of the local storage arrangement, 
@@ -564,6 +575,7 @@
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### Data <span style="color: #e49436">Node</span>
+
 - Nodes do not have to use the same local file system. 
 - Blocks are created or destroyed on Data Nodes at the request of the Name Node, which validates and processes requests from clients. 
 - Clients communicate directly with Data Nodes in order to read or write data at the HDFS block level. 
@@ -705,8 +717,8 @@
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Block Pool</span>
 
-- This allows a namespace to generate Block 
-IDs for new blocks without the need for coordination with the other namespaces. 
+- This allows a namespace to generate Block IDs for new blocks 
+- Need for coordination with the other namespaces not required
 - A Namenode failure does not prevent the Datanode from serving other Namenodes in the cluster.
 - A Namespace and its block pool together are called Namespace Volume. 
 - It is a self-contained unit of management. 
@@ -808,7 +820,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Core-site.xml  </span>
 - Conf File
  
-![Core](images/Core-site.png)
+!2[Core](images/Core-site.png)
 
 
 ---
@@ -838,7 +850,6 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - set the java path in JAVA_HOME
 - slaves:
 - localhost
-
 - Commands
  - >hadoop namenode -format
  - >start-all.sh
@@ -880,8 +891,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Fencing </span>
 
 - The HA implementation goes to great lengths to ensure that the previously active namenode is prevented from doing any damage and causing corruption of data
-- This is  known as fencing
-
+- This is  known as *fencing*
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -894,7 +904,6 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - disabling its network port via a remote management command 
 - Last resort, the previously active namenode can be fenced with a technique rather graphically known as STONITH, 
 - Uses a specialized power distribution unit to forcibly power down the host machine.
-
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -1044,14 +1053,22 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - If the NameNode dies before the file is closed, the file is lost.
 - The approach has been adopted after careful consideration of target applications that run on HDFS. .
 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Hadoop Read Write</span>
+
+
+![Read Write](images/hadoopRW.png)
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Standard File formats </span>
 
 - Text data
-- Common use of Hadoop is the storage and analysis of logs such as web logs and server logs. 
-- Such text data, of course, comes in many other forms: CSV files, or unstructured data such as emails
+  + Common use of Hadoop is the storage and analysis of logs such as web logs and server logs. 
+  + Such text data, of course, comes in many other forms: CSV files, or unstructured data such as emails
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -1059,10 +1076,10 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Standard File formats </span>
 
 - Structured text data
-- Specialized form of text files is structured formats such as XML and JSON. 
-- Present special challenges with Hadoop since splitting XML and JSON files for processing is tricky, 
-- Hadoop does not provide a built-in InputFormat for either. 
-- JSON presents even greater challenges than XML, since there are no tokens to mark the beginning or end of a record.
+  + Specialized form of text files - structured formats such as XML and JSON. 
+  + Present challenges with Hadoop; splitting XML and JSON files for processing is tricky 
+  + Hadoop does not provide a built-in InputFormat for either. 
+  + JSON presents greater challenges to XML, there are no tokens to mark the beginning or end of a record.
 
 
 ---
@@ -1070,9 +1087,9 @@ IDs for new blocks without the need for coordination with the other namespaces.
 
 ### <span style="color: #e49436"> Standard File formats </span>
 - Binary data
-- Text is typically the most common source data format stored in Hadoop, 
-- Also use Hadoop to process binary files such as images. 
-- Storing and processing binary files in Hadoop, using a container format such as SequenceFile is preferred.
+  + Text is typically the most common source data format stored in Hadoop, 
+  + Also use Hadoop to process binary files such as images. 
+  + Storing and processing binary files in Hadoop, using a container format such as SequenceFile is preferred.
 
 
 
@@ -1081,18 +1098,18 @@ IDs for new blocks without the need for coordination with the other namespaces.
 
 ### <span style="color: #e49436"> Hadoop File formats </span>
 - Splittable compression
-- Support common compression formats and are also splittable.  
-- The ability to split files can be a key consideration for storing data in Hadoop 
-- Allows large files to be split for input to MapReduce and other types of jobs. 
+  + Support common compression formats and are also splittable.  
+  + The ability to split files can be a key consideration for storing data in Hadoop 
+  + Allows large files to be split for input to MapReduce and other types of jobs. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Hadoop File formats </span>
 - Agnostic compression
-- File can be compressed with any compression codec, 
-- Readers need not know the codec. 
-- Codec is stored in the header metadata of the file format
+  + File can be compressed with any compression codec, 
+  + Readers need not know the codec. 
+  + Codec is stored in the header metadata of the file format
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -1115,25 +1132,25 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> File Based Storage</span>
 
 - Uncompressed
-- uncompressed SequenceFiles don’t provide any advantages over their compressed alternatives
-- They’re less efficient for input/output (I/O) and take up more space on disk than the same data in compressed form.
+  + Uncompressed SequenceFiles don’t provide any advantages over their compressed alternatives
+  + They’re less efficient for input/output (I/O) and take up more space on disk than the same data in compressed form.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> File Based Storage</span>
 
 - Record-compressed
-- This format compresses each record as it’s added to the file. 
+  + This format compresses each record as it’s added to the file. 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> File Based Storage</span>
 
 - Block-compressed
-- Format waits until data reaches block size to compress, rather than as each record is added. 
-- Block compression provides better compression ratios compared to record-compressed SequenceFiles, 
-- The preferred compression option for SequenceFiles. 
--  A block in block compression refers to a group of records that are compressed together within a single HDFS block.
+  + Format waits until data reaches block size to compress, rather than as each record is added. 
+  + Block compression provides better compression ratios compared to record-compressed SequenceFiles, 
+  + The preferred compression option for SequenceFiles. 
+  + A block in block compression refers to a group of records that are compressed together within a single HDFS block.
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -1180,7 +1197,12 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - There are externally available libraries such as the Elephant Bird project to address these drawbacks,
 - Hadoop does not provide native support for Thrift as a data storage format. 
 
+---
+<!-- .slide: data-autoslide="2000" -->
 
+##  <span style="color: #e49436">Session</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000"> Yarn <span style="color: #666666">.</span>
+<br>
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -1347,11 +1369,5 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ---
 
 
-
-
-
-
 ![Thanks](images/thanks.png)
-
-
 
