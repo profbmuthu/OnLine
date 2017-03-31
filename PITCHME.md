@@ -806,8 +806,10 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Core-site.xml  </span>
- 
- <configuration>
+
+- Java 
+
+  <configuration>
  
      property>
      
@@ -824,7 +826,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> HDFS-site.xml  </span>
  
- <configuration>
+ configuration>
  
     property>
     
@@ -834,14 +836,14 @@ IDs for new blocks without the need for coordination with the other namespaces.
         
     /property>
  
- </configuration>
+ /configuration>
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> MaRed-site.xml  </span>
  
- <configuration>
+ configuration>
  
    property>
 
@@ -851,12 +853,12 @@ IDs for new blocks without the need for coordination with the other namespaces.
 
     /property>
  
- </configuration>
+ /configuration>
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Yarn-site.xml  </span>
- 
+
  <configuration>
  
  name>yarn.resourcemanager.address</name>
