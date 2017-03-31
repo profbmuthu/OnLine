@@ -807,17 +807,17 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Core-site.xml  </span>
 
-- Java 
+- Scala <!-- .element: class="fragment" -->
 
   <configuration>
  
-     property>
+     <property>
      
      <name>fs.defaultFS</name>
      
      <value>hdfs://MastercomputerIP or localhost:9000</value>
      
-     /property>
+     </property>
  
  </configuration>
 
