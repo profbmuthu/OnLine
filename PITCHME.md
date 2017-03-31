@@ -808,35 +808,14 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Core-site.xml  </span>
 - Conf File
  
-  configuration>
- 
-     <property>
-     
-     <name>fs.defaultFS</name>
-     
-     <value>hdfs://MastercomputerIP or localhost:9000</value>
-     
-     </property>
- 
- /configuration>
+![Core](images/core-site.png)
 
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> HDFS-site.xml  </span>
  
- configuration>
- 
-    <property>
-    
-        <name>dfs.replication</name>
-        
-        <value>1</value>
-        
-    </property>
- 
- /configuration>
-
+![hdfs](images/hdfs-site.png)
 
 ---
 <!-- .slide: data-autoslide="15000" -->
@@ -844,42 +823,13 @@ IDs for new blocks without the need for coordination with the other namespaces.
  
 - Conf file 
 
- configuration>
- 
-   <property>
-
-     <name>mapreduce.framework.name</name>
-
-     <value>yarn</value>
-
-    </property>
- 
- /configuration>
+![Mapred](images/mapred-site.png)
 
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Yarn-site.xml  </span>
-- Conf file 
 
- configuration>
-   
-   <property>
- 
-     <name>yarn.resourcemanager.address</name>
-
-     <value>MastercomputerIP or localhost:8022</value>
-
-   </property>
-
-   <property>
-
-    <name>yarn.resourcemanager-scheduler.address</name>
-
-    <value>MasterComputerIP or localhost:8021</value>
-
-   </property>
- 
- /configuration>
+![yarn](images/yarn-site.png)
 
 ---
 <!-- .slide: data-autoslide="15000" -->
