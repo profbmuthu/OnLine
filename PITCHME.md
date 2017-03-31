@@ -807,7 +807,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Core-site.xml  </span>
 - Conf File
- <!-- .element: class="fragment" -->
+ 
   configuration>
  
      <property>
@@ -843,7 +843,6 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> MaRed-site.xml  </span>
  
 - Conf file 
-<!-- .element: class="fragment" -->
 
  configuration>
  
@@ -862,10 +861,9 @@ IDs for new blocks without the need for coordination with the other namespaces.
 ### <span style="color: #e49436"> Yarn-site.xml  </span>
 - Conf file 
 
-<!-- .element: class="fragment" -->
- <configuration>
+ configuration>
  
- <name>yarn.resourcemanager.address</name>
+  <name>yarn.resourcemanager.address</name>
 
     <value>MastercomputerIP or localhost:8022</value>
 
