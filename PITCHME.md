@@ -999,6 +999,37 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Recovery Modes</span>
+
+- Hadoop provides four recovery modes based on the four options it provides (continue, stop, quit, and always):
+- Continue: 
+- This allows you to continue over the bad parts. 
+- This option will let you cross over a few stray blocks and continue over to try to produce a full recovery mode. 
+- This can be the Prompt when found error mode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Recovery Modes</span>
+
+-  Stop: 
+- This allows you to stop the recovery process and make an image file of the copy. Now, the part that we stopped won't be recovered, because we are not allowing it to. In this case, we can say that we are having the safe-recovery mode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Recovery Modes</span>
+
+-  Quit: 
+- This exits the recovery process without making a backup at all. In this, we can say that we are having the no-recovery mode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Recovery Modes</span>
+
+-  Always: 
+- This is one step further than continue. Always selects continue by default and thus avoids stray blogs found further. This can be the prompt only once mode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">Balancer</span>
 
 - HDFS data might not always be be placed uniformly across the DataNode. 
