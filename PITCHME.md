@@ -861,25 +861,26 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Yarn-site.xml  </span>
 - Conf file 
+
 <!-- .element: class="fragment" -->
  <configuration>
  
- name>yarn.resourcemanager.address</name>
+ <name>yarn.resourcemanager.address</name>
 
-    value>MastercomputerIP or localhost:8022</value>
+    <value>MastercomputerIP or localhost:8022</value>
 
-     /property>
+     </property>
 
-    property>
+    <property>
 
-  name>yarn.resourcemanager-scheduler.address</name>
+  <name>yarn.resourcemanager-scheduler.address</name>
 
-  value>MasterComputerIP or localhost:8021</value>
+  <value>MasterComputerIP or localhost:8021</value>
 
 </property>
  
- </configuration>
-<
+ /configuration>
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Hadoop Env</span>
