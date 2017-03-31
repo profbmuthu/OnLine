@@ -807,9 +807,9 @@ IDs for new blocks without the need for coordination with the other namespaces.
 <!-- .slide: data-autoslide="15000" -->
 ### <span style="color: #e49436"> Core-site.xml  </span>
 
-- Scala <!-- .element: class="fragment" -->
+ <!-- .element: class="fragment" -->
 
-  <configuration>
+  configuration>
  
      <property>
      
@@ -819,7 +819,7 @@ IDs for new blocks without the need for coordination with the other namespaces.
      
      </property>
  
- </configuration>
+ /configuration>
 
 
 ---
