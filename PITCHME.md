@@ -259,6 +259,13 @@
 
 ---
 <!-- .slide: data-autoslide="2000" -->
+
+##  <span style="color: #e49436">Session</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000"> Hadoop <span style="color: #666666">.</span>
+<br>
+
+---
+<!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436"> Hadoop</span>
 - Hadoop is based on the Google paper on MapReduce 
 
@@ -352,6 +359,12 @@
   + Such systems require the schema of the data store to be defined before the data can be loaded. 
   + Leads to lengthy cycles of analysis, data modeling, data transformation, loading, testing, 
   
+---
+<!-- .slide: data-autoslide="2000" -->
+
+##  <span style="color: #e49436">Session</span>
+### <span class="fragment" data-fragment-index="1" data-autoslide="2000"> HDFS <span style="color: #666666">.</span>
+<br>
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -361,6 +374,14 @@
 - Built to support high throughput, streaming reads and writes of huge files. 
 - Highly fault-tolerant 
 - Designed to be deployed on low-cost hardware. 
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">HDFS</span>
+
+
+![HDFS Architecture]https://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-hdfs/images/hdfsarchitecture.png
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -413,6 +434,7 @@
     + Emphasis is on high throughput of data access rather than low latency of data access. 
     + POSIX imposes hard requirements that are targeted for HDFS. 
     + POSIX semantics in a few key areas has been traded to increase data throughput rates. 
+
 ---
 <!-- .slide: data-autoslide="2000" -->
 ### <span style="color: #e49436">HDFS Similarities</span>
@@ -456,6 +478,33 @@
    + HDFS replicates each block to multiple machines in the cluster. 
    + By default, it replicates the data block to three nodes. 
    + Ensures data reliability and high availability
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">UseFul Features HDFS</span>
+
+- File permissions and authentication.
+- Rack awareness: to take a node’s physical location into account while scheduling tasks and allocating storage.
+- Safemode: an administrative mode for maintenance.
+- fsck: a utility to diagnose health of the file system, to find missing files or blocks.
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">UseFul Features HDFS</span>
+
+- fetchdt: a utility to fetch DelegationToken and store it in a file on the local system.
+- Balancer: tool to balance the cluster when the data is unevenly distributed among DataNodes.
+- Upgrade and rollback: it is possible to rollback to HDFS’ state before the upgrade in case of unexpected problems.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">UseFul Features HDFS</span>
+
+- Secondary NameNode: 
+  + performs periodic checkpoints of the namespace  
+  + helps keep the size of file containing log of HDFS modifications within certain limits at the NameNode.
 
 ---
 <!-- .slide: data-autoslide="2000" -->
@@ -848,6 +897,122 @@
 
 
 ---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">UseFul Features HDFS</span>
+
+- Checkpoint node: 
+ + performs periodic checkpoints of the namespace 
+ + helps minimize the size of the log stored at the NameNode containing changes to the HDFS. 
+ + Replaces the role previously filled by the Secondary NameNode 
+ + NameNode allows multiple Checkpoint nodes simultaneously, as long as there are no Backup nodes registered with the system.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Checkpoint Node </span>
+
+- When a NameNode starts up, it merges the fsimage and edits journal to provide an up-to-date view of the file system metadata. 
+- The NameNode then overwrites fsimage with the new HDFS state and begins a new edits journal.
+- Checkpoint node periodically creates checkpoints of the namespace. 
+- Downloads fsimage and edits from the active NameNode, 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Checkpoint Node </span>
+
+- Merges them locally, and uploads the new image back to the active NameNode. 
+- Checkpoint node runs on a different machine than the NameNode 
+- Its memory requirements are on the same order as the NameNode. 
+- Checkpoint node is started by bin/hdfs namenode -checkpoint on the node specified in the configuration file.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Checkpoint Node </span>
+- Location of the Checkpoint (or Backup) node and its accompanying web interface are configured 
+- Checkpoint node stores the latest checkpoint in a directory that is structured the same as the NameNode’s directory. 
+- This allows the checkpointed image to be always available for reading by the NameNode if necessary.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Checkpoint Node </span>
+
+- Start of the checkpoint process on the Checkpoint node 
+- Controlled by two configuration parameters.
+   +  dfs.namenode.checkpoint.period, 
+      + set to 1 hour by default 
+      + specifies the maximum delay between two consecutive checkpoints
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Checkpoint Node </span>
+- Controlled by two configuration parameters.
+   +  dfs.namenode.checkpoint.txns, 
+      + set to 1 million by default, 
+      + defines the number of uncheckpointed transactions on the NameNode 
+      + Will force an urgent checkpoint, even if the checkpoint period has not been reached.
+
+
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Backup Node </span>
+
+- Backup node provides the same checkpointing functionality 
+- Maintains an in-memory, up-to-date copy of the file system namespace 
+- It is always synchronized with the active NameNode state. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Backup Node </span>
+
+- Accepts a journal stream of file system edits from the NameNode 
+- Applies the edits into its own copy of the namespace in memory, 
+- Creates a backup of the namespace.
+- As the Backup node maintains a copy of the namespace in memory, its RAM requirements are the same as the NameNode.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Backup Node</span>
+
+- NameNode supports one Backup node at a time. 
+- No Checkpoint nodes may be registered if a Backup node is in use. 
+- Using multiple Backup nodes concurrently will be supported in the future.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Backup Node</span>
+
+- Backup node is configured in the same manner as the Checkpoint node. 
+- It is started with bin/hdfs namenode -backup.
+- Location of the Backup (or Checkpoint) node and its accompanying web interface are configurable 
+- Done with 
+  + dfs.namenode.backup.address 
+  + dfs.namenode.backup.http-address configuration variables.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Balancer</span>
+
+- HDFS data might not always be be placed uniformly across the DataNode. 
+- One common reason is addition of new DataNodes to an existing cluster. 
+- While placing new blocks, NameNode considers various parameters before choosing the DataNodes to receive these blocks. 
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Balancer</span>
+- Some of the considerations are:
+  +  Policy to keep one of the replicas of a block on the same node as the node that is writing the block.
+  +  Need to spread different replicas of a block across the racks 
+  +  Cluster can survive loss of whole rack.
+
+---
+<!-- .slide: data-autoslide="2000" -->
+### <span style="color: #e49436">Balancer</span>
+
+  +  Cross-rack network I/O is reduced.
+  +  Spread HDFS data uniformly across the DataNodes in the cluster.
+  +  HDFS provides a tool for administrators that analyzes block placement and rebalanaces data across the DataNode.
+
+---
 <!-- .slide: data-autoslide="15000" -->
 
 ### <span style="color: #e49436"> Standard File formats </span>
@@ -988,10 +1153,168 @@
 ---
 <!-- .slide: data-autoslide="15000" -->
 
-### <span style="color: #e49436">PCAP Analysis</span>
+### <span style="color: #e49436">YARN</span>
+
+- YARN for splitting up the functionalities of resource management and job scheduling/monitoring into separate daemons. 
+- A global ResourceManager (RM) 
+- per-application ApplicationMaster (AM). An application is either a single job or a DAG of jobs.
+- The ResourceManager and the NodeManager form the data-computation framework. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- ResourceManager authority that arbitrates resources among all the applications in the system. 
+- NodeManager is the per-machine framework agent 
+- Responsible for containers, monitoring their resource usage (cpu, memory, disk, network) 
+- reporting the same to the ResourceManager/Scheduler.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- ResourceManager has two main components: 
+  + Scheduler and 
+  + ApplicationsManager.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- Scheduler is pure scheduler 
+- Scheduler is responsible for allocating resources
+- Resources allocated to various running applications subject to constraints of capacities, queues etc. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- Performs no monitoring or tracking of status for the application. 
+- Offers no guarantees about restarting failed tasks either due to application failure or hardware failures. 
+- Performs its scheduling function based the resource requirements of the applications 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- it does so based on the abstract notion of a resource Container 
+- Resource container incorporates elements such as memory, cpu, disk, network etc.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+
+### <span style="color: #e49436">Resource Manager</span>
+
+- Scheduler has a pluggable policy 
+- Policy responsible for partitioning the cluster resources among the various queues, applications etc. 
+- The current schedulers such as the CapacityScheduler and the FairScheduler would be some examples of plug-ins.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Application Master</span>
+- per-application ApplicationMaster is, a framework specific library  
+- is tasked with negotiating resources from the ResourceManager 
+- is working with the NodeManager(s) to execute and monitor the tasks.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Application Master</span>
+
+- is responsible for accepting job-submissions, 
+- negotiates the first container for executing the application specific ApplicationMaster 
+- Provides the service for restarting the ApplicationMaster container on failure. 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Application Master</span>
+
+- Has the responsibility of negotiating appropriate resource containers from the Scheduler, 
+- Is responsible for tracking their status and monitoring for progress.
 
 
 ---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- is designed to run Hadoop applications as a shared, multi-tenant cluster 
+- is meant for maximizing the throughput and the utilization of the cluster.
+- Each organization has it own private set of compute resources 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Capacity designed to meet the organization’s SLA under peak or near peak conditions. 
+- Sharing Hadoop clusters between organizations is cost-effective 
+- Allows firms to reap benefits of economies of scale
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- is designed to allow sharing a large cluster 
+- Gives each organization capacity guarantees. 
+- the available resources in the Hadoop cluster are shared among multiple organizations 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Provides elasticity for the organizations in a cost-effective manner.
+- Sharing clusters support for multi-tenancy 
+- Primary abstraction provided by the CapacityScheduler is the concept of queues. 
+- Queues are typically setup by administrators to reflect the economics of the shared cluster.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Hierarchical Queues  
+- Hierarchy of queues is supported to ensure resources are shared among the sub-queues of an organization before other queues are allowed to use free resources, there-by providing more control and predictability.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Capacity Guarantees  
+- Queues are allocated a fraction of the capacity of the grid
+- A certain capacity of resources will be at their disposal. 
+- All applications submitted to a queue will have access to the capacity allocated to the queue. 
+- Adminstrators can configure soft limits and optional hard limits on the capacity allocated to each queue.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Security - 
+- Each queue has strict ACLs which controls which users can submit applications to individual queues. 
+- safe-guards to ensure that users cannot view and/or modify applications from other users. 
+- Per-queue and system administrator roles are supported.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Elasticity 
+- Free resources can be allocated to any queue beyond it’s capacity. 
+- When there is demand for these resources, as tasks scheduled on these resources complete, they will be assigned to applications on queues running below the capacity (pre-emption is not supported). 
+- This ensures that resources are available in a predictable and elastic manner to queues, thus preventing artifical silos of resources in the cluster which helps utilization.
+
+---
+<!-- .slide: data-autoslide="15000" -->
+### <span style="color: #e49436">Capacity Scheduler</span>
+
+- Multi-tenancy - 
+- Comprehensive set of limits are provided to prevent a single application, user and queue from monopolizing resources of the queue or the cluster as a whole to ensure that the cluster isn’t overwhelmed..
+
+---
+
+
 
 
 
