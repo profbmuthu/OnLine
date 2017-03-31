@@ -718,6 +718,13 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - When a Namenode/namespace is deleted, the corresponding block pool at the Datanodes is deleted. 
 - Each namespace volume is upgraded as a unit, during cluster upgrade.
 
+
+---
+<!-- .slide: data-autoslide="15000" -->
+###  <span style="color: #e49436"> Federation </span>
+
+![Federation](https://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-hdfs/images/federation.gif)
+
 ---
 <!-- .slide: data-autoslide="15000" -->
 ###  <span style="color: #e49436"> Federation </span>
