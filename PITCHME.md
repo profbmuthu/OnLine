@@ -862,20 +862,22 @@ IDs for new blocks without the need for coordination with the other namespaces.
 - Conf file 
 
  configuration>
+   
+   <property>
  
-  <name>yarn.resourcemanager.address</name>
+     <name>yarn.resourcemanager.address</name>
 
-    <value>MastercomputerIP or localhost:8022</value>
+     <value>MastercomputerIP or localhost:8022</value>
 
-     </property>
+   </property>
 
-    <property>
+   <property>
 
-  <name>yarn.resourcemanager-scheduler.address</name>
+    <name>yarn.resourcemanager-scheduler.address</name>
 
-  <value>MasterComputerIP or localhost:8021</value>
+    <value>MasterComputerIP or localhost:8021</value>
 
-</property>
+   </property>
  
  /configuration>
 
