@@ -1,7 +1,7 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
 
-### Research Areas for new algorithms
+### Research Areas 
 
 <span style="color:#e49436">Let Us Stream and Connect</span>
 <br>
