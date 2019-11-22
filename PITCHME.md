@@ -32,8 +32,7 @@ Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
   + Vibration Monitoring, Lubricating Oil Analysis 
   + Acoustic Analytics, Thermography Monitoring 
 - Visualization
-  + Real time Data stream dashboards - Angular / D3 / Dart prototypes
-  + SSIS / SSRS integration
+  + Data stream dashboards; Angular / D3 / Dart, SSIS / SSRS 
 - Cyber Crime (AI, ML)
   + Windows Log Events, Log Lifecycle mapping to user behavior
 - Supply Chain Scheduling (AI, ML and Optimization)
