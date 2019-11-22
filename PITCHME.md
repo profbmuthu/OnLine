@@ -1,7 +1,7 @@
 ---
 <!-- .slide: data-autoslide="10000" -->
 
-### Emerging Technologies
+### Research Areas for new algorithms
 
 <span style="color:#e49436">Let Us Stream and Connect</span>
 <br>
