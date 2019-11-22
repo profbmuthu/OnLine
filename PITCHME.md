@@ -51,10 +51,10 @@ Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
 
 <!-- .slide: data-autoslide="11000" -->
 
-### <span style="color: #e49436">Why Condition Monitoring?</span>
+### <span style="color: #e49436">Why</span>
 
 - <span style="color: #e49436">*Market*</span>: 
-- Global machine condition monitoring market: value of USD 2640 million by 2024
+- Value of USD 2640 million by 2024
 - Minimizing the maintenance cost with AI
 - Segments. Oil & Gas, Power Generation, Manufacturing, Aerospace & Defense, Automotive, Mining & Metal, Marine
 - Across geography
