@@ -7,6 +7,7 @@
 <br>
 <span style="color:gray">-</span>
 <br>
+<br>
 <span style="color:#e49436">Dr.B.Muthukumaran</span>
 
 ---
@@ -18,8 +19,8 @@
 Condition Monitoring<span style="color: #666666">.</span>
 <br>
 ### <span class="fragment" data-fragment-index="2" data-autoslide="3500">
-Cyber Security <br> <span style="color:#e49436">Log LifeCycle</span>. and <br>
-	<span style="color: #e49436">Solutions</span>.</li>
+Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
+	<span style="color: #e49436">Supply chain scheduling</span>.</li>
 
 ---
 <!-- .slide: data-autoslide="2000" -->
