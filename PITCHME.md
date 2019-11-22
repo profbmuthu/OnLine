@@ -16,7 +16,7 @@
 
 <!-- .slide: data-autoslide="2000" -->
 
-## Agenda <span style="color: #666666">Sessions</span>
+## Agenda <span style="color: #666666">Topics</span>
 ### <span class="fragment" data-fragment-index="1" data-autoslide="2000">
 Condition Monitoring<span style="color: #666666">.</span>
 <br>
@@ -27,18 +27,28 @@ Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
 ---
 <!-- .slide: data-autoslide="2000" -->
 
-### Agenda
+### Topics (1/2)
 - Condition Monitoring (AI, ML and Optimization)
-  + Vibration Monitoring, Lubricating Oil Analysis 
-  + Acoustic Analytics, Thermography Monitoring 
+  + Vibration Monitoring, 
+  + Lubricating Oil Analysis, 
+  + Acoustic Analytics, 
+  + Thermography Monitoring 
 - Visualization
   + Data stream dashboards; Angular / D3 / Dart, SSIS / SSRS 
+ 
+---
+<!-- .slide: data-autoslide="2000" -->
+
+### Topics (2/2)
 - Cyber Crime (AI, ML)
   + Windows Log Events, Log Lifecycle mapping to user behavior
 - Supply Chain Scheduling (AI, ML and Optimization)
-  + Workforce Scheduling, Container Scheduling, Port Bay Scheduling
+  + Workforce Scheduling, 
+  + Container Scheduling, 
+  + Port Bay Scheduling
  
 ---
+
 <!-- .slide: data-autoslide="11000" -->
 
 ### <span style="color: #e49436">Why Condition Monitoring?</span>
