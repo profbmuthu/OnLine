@@ -29,19 +29,15 @@ Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
 
 ### Agenda
 - Condition Monitoring (AI, ML and Optimization)
-  + Vibration Monitoring 
-  + Lubricating Oil Analysis 
-  + Acoustic Analytics
-  + Thermography Monitoring 
+  + Vibration Monitoring, Lubricating Oil Analysis 
+  + Acoustic Analytics, Thermography Monitoring 
 - Visualization
   + Real time Data stream dashboards - Angular / D3 / Dart prototypes
   + SSIS / SSRS integration
 - Cyber Crime (AI, ML)
   + Windows Log Events, Log Lifecycle mapping to user behavior
 - Supply Chain Scheduling (AI, ML and Optimization)
-  + Workforce Scheduling
-  + Container Scheduling
-  + Port Bay Scheduling
+  + Workforce Scheduling, Container Scheduling, Port Bay Scheduling
  
 ---
 <!-- .slide: data-autoslide="11000" -->
