@@ -95,17 +95,6 @@ Cyber Security  <span style="color:#e49436">Log Life Cycle</span><br> and <br>
 
 ---
 
-<!-- .slide: data-autoslide="15000" -->
-### <span style="color: #e49436">Summary</span> 
-
-- Privacy dangers social media s users are confronted with today:
-	+ Facebook Likejacking: using posts referencing current events to trick users to click a phishing link.
-  + Rogue apps: which could lead to spam, phishing or malware via Facebook
-  + Facebook Chat attacks: which can spread malware via unsolicited links and promote phishing apps
-  + Spammy Tweets and malicious Twitter links: representing a major threat to micro bloggers
-
----
-
 ![Thanks](images/thanks.png)
 
 ---
