@@ -3,7 +3,7 @@
 
 ### Research Areas 
 
-<span style="color:#e49436">Let Us Stream and Connect</span>
+<span style="color:#e49436">Data Streams and patterns</span>
 <br>
 <br>
 <br>
