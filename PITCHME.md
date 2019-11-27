@@ -61,6 +61,12 @@
 ### <span style="color: #e49436">Challenge 2</span>
 
 - Security orchestrators are needed, which can enforce proper defence mechanism, in SDN/NFV-enabled systems. Challenge to interface with diverse, heterogeneous and distributed IoT controllers, NFV-MANO  (Management  and  Orchestration)  orchestrators,  Fog-Edge  entities,  SDN  controllers.
+
+---
+<!-- .slide: data-autoslide="11000" -->
+
+### <span style="color: #e49436">Challenge 2. contd..</span>
+
 - challenge to manage the orchestration and placement of multiple VNFs on an NFV Infrastructure at large scale, either at the core of at the edge of the network, while dealing with scalability and security issues and additional threats that raise from the fact of using a virtualized environment.
 
 ---
