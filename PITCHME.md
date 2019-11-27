@@ -1,4 +1,4 @@
----?image=images/bg1.jpg&&size=cover&color=lightgray
+---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="10000" -->
 
 ### Research Areas 
@@ -12,7 +12,8 @@
 <br>
 <span style="color:#e49436">Dr.B.Muthukumaran</span>
 
----
+---?image=images/bg2.jpg&&size=cover&color=lightgray
+
 <!-- .slide: data-autoslide="2000" -->
 
 ### Agenda
@@ -20,7 +21,7 @@
 - IOT/ Edge Computing / Fog Computing
 - Security Challenges 
 
----
+---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="2000" -->
 
 ### Challenges (1/3)
