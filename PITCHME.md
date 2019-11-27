@@ -196,7 +196,7 @@
 
 ---
 
----?image=images/bg.jpg&size=50% 100%&color=lightgray
+---?image=images/bg.jpg&size=cover
 
 ---
 
