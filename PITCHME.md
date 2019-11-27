@@ -195,7 +195,7 @@
 - [Corporate Training](https://itmr.ac.in/), Edge computing, Dart, PHP frameworks, Python, Docker, Msubscribe ...
 
 ---
-
+---?image=monkey.jpg&size=50% 100%&color=lightgray
 ![Thanks](images/thanks.png)
 
 ---
