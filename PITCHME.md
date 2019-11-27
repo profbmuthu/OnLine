@@ -53,7 +53,7 @@
 ### <span style="color: #e49436">Challenge 1</span>
 
 - Security  Management  in  fragmentated  
-- Security  manage-ment  requires  a  holistic  approach  to  deal  with  new  types  of  wirelessnetwork technologies (e.g. 5G), potentially constrained networks (e.g.LPWANs), protocols and systems, that need to face the management oflarge and scalable deployments in any segment of network: RAN, Edge,Fog or Core segments.
+- Security  management  requires  a  holistic  approach  to  deal  with  new  types of wireless network technologies (e.g. 5G), potentially constrained networks (e.g.LPWANs), protocols and systems, that need to face the management of large and scalable deployments in any segment of network: RAN, Edge,Fog or Core segments.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
@@ -67,36 +67,37 @@
 
 ### <span style="color: #e49436">Challenge 2. contd..</span>
 
-- challenge to manage the orchestration and placement of multiple VNFs on an NFV Infrastructure at large scale, either at the core of at the edge of the network, while dealing with scalability and security issues and additional threats that raise from the fact of using a virtualized environment.
+- Challenge to manage orchestration and placement of multiple VNFs on an NFV Infrastructure at large scale, either at the core of at the edge of the network, while dealing with scalability and security issues and additional threats that raise from the fact of using a virtualized environment.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
 
 ### <span style="color: #e49436">Challenge 3</span>
 
-- Traditional  security  enablers  and  protocols, need  to evolve and  enforced,  manage softwarized   and   virtualized   networks(SDN/NFV) and CPS/IoT systems. In addition, these security enablers and  protocols  need  to  be  redesigned  to  cope  with  the  constrained nature of distributed IoT networks, requiring lightweight crypto-protocols and solutions to be enforced in constrained (battery, memory,cpu) devices and networks.
+- Traditional security enablers and  protocols, need to evolve and enforce manage softwarized and virtualized networks (SDN/NFV) and CPS/IoT systems. These security enablers and protocols need to be redesigned to cope with  the constrained nature of distributed IoT networks, requiring light weight crypto-protocols and solutions to be enforced in constrained (battery, memory,cpu) devices and networks.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
 
 ### <span style="color: #e49436">Challenge 4</span>
 
--  5G  imports vulnerabilities and threats coming from cloud computing, virtualization and SDN/NFV technologies. Thus, it is a research challenge to deal with information transmission management, secure communica-tion  channels,  new  security  interfaces  for  AAA  to  deal  with  Non-Access Spectrum (NAS) signalling, roaming security, and cope withdiverse network-based mobile security threats and attacks.
+- 5G imports vulnerabilities and threats coming from cloud computing, virtualization and SDN/NFV technologies. 
+- Research challenge to deal with information transmission management, secure communication  channels, new security interfaces  for AAA to deal with Non-Access Spectrum (NAS) signalling, roaming security, and cope with diverse network-based mobile security threats and attacks.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
 
 ### <span style="color: #e49436">Challenge 5</span>
 
--  New types  of  attacks not yet identified before that can exploit IoT networks, CPS is a key research challenge.
-- In the cyber physicalworld, the attacker’s goal is to disrupt both the normal operations of theCPS, e.g. sensor readings, safety limits violation, status reports, safetycompliance  violation  etc.  and  communication  flows  among devices.
+-  New types of attacks not yet identified before that can exploit IoT networks, CPS is a key research challenge.
+- In the cyber physical world, the attacker’s goal is to disrupt the normal operations of CPS, e.g. sensor readings, safety limits violation, status reports, safety compliance violation etc. and communication flows among devices.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
 
 ### <span style="color: #e49436">Challenge 6</span>
 
-- Cybersecurity  handling, especially in Critical systems, Cyber Physical Systems and IoT networks  introduces  challenges  due  the restrictions  and  constrained nature of devices and networks. New tools, for network scanning,  analysis  of  digital  forensics and pen testing as well as innovative algorithms and techniques (e.g.machine learning) are needed to perform security analysis
+- Cybersecurity  handling, especially in Critical systems, Cyber Physical Systems and IoT networks introduces challenges  due  the restrictions  and  constrained nature of devices and networks. New tools, for network scanning, analysis of digital  forensics and pen testing as well as innovative algorithms and techniques (e.g.machine learning) are needed to perform security analysis.
 
 ---
 <!-- .slide: data-autoslide="11000" -->
@@ -131,7 +132,6 @@
 <!-- .slide: data-autoslide="12000" -->
 
 ### <span style="color: #e49436">Projects Addressing challenges</span>
-
 
 - SAINT  analyses  and  identifies  incentivesto improve levels of collaboration between cooperative and regulatoryapproaches to information sharing. SAINT is designing new methodolo-gies for the development of an ongoing and searchable public databaseof cybersecurity indicators and open source intelligence.
 
@@ -192,5 +192,7 @@
 
 ![Thanks](images/thanks.png)
 
+- [Security Courses](https://elearning.htcitmr.ac.in/)
+- [Corporate Training](https://itmr.ac.in/)
 ---
 
