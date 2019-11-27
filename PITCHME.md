@@ -1,4 +1,4 @@
----
+---?image=images/bg1.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="10000" -->
 
 ### Research Areas 
