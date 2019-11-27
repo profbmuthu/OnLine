@@ -186,13 +186,17 @@
   + Ways of interconnetion
   + Vulnerability and Risk cycle
   + Unknown threats
-- 
+
+---
+<!-- .slide: data-autoslide="12000" -->
+### <span style="color: #e49436">Back to Basics</span>
+
+- [Security Courses](https://elearning.htcitmr.ac.in/)
+- [Corporate Training](https://itmr.ac.in/)
 
 ---
 
 ![Thanks](images/thanks.png)
 
-- [Security Courses](https://elearning.htcitmr.ac.in/)
-- [Corporate Training](https://itmr.ac.in/)
 ---
 
