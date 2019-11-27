@@ -191,8 +191,8 @@
 <!-- .slide: data-autoslide="12000" -->
 ### <span style="color: #e49436">Back to Basics</span>
 
-- [Security Courses](https://elearning.htcitmr.ac.in/)
-- [Corporate Training](https://itmr.ac.in/)
+- [Security Courses](https://elearning.htcitmr.ac.in/), PDCIL, PDCSM, CISSP, Secure Coding...
+- [Corporate Training](https://itmr.ac.in/), Edge computing, Dart, PHP frameworks, Python, Docker, Msubscribe ...
 
 ---
 
