@@ -194,7 +194,7 @@
 - [Security Courses](https://elearning.htcitmr.ac.in/), PDCIL, PDCSM, CISSP, Secure Coding...
 - [Corporate Training](https://itmr.ac.in/), Edge computing, Dart, PHP frameworks, Python, Docker, Msubscribe ...
 
----?image=images/bg1.jpg&&size=50% 100%&color=lightgray
+---?image=images/bg1.jpg&&size=cover&color=lightgray
 
 ![Thanks](images/thanks.png)
 
