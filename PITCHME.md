@@ -44,9 +44,9 @@
 
 ### Challenges (3/3)
 
-- Reliable and  privacy-preserving physical and virtual identity management
+- Reliable and privacy-preserving physical and virtual identity management
 - Efficient and secure cryptographic mechanisms to strengthen confidentiality and privacy
-- Privacy assessment, run-time evaluation of the quality of security andprivacy risks
+- Privacy assessment, run-time evaluation of the quality of security and privacy risks
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="11000" -->
@@ -112,7 +112,7 @@
 
 ### <span style="color: #e49436">Challenge 8</span>
 
-- Management and Control systems as well as Autonomous systems, such as for instance, drones, smart objects, self-driving cars, robots, etc, will need to perform self-learning to make proper intelligent decisions based oncurrent real-time situation.
+- Management and Control systems as well as Autonomous systems, such as for instance, drones, smart objects, self-driving cars, robots, etc, will need to perform self-learning to make proper intelligent decisions based on current real-time situation.
 - cybersecurity frameworks and systems should face the challenge of countering dynamically cyber attacks according to contextual and evolving conditions, there by providing self-healing, self-repair and self-protection capabilities. 
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
@@ -125,56 +125,56 @@
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
-- ANASTACIA is researching, developing and demonstrating a holistic solution enabling trust and security by-design for Cyber  Physical Systems (CPS) based on IoT and Cloud architectures. ANASTACIA  cybersecurity framework provides self-protection, self-healing and self-repair capabilities through  novel enablers and components.
-
----?image=images/bg2.jpg&&size=cover&color=lightgray
-<!-- .slide: data-autoslide="12000" -->
-
-### <span style="color: #e49436">Projects Addressing challenges</span>
-
-- SAINT  analyses  and  identifies  incentivesto improve levels of collaboration between cooperative and regulatoryapproaches to information sharing. SAINT is designing new methodolo-gies for the development of an ongoing and searchable public databaseof cybersecurity indicators and open source intelligence.
+- ANASTACIA is researching, developing and demonstrating a holistic solution enabling trust and security by-design for Cyber  Physical Systems (CPS) based on IoT and Cloud architectures. ANASTACIA  cybersecurity framework provides self-protection, self-healing and self-repair capabilities through novel enablers and components.
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
+
+- SAINT analyses and  identifies  incentives to improve levels of collaboration between cooperative and regulatory approaches to information sharing. SAINT is designing new methodologies for the development of an ongoing and searchable public database of cybersecurity indicators and open source intelligence.
+
+---?image=images/bg2.jpg&&size=cover&color=lightgray
+<!-- .slide: data-autoslide="12000" -->
+
+### <span style="color: #e49436">Global Research</span>
 
 - FORTIKA: Project is designing  and implementing a security ‘seal’ specially devised for small and medium-sized companies that will strengthen trust and facilitate further adoption of digital technologies. The project is implementing robust, resilient and effective cybersecurity solutions to be customized for each individual enterprise’s evolving needs and can also speedily adapt/respond tothe changing cyber threat landscape.
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
 - CYBECO focuses on two mains aspects to  deal  with  cyber-insurance  from  a  Behavioural  Choice  Perspective:(1) including cyber threat behaviour through adversarial risk analysis to support insurance companies in estimating risks and setting premiums and (2) using behavioural experiments to improve IT owners’ cybersecurity decisions.
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
 - SISSDEN is intended to improve the cybersecurity through development of situational awareness and sharing ofactionable information. The passive threat data collection mechanism iscomplemented by behavioural analysis of malware and multiple externaldata sources.
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
 - CIPSEC aims to create a unified security framework that  orchestrates state-of-the-art heterogeneous security products to offer high levels of protection in IT. CIPSEC  is mainly focusing on challenge #3, #4 and #5
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
 - CS-AWARE: Increase  the automation of cybersecurity awareness approach, by collecting cyber-security  relevant  information  from  sources  both  inside  and  outside of (LPA)  systems,  performing advanced big data analysis to set this information in context for detecting and classifying threats and to detect relevant mitigation or prevention strategies
 
 ---?image=images/bg2.jpg&&size=cover&color=lightgray
 <!-- .slide: data-autoslide="12000" -->
 
-### <span style="color: #e49436">Projects Addressing challenges</span>
+### <span style="color: #e49436">Global Research</span>
 
 - RED-Alert has built a complete software toolkit to support LEAs in the fight against the use of social media by terrorist  organizations  for  conducting  online  propaganda, fund raising,recruitment and mobilization of members, planning and coordination of actions, as well as data manipulation and misinformation. Mainly focusing on challenge #3 
 
